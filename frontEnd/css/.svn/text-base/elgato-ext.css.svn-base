@@ -1,0 +1,19 @@
+.x-fieldset, .x-panel-body.x-form {
+	border : none;
+}
+
+.x-fieldset-header {
+	background : url(../images/form/header_bg.png) no-repeat;
+	position   : relative;
+	width      : 480px;
+	height     : 30px;
+}
+
+.x-fieldset-header-text {
+	font-family : Arial, sans-serif;
+	color       : #FFF;
+	line-height : 25px;
+	font-size   : 1.27em;
+	font-weight : normal;
+	padding     : 0 0 0 7px
+}

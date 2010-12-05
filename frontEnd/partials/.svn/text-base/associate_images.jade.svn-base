@@ -1,0 +1,13 @@
+!!! strict
+head
+  != partial('jquery_global')
+  != partial('api')
+  script(type='text/javascript')!= 'var products = ' + products + ', images=' + images + ';'
+  != partial('js', ['js/associateImages.js'])
+style
+  | div {
+  |   float      : left;
+  |   margin     : 20px;
+  |   text-align : center;
+  | }
+body

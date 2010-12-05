@@ -1,0 +1,23 @@
+var api = require(__dirname + '/../../api'),
+   step = require('step');
+
+var steps = step.fn(function(){
+	// see if the user has permission to edit the data
+	api.user.hasPermissions({apis: '/localize/setString', auth_token: (this.shared.req.cookies || {}).auth_token}, this.parallel());
+
+	// and get the strings
+	api.localize.getNestedStrings({root:'Nested Strings Root', language:'all', hideName: true, showId: true}, this.parallel());
+
+
+}, function(err, perms, data){
+	if(err){ throw err; }
+
+	if(!perms.hasPermissions){ return this.shared.res.send(401); }
+
+	this.shared.res.send(this.shared.res.partial('edit_strings/editNested', {locals: {strings:JSON.stringify(data)}}));
+});
+
+
+module.exports = function(req, res, next){
+	steps({shared:{req:req,res:res,next:next}});
+};

@@ -1,0 +1,57 @@
+require.paths.unshift(__dirname + '/modules');
+
+var  config = require(__dirname + '/../config'),
+    express = require('express'),
+      vhost = require('connect-custom/vhost'),
+     router = require('connect-custom/router'),
+      views = require('connect-custom/views'),
+      proxy = require('connect-custom/proxy'),
+     static = express.staticProvider,
+	frontEnd,
+
+     server = express.createServer()
+		.use(express.logger())
+		.use(express.conditionalGet())
+		.use(express.cache())
+		.use(express.gzip())
+		.use(express.cookieDecoder())
+
+		.use(vhost('api.kb.elgato.com', 'api.kb.elgato.local',
+			express.createServer()
+				.use(router(__dirname + '/../backend'))
+				.use(static(__dirname + '/../xd'))
+				.use(static(__dirname + '/../frontEnd/js'))
+
+		))
+
+		.use(vhost('tickets.kb.elgato.com', 'tickets.kb.elgato.local',
+			frontEnd = views(__dirname + '/../frontEnd', {
+				preHandler : '__pre'
+			})
+		))
+
+		.use(vhost('admin.kb.elgato.com', 'admin.kb.elgato.local',
+			express.createServer()
+				.use(function(req, res, next){
+					if(req.url == '/'){ req.url = '/admin'; }
+					next();
+				})
+				.use(frontEnd)
+		))
+
+		.use(vhost('dev.kb.elgato.com',
+			proxy('tickets.kb.elgato.local')
+		));
+
+	server.configure('development', function(){
+	    server.use(express.errorHandler({ dumpExceptions: true, showStack: true }));
+	})
+	.configure('production', function(){
+	    server.use(express.errorHandler());
+	});
+
+server.listen(config.server.port);
+
+process.on('uncaughtException',function(error){
+	console.error('Uncaught Exception: ' + JSON.stringify(error));
+})

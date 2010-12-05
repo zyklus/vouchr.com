@@ -1,0 +1,111 @@
+body {
+	margin-bottom : 10px;
+	font-family   : verdana, tahoma, sans-serif;
+	color         : #414D59;
+}
+
+iframe.xd {
+	display : none;
+}
+
+#page {
+	width  : 704px;
+	margin : 0 auto;
+}
+
+.header .banner{
+	background : url(../images/support_header.jpg);
+	width      : 704px;
+	height     : 109px;
+	margin     : 20px 0 20px 0;
+}
+
+.header, .footer {
+	font-family   : Verdana, Arial, sans-serif;
+	font-size     : .65em;
+	color         : #414D59;
+}
+
+.footer {
+	margin        : 50px 0 0 0;
+	text-align    : center;
+	border-top    : 1px solid #999;
+	border-bottom : 1px solid #999;
+}
+
+.header a, .footer a {
+	text-decoration : inherit;
+	color           : inherit;
+}
+
+.header ul, .footer ul {
+	line-height : 2.1em;
+	display     : inline-block;
+}
+
+.footer ul {
+	padding : 0 35px;
+}
+
+.header ul li, .footer ul li {
+	display     : inline-block;
+}
+
+.footer ul.nav li {
+	padding-right : 10px;
+}
+
+.header ul.lang li {
+	padding      : 0 5px;
+	border-right : 1px solid black;
+}
+
+.header ul.lang li.last {
+	border-right : none;
+}
+
+.header ul.lang li a.selected {
+	color : #5272A5;
+}
+
+hr {
+	background-color : #CCC;
+	height           : 1px;
+	margin           : 10px 0;
+	border           : 0px;
+}
+
+h1,h2,h3 {
+	margin-bottom : 7px;
+}
+
+h2 {
+	font-size : 1.6em;
+	padding   : 6px 0 0 0;
+}
+
+ul.bullet {
+	margin-bottom : 10px;
+}
+
+ul.bullet li {
+	margin          : 0 0 0 20px;
+	list-style-type : disc;
+	line-height     : 1.5em;
+}
+
+strong {
+	font-weight : bold;
+}
+
+a.blue {
+	color : #155EB7;
+}
+
+a.uhover {
+	text-decoration : none !important;
+}
+
+a.uhover:hover {
+	text-decoration : underline !important;
+}

@@ -1,0 +1,51 @@
+!!! strict
+head
+  title vouchr.com -- Coming Soon!
+  != partial('css', ['concat?css/reset.css,css/collect.css'])
+  != partial('jquery_global')
+  != partial('api')
+  != partial('js', ['js/collect/collect.js'])
+body
+  #contentWrapper
+    #content
+      #tagLogo
+      #panel
+      #jar
+      #steps
+        #orange
+        #stepNums
+      #step1.step
+        #confirmCity
+        .input
+          .top
+            .center
+            .left
+            .right
+          .middle
+          .bottom
+            .center
+            .left
+            .right
+          .downArrow
+          .selected
+        form
+          input.continue(type='submit', value=' ')
+      #step2.step(style="display:none;")
+        #enterEmail
+        .input
+          .top
+            .center
+            .left
+            .right
+          .middle
+          .bottom
+            .center
+            .left
+            .right
+        form
+        .continue
+      #step3.step(style="display:none;")
+        #thankYou
+      #dealTxt Up to 90% off Deals
+        #cityTxt in 
+          span

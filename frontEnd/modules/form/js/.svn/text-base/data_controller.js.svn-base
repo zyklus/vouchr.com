@@ -1,0 +1,193 @@
+(function(){
+	var apiCache = new ($.Observable.extend({
+		init : function(){
+			this._super();
+
+			this.loading = {};
+		},
+
+		get : function(api, fn, decodeFn){
+			if(!this.loading[api]){
+				$.api.get(api, this.bind('receiveApi', api, decodeFn));
+				this.loading[api] = 1;
+			}
+
+			this.observe('receive-' + api, fn);
+		},
+
+		receiveApi : function(nm, decodeFn, data){
+			this.fireAndCache('receive-' + nm, decodeFn ? decodeFn(data) : data);
+		}
+	}))();
+
+	$.modules.provide('form.dataController', 'Observable', {
+		extend : 'Observable',
+
+		init : function(conf){
+			this._super();
+
+			this.data = [];
+			this._key = '';
+			this._val = '';
+			this.form = conf.form;
+
+			this.displayField = conf.displayField;
+			this.valueField   = conf.valueField;
+			this.dataParent   = conf.dataParent;
+			this.filter       = conf.filter;
+			this.filterRoot   = conf.filterRoot;
+			this.root         = conf.root;
+			this.defaultValue = conf.defaultValue;
+			this.singleValue  = conf.singleValue;
+			this.sourceApi    = conf.sourceApi;
+
+			conf.dataParent ? this.setParentData (conf.dataParent) :
+			conf.sourceData ? this.loadSourceData(conf.sourceData) :
+			conf.sourceApi  ? this.loadSourceApi (conf.sourceApi ) :
+			'';
+
+			if(this.filter){
+				for(var n in this.filter){
+					this.filter[n] = new String(this.filter[n]);
+
+					var fN = this.filter[n].replace(/\*/g, '').split('.')[0];
+					this.form.observe('set: ' + fN, this.bind('getFilterData'));
+
+					if(this.form.fieldValues[fN]){
+						this.getFilterData(this.form.fieldValues[fN].val, this.form.fieldValues[fN].field);
+					}
+				}
+			}
+		},
+
+		setData : function(data){
+			this.data = data;
+
+			this._key = this.displayField || 'display';
+			this._val = this.valueField   || this._key;
+
+			this.fire('load');
+		},
+
+		setParentData : function(parent){
+			this.form.observe('set: ' + parent, this.bind('getParentData'));
+		},
+
+		getParentData : function(name, field){
+			var sData = field.selectedData;
+			if(!sData || !sData[this.root]){
+				this.fire('empty');
+				return this;
+			}
+
+			this.setData(field.selectedData[this.root]);
+		},
+
+		loadSourceData : function(ary){
+			this._key = 'val';
+			this._val = 'val';
+
+			this.data = [];
+
+			for(var i=0, l=ary.length; i<l; i++){
+				this.data.push({val: ary[i]});
+			}
+
+			this.bind('fire', 'load').defer();
+		},
+
+		loadSourceApi : function(api){
+			apiCache.get(api, this.bind('receiveApiData'), this.bind('decodeApiData'));
+		},
+
+		decodeApiData : function(data){
+			var root = this.root || data.root, keys = data.keys, recursive = data.recursive;
+			root && (data = data[root]);
+
+			// convert compressed json back into an object hash
+			if(keys){
+				(function decode(data, keys, recursive){
+					for(var i=0, l=data.length; i<l; i++){
+						var obj = {};
+						for(var j=0, m=keys.length; j<m; j++){
+							if(data[i][j] == undefined){ continue; }
+
+							obj[keys[j]] = recursive && (root == keys[j]) && data[i][j] ? decode(data[i][j], keys, true) : data[i][j];
+						}
+
+						data[i] = obj;
+					}
+
+					return data;
+				})(data, keys, recursive);
+			}
+
+			return data;
+		},
+
+		receiveApiData : function(data){
+			// must be an array
+			if(!data || !data.length){ return; }
+
+			this.setData(data);
+		},
+
+		getFilterData : function(val, field){
+			var all = true;
+
+			for(var n in this.filter){
+				var fp = this.filter[n].replace(/\*/g, '').split('.');
+
+				fp[0] == field.field_name
+					? ((this.filter[n].val = fp[1] ? (field.selectedData || {})[fp[1]] : val) !== undefined) || (all = false)
+					: (this.filter[n].val !== undefined) || (all = false);
+			}
+
+			this.fire(all ? 'load' : 'empty');
+		},
+
+		getKeyValues : function(data, filter){
+			var ret = [], lastKey, data = data || this.data, filter = filter || this.filter;
+			this.curData = data;
+
+			getVals:for(var i=0, l=data.length; i<l; i++){
+				// filter based on filter fields
+				if(filter){
+					for(var n in filter){
+						if(n.indexOf('*') >= 0){
+							var nm = n.replace(/\*/g, ''), rx = new RegExp('^' + (n.substr(0, 1)=='*' ? '.*' : '') + data[i][nm] + (n.substr(n.length-1)=='*' ? '.*' : '') + '$');
+
+							if(!rx.test(filter[n].val)){ continue getVals; }
+						}else if(filter[n].indexOf('*') >= 0){
+							var fN = filter[n], nm = fN.replace(/\*/g, ''), rx = new RegExp('^' + (fN.substr(0, 1)=='*' ? '.*' : '') + fN.val + (fN.substr(fN.length-1)=='*' ? '.*' : '') + '$');
+
+							if(!rx.test(data[i][n])){ continue getVals; }
+						}else{
+							if((data[i][n]!='__default') && (filter[n].val != data[i][n])){ continue getVals; }
+						}
+					}
+				}
+
+				// filter out duplicate records
+				if(lastKey == data[i][this._key]){ continue; }
+
+				ret.push({key:lastKey = (data[i][this._key] || ''), value:data[i][this._val] || '', ix:i});
+			}
+
+			if(ret.length == 1 && this.filterRoot){
+				return this.getKeyValues(data[ret[0].ix][this.filterRoot], {});
+			}
+
+			// add a blank value
+			ret.length && ret.unshift({key:'', value:'', ix:-1});
+
+			return ret;
+		},
+
+		getDataAtIndex : function(ix){
+			if(ix===undefined){ return; }
+
+			return this.curData[ix];
+		}
+	});
+})();

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--html manifest="admin.manifest"-->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<title>Vouchr Admin</title>
+
+<link type="text/css" rel="stylesheet" href="css/reset.css" />
+<link type="text/css" rel="stylesheet" href="css/admin.css" />
+
+<!-- script type="text/javascript" src="js/common/externals/touchScroll/src/touchScroll.js"></script -->
+<script type="text/javascript" src="js/common/jquery.js"             ></script>
+<script type="text/javascript" src="js/common/stc.js"                ></script>
+<script type="text/javascript" src="js/common/klass.js"              ></script>
+<script type="text/javascript" src="js/common/observable.js"         ></script>
+<script type="text/javascript" src="js/common/jquery/valueIs.js"     ></script>
+<script type="text/javascript" src="js/common/jquery/inactiveText.js"></script>
+<script type="text/javascript" src="js/common/xd.js#api"             ></script>
+<script type="text/javascript" src="js/api.js"                       ></script>
+<script type="text/javascript" src="js/db.js"                        ></script>
+<script type="text/javascript" src="js/admin.js"                     ></script>
+
+<script type="text/javascript" src="js/modules/users.js"             ></script>
+<script type="text/javascript" src="js/modules/groups.js"            ></script>
+<script type="text/javascript" src="js/modules/regions.js"           ></script>
+<script type="text/javascript" src="js/modules/categories.js"        ></script>
+
+</head>
+<body>
+<div id="login" style="display:none;">
+	<div id="login-wrapper">
+		<div id="loginBox">
+			<form>
+				<input name="email" type="email">
+				<input name="password" type="password">
+				<input type="submit" id="doLogin" value="">
+			</form>
+		</div>
+	</div>
+</div>
+<div id="admin" style="display:none;">
+	<div class="titleBar">
+		<div class="leftBorder"></div>
+		<div class="rightBorder"></div>
+		<div class="add" style="display:none;"><div></div></div>
+		<ul class="navBar" style="display:none;">
+			<li class="users"     >Users</li>
+			<li class="companies" >Companies</li>
+			<li class="groups"    >Groups</li>
+			<li class="regions"   >Regions</li>
+	<!--		<li class="categories">Categories</li> -->
+		</ul>
+	</div>
+	<div id="leftPanel">
+	</div>
+	<div id="rightPanel">
+		<img src="images/contentBG.png" id="contentBG">
+		<div class="titleBar">
+			<div class="leftBorderMini"></div>
+			<div class="title"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+DELETE from localized_strings where pk_id NOT IN (SELECT ifnull(a, '') FROM (SELECT fk_string_id a FROM form_field UNION ALL SELECT fk_string_id FROM nested_strings UNION ALL SELECT fk_name_string_id FROM product UNION ALL SELECT fk_manufacturer_string_id FROM product UNION ALL SELECT fk_family_string_id FROM product UNION ALL SELECT fk_country_string_id FROM country) foo);

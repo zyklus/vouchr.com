@@ -1,0 +1,70 @@
+(function(){
+	var concatPath = '/concat?format=json&files=',
+	         queue = [],
+	         extRx = /\.(js|css)$/;
+
+	function dequeue(){
+		__dequeue.defer();
+	}
+
+	function __dequeue(){
+		if(!queue.length){ return; }
+
+		if(queue.length == 1){
+			$ajax(queue[0]);
+			queue = [];
+			return;
+		}
+
+		var files = [];
+		for(var i=0, l=queue.length; i<l; i++){
+			files.push(queue[i].url);
+		}
+
+		$ajax({
+			type     : 'GET',
+			url      : concatPath + files.join(','),
+			success  : onResponse.bind(null, queue),
+			dataType : 'json'
+		});
+
+		queue = [];
+	}
+
+	function onResponse(queue, data){
+		for(var i=0, l=data.length, m=queue.length; (l==m) && (i<l); i++){
+			(queue[i].success || $.noop)(data[i]);
+		}
+	}
+
+	var methodFn = function(method){
+		return function( url, data, callback, type ){
+			// shift arguments if data argument was omited
+			if ( jQuery.isFunction( data ) ) {
+				type     = type || callback;
+				callback = data;
+				data     = null;
+			}
+
+			var params = {
+				type     : method,
+				url      : url,
+				data     : data,
+				success  : callback,
+				dataType : type
+			};
+
+			// if a normal file, queue it up.  If not, we don't quite know what to do with it so let it through normally
+			extRx.test(url ? queue.push(params) && dequeue() : $ajax(params));
+		}
+	};
+
+	$.get  = methodFn('get');
+	$.post = methodFn('post');
+
+	var $ajax = $.ajax;
+	$.ajax = function(params){
+		queue.push(params);
+		dequeue();
+	}
+})(jQuery);

@@ -1,0 +1,31 @@
+var api = require(__dirname + '/../../api'),
+   step = require('step'),
+      $ = require('languageHelpers'),
+     fs = require('fs');
+
+
+var steps = step.fn(function(){
+	var token = (this.shared.req.cookies || {}).auth_token;
+
+	// see if the user has permission to edit the data
+	api.user.hasPermissions({apis: '/product/setImage', auth_token: token}, this.parallel());
+
+	// get a list of all the products
+	api.product.getList({}, this.parallel());
+
+	// get all of the images
+	fs.readdir(__dirname + '/../images/product_images', this.parallel());
+
+
+}, function(err, perms, products, files){
+	if(err && (err.code != 300)){ throw err; }
+
+	if(!perms.hasPermissions || err){ return this.shared.res.send(401); }
+
+	this.shared.res.send(this.shared.res.partial('associate_images', {locals: {products:JSON.stringify(products.products), images:JSON.stringify(files)}}));
+});
+
+
+module.exports = function(req, res, next){
+	steps({shared:{req:req,res:res,next:next}});
+};

@@ -1,0 +1,3399 @@
+29 Nov 22:58:28 - node-compress is required to support gzip compression in HTTP requests
+language: de
+computer_model: imac 27 intel i5
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: christian peters
+email: christian@peters.org
+product_family: EyeTV Hybrid
+problem_specifics: Signal
+product_name: 2008 Edition DVB-T/PAL
+problem_specifics2: Kein Signal
+subject: Signal
+message: system funktioniert einwandfrei unter verwendung der mitgelieferten dvbt antenne; alle sender werden erkannt.
+
+allerdings erkennt der stick oder auch die software nicht den angeschlossenen satellitenreceiver kathrein ufs 912:
+
+weder anschluss über scart, noch über composite kabel direkt funktioniert; im menü wurde composite cable ausgewählt, es wird das signal aber nicht erkannt
+
+alle anschlüsse sind korrekt verbunden!
+
+Lösung?
+
+
+---------------------
+
+
+language: de
+computer_model: iMAC G5 1,8
+os_version: 10.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+product_manufacturer: Elgato
+full_name: Sascha Tietze
+email: sascha.tietze@me.com
+software_product: EyeTV 3
+subject: Elgato Netstream DTT
+using_elgato: Ja
+phone_rep: Nein
+message: Hallo,
+
+ich musste nach einem HD-Schaden an meinem iMAC G5 1,8 Ghz Eyetv neuinstallieren. Leider hab ich meine Orginal Eyetv CD verlegt. Ich hab daher die aktuelle Version 3.4.3 aus dem netz geladen.
+Beim installieren werde ich gefragt welches Device ich habe. Wenn ich hier elgato auswähle und danach das Netstream DTT ist diese nicht in der Liste!
+Gibt es für die Netstreambox eine spezielle Version von Eyetv? wo bekomme ich diese her.
+
+Mit der Eyetv version von der CD hatte es auf jeden fall funktoniert.
+
+Mit freundlichen Grüßen
+Sascha Tietze 
+product_family: EyeTV Netstream DTT
+problem_specifics: Software Aktualisierung
+problem_specifics2: Andere
+
+
+---------------------
+
+
+language: de
+computer_model: Apple MacBook Pro
+os_version: 10.6.5
+operating_system: Mac OS X
+country: DE
+product_manufacturer: Elgato
+software_product: EyeTV 3
+using_elgato: Ja
+phone_rep: Ja
+salutation: Herr
+full_name: Markus Buckow
+email: markus.buckow@me.com
+product_family: EyeTV Hybrid
+problem_specifics: iPhone Access
+product_name: 2008 Edition DVB-T/PAL
+problem_specifics2: Andere
+subject: Angzeigte Rechner in iPhone Access
+message: Ich bekomme auch noch alte Hardware, auf der EyeTV deinstalliert wurde noch immer als mögliche Auswahl angezeigt. Wie / wo kann ich das bereinigen?
+
+
+---------------------
+
+
+language: de
+salutation: Herr
+country: AT
+using_elgato: Nein
+phone_rep: Nein
+product_presale: Andere Fragen
+full_name: Koller Josef
+email: kollerjosef@aon.at
+subject: eyetv DTT deluxe
+message: 
+Sehr geehrte Damen/Herren
+
+Habe das oben genannte Produkt gekauft.Habe die CD installiert aber es klappt nicht.
+Kein Sendersuchlauf,es passiert rein gar nichts.Besitze Laptop mit Windows 7.
+
+
+---------------------
+
+
+language: de
+using_elgato: Nein
+phone_rep: Ja
+salutation: Herr
+product_presale: Video Streaming
+country: DE
+full_name: Thomas Korczak
+email: thokor@gmx.net
+product_presale2: Ich möchte TV/Video in eine andere Anwendung streamen
+subject: EyeTV Netstream Sat Aufzeichnung auf NAS ohne PC / Mac?
+message: Sehr geehrte Damen und Herren,
+
+ist es möglich, ohne eingeschalteten Mac oder PC mit dem EyeTV Netstream Sat Aufzeichnungen auf ein NAS (z.B. QNAP TS 419 P) durchzuführen?
+
+Ist es des weiteren möglich, Aufzeichnungen von einem NAS abzuspielen?
+
+Mit freundlichen Grüßen
+Thomas Korczak
+
+
+---------------------
+
+
+language: de
+computer_model: iMac 27"
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+using_elgato: Ja
+phone_rep: Nein
+product_manufacturer: Elgato
+full_name: Harald Kölle
+email: koelle@iwt-team.de
+product_family: EyeTV Netstream DTT
+problem_specifics: Aufwachen und Starten
+problem_specifics2: Andere
+subject: Login Window
+message: Hallo,
+
+sobald ich meinen iMac für mehr als einen User (z.B. zwei User) konfiguriere, wird er bei einer programmierten Aufnahme zwar eingeschaltet, nimmt aber nicht auf.
+
+Funktioniert das wirklich nur im Single User Mode?
+
+Was muss ich einstellen?
+
+Vielen Dank
+Harald Kölle
+
+
+---------------------
+
+
+language: de
+country: DE
+salutation: Herr
+product_presale: Video Streaming
+using_elgato: Nein
+phone_rep: Ja
+full_name: Henrik Hoppe
+email: henrik.hoppe@arcor.de
+product_presale2: Ich möchte TV/Video auf mein iPhone/iPad streamen
+subject: eyetv netstream Sat nur zu Ipad oder auch Iphone
+message: Hallo,
+
+ich habe mir soeben das eyetv netstream Sat bestellt. Auf Ihrer Seite steht exliziert das man damit auf das Ipad App streamen kann. Ist es im Umkehrschluss nicht möglich zum EyeTV App des Iphones zu streamen, bzw wird die Möglichkeit noch nachgereicht?
+
+Gruß Henrik Hoppe
+
+
+---------------------
+
+
+language: de
+computer_model: iMac27
+os_version: 10.6.4
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Ja
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+salutation: Herr
+full_name: Thomas Knauss
+email: Thomas@knauss.info
+product_family: EyeTV Netstream Sat
+problem_specifics: Signal
+problem_specifics2: Signal Stärke/Qualitäts-Problem
+subject: Signalstärke 98% Signalqualität 0% und kein Bild auf dem Rechner
+message: Sender alle da, Netzwerkverbindung da, über Bonjour mit Safari verbunden, Internetzugang da, auf dem Netzwerkrechner alle Sender da, aber kein Bild, 2 mal hat Rest auf Werkseinstellung funktioniert, alles erneut konfiguriert, alles geht, aber kein Fehnsehbild. gleiches Antennenkabel auf EyeTV 310 angeschlossen gleiches Netuwerkkabel am Rechner angeschlossen, alles geht 100% Signalstärke ca. 50% Signalqualität, Bild perfekt. Also warum geht es mit dem direkt angeschlossenen Gerät, aber mit dem Netzwerkgerät nicht ???
+
+
+---------------------
+
+
+language: de
+upnp_hardware_product: Sons
+computer_model: MAC
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeConnect
+full_name: Reinhart Müller
+email: schaademueller@vodafone.de
+problem_specifics: Andere
+subject: Keine Wiedergabe mit Sonos möglich ! 
+message: Der Steamer von T&A liest die Daten von EyeConnect problemlos, aber es ist keine Wiedergabe mit Sonos möglich,außer man schaltet den Plugplayer für den iPod dazwischen. Die genannte methode um mit Soos zu streamen finde ich zu aufwendig.
+Bitte geben Sie mir einen Rat wie ich direkt mit Sonos streamen kann.
+Mit freundlichen Grüßen,
+R.Müller
+
+
+---------------------
+
+
+language: de
+country: DE
+product_presale: Andere Fragen
+salutation: Herr
+using_elgato: Nein
+phone_rep: Ja
+full_name: Christoph Kleine
+email: ckleine@gripsmedien.de
+subject: Shopbestellung
+message: Bestellung (#108384 ) im Elgato Online Shop
+
+Bitte Bestellung aus dem Shop stornieren, da falsche Zahlungsmethode gewählt.
+
+Christoph Kleine
+
+
+---------------------
+
+
+language: de
+computer_model: apple
+os_version: 10.6.4
+purchase_date: 06/28/2007
+purchase_place: gravis
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Ja
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: frank hoppmann
+email: iasdf@frankhoppmann.de
+product_family: EyeTV DTT
+problem_specifics: Freischaltcode
+product_name: 2007 Edition DVB-T
+problem_specifics2: Freischaltcode verloren
+subject: freischaltcode
+message: sehr geehrte damen und herren,
+leider habe ich meinen freischaldcode verloren. ich hatte mir eine neue software auf meinen rechner gespielt, danach soltte ich den freischaltcode neue eingeben. leider habe ichc auch versäumt, mich zu registrieren. es wäre ja sehr bedauerlich, wenn ich das gerät nun nich mehr nutzen kann. was für möflichkeiten habe ich?
+bis dahin, vg frank hoppmann
+
+
+---------------------
+
+
+language: de
+salutation: Frau
+country: CH
+using_elgato: Nein
+phone_rep: Nein
+product_presale: TV
+full_name: Béa Weilenmann
+email: bea.weilenmann@me.com
+product_presale2: Ich möchte TV über einen Kabelanschluss empfangen
+subject: TV-Empfang auf 2 TVs
+message: Guten Tag!
+
+Ich ziehe demnächst um und überlege mir eine TV-Lösung mit EyeTV. Ich habe 2 TVs und würde an jeden eine Apple TV-Box anhängen, um die aufgenommenen Sendungen vom Mac auf diese streamen zu können. Nun die Frage: Was muss ich machen, wenn an diesen beiden TVs gleichzeitig live Fernsehen geschaut werden soll? Und zwar verschiedene Sender. Oder gleichzeitig 2 versch. aufgenommene Sendungen? Geht dies via Apple TV oder brauchts zusätzliche Elgato-Tuner pro TV?
+
+Vielen Dank für Ihre Hilfe.
+
+
+
+
+---------------------
+
+
+language: de
+computer_model: Mac Book Pro
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Lutz Holzheimer
+email: lutz.holzheimer@yahoo.de
+product_family: EyeTV Diversity
+problem_specifics: Sender
+product_name: 2008 Edition
+problem_specifics2: Andere
+subject: Fragen zum gestern gekauften Produkt
+message: Hallo,
+auf der Verpackung des elgato eye TV diversity ist vermerkt :
+" Im Dual Tuner Modus lassen sich zwei Sender per Bild-im-Bild verfolgen, oder ein Programm im Vordergrund schauen, während ein anderes aufgezeichnet wird".
+Bei mir ist es so, dass ich ein Programm aufzeichnen kann und als weiteres Programm nur ein Programm aus dem Filmarchiv ansehen kann. 
+Wie läßt sich der Dual Tuner Modus einstellen ?
+
+Außerdem bin ich sehr erstaunt, dass ich 30 Sender über DVBT empfangen kann, aber nicht das 
+ZDF.
+
+Woran kann dies liegen ?
+
+Mit freundlichen Grüßen
+
+Lutz Holzheimer
+
+
+---------------------
+
+
+language: de
+computer_model: Mac
+os_version: 10.6.4
+operating_system: Mac OS X
+salutation: Frau
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+product_family: EyeTV DTT Deluxe
+problem_specifics: Anwendungs-Verhalten
+product_name: 2009 Edition
+problem_specifics2: Andere
+message: Hallo,
+
+die Eyetv Fernbedienung funktioniert nicht richtig, trotz voller Batterien, Neugerät. Was tun?
+email: abate@gmx.net
+full_name: Fetel
+subject: Fernbedienung
+
+
+---------------------
+
+
+language: de
+using_elgato: Nein
+phone_rep: Nein
+product_presale: Andere Fragen
+country: DE
+salutation: Herr
+full_name: Martin Wacker
+email: antw@gmx.com
+subject: Unicabletechnik-tauglich?
+message: Hallo,
+
+wir steigen hier im Haus von Kabel zu Satelit um, daher die Frage, ob die eyetv netstream sat sowie eyetv sat free für die Unicabletechnik geeignet sind oder nicht. 
+
+Danke,
+Martin
+
+
+---------------------
+
+
+language: de
+computer_model: imac
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Frank Wichert
+email: Frank.Wichert@macbay.de
+product_family: EyeTV DTT Deluxe
+problem_specifics: Signal
+product_name: 2009 Edition
+problem_specifics2: Andere
+subject: Kein Signal (DVB-T in Hamburg)
+message: Hallo,
+meistens funktioniert alles bestens, nur ab und zu bekomme ich die meldung-kein signal. wenn ich dann den usb-empfänger raus und wieder reinstecke geht´s wieder. habe alle usb-ports getestet, war überall gleich. ist halt ein bißchen doof, weil ein paar aufnahmen nichts geworden sind. ok, danke, bis denn
+
+
+---------------------
+
+
+language: de
+computer_model: mac book 2.4GHz mit 4GB RAM
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Ja
+country: DE
+software_product: EyeTV 3
+salutation: Herr
+product_manufacturer: Elgato
+full_name: Patrick Müller-Sato
+email: pm@123mueller.de
+product_family: EyeTV Netstream Sat
+problem_specifics: Ton
+problem_specifics2: Andere
+subject: Ton und Bildaussetzer
+message: ich habe mir einen eyetv netstream sat zugelegt. weil ich zuvor einen eyetv 310 hatte. mit dem hatte ich schon bild und ton aussetzer. nun ist das bei diesem netstrem genauso. woran kann dies liegen?
+wäre für ein hilfe per telefon sehr dankbar.
+sie erreichen mich unter 06834920814 jederzeit.
+vorab vielen dank!
+gruß
+patrick müller-sato
+
+
+---------------------
+
+
+language: de
+computer_model: Mac Pro
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 1
+full_name: Klaus Stühlen
+email: kstuehlen@stumu.de
+problem_specifics: Ton
+problem_specifics2: Ton stimmt nicht mit Ausgangsmaterial überein
+subject: Ton und Bildaussetzter
+message: seit Mac Pro Snow Leopard und neuester Version von Eye TV kommt es öfter zu Bild und Tonaussetzer. Der Empfang ist sehr gut. Ich lasse den Ton über ein Fireface Interface mit 44,100 Sample Rate laufen, galube aber nicht das hier der Fehler liegt.
+
+
+---------------------
+
+
+language: de
+computer_model: MacBook Pro 6,2
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Markus Schneider
+email: markus@derzornigemarkus.de
+product_family: EyeTV Hybrid
+problem_specifics: Andere
+product_name: 2008 Edition DVB-T/PAL
+subject: Lüfter
+message: Hallo liebes Elgato-Team,
+ich hab das neuste MacBook Pro 6,2 mit einem i7 mit 2,66GHz. Warum lüftet das beim Fernsehen mit EyeTV genauso wild wie mein altes MacBook Pro 2,1 mit Core2Duo und 2,33GHz, selbst wenn die aktuellen vier Kerne kaum ausgelastet sind? Und was kann man dagegen tun?
+Wenn man in Google nach dem Problem sucht, findet man einiges. In euren FAQs hingegen nichts. Irgendwie finde ich das sehr komisch, da es scheinbar nicht nur mir so geht. Schnellere Hardware drauf zu werfen bringt zumindest nichts. Der Lüfter stört beim Fernsehen aber ganz gewaltig.
+mfg,
+Markus
+
+
+---------------------
+
+
+language: de
+computer_model: ipad
+os_version: ios 4.2.1
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+using_elgato: Ja
+phone_rep: Nein
+product_manufacturer: Elgato
+full_name: Rainer Wallura
+email: rainer@wallura.de
+product_family: EyeTV Netstream DTT
+problem_specifics: Programm (EPG)
+problem_specifics2: Kein Programm (EPG)
+subject: keine anzeige des epg im ipad app
+message: Hallo,
+
+ich benutze ein Ipad in Verbindung mit dem netstream dtt. Das Ipad ist über das App direkt mit dem Netstream verbunden.
+
+Leider werden keine EPG Daten am Ipad angezeigt (weder laufendes Programm, noch sonst irgendwelche Informationen).
+
+Wenn ich auf meinem Mac die eyetv Software starte und Ipad mit dem Mac verbinde werden alle vorhandenen EPG Daten angezeigt.
+
+
+Gibt es eine Lösung für das Problem oder wird diese Funktionalität noch nichtmunterstützt.
+
+Vielen Dank und mit freundlichen Grüßen
+
+Rainer Wallura
+
+
+---------------------
+
+
+language: de
+computer_model: iMac 3.06 GHz Intel Core 2 Duo
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Michael Rossenbeck
+email: michael@rossenbeck.de
+product_family: EyeTV Hybrid
+problem_specifics: Anschluss
+product_name: 2007 Edition DVB-T/PAL
+problem_specifics2: Gerät wird nicht von EyeTV oder/und System Profiler gefunden
+subject: EyeTV Hybrid wird nicht mehr erkannt
+message: Sehr geehrte Damen und Herren,
+
+mein EyeTV Hybrid wird nicht mehr erkannt. Nachfolgende Punkte habe ich ausprobiert:
+
+Neustart des Rechners, Austausch des USB Kabels (beides Original EyeTV Kabel) zwischen Hybrid und Rechner, alles hat nichts genutzt, der Stick wird auch nicht über den System-Profiler erkannt. Es muss definitiv am Stick liegen, denn ich habe diesen auch an einem anderen Rechner (Macmini) ausprobiert, an dem ich normalerweise einen eyeTV DTT laufen habe. Auch hier wurde der Stick nicht erkannt. Der eyeTV DTT wird jedoch an beiden Rechnern erkannt.
+
+Gibt es eventuell eine Möglichkeit, den Stick auf Funktionalität zu testen oder besteht die Möglichkeit, den Stick zum Testen einzuschicken?
+
+Daten des Sticks:
+eyeTV hybrid
+M/R: 65018/B2C0 #0507
+000DFE1D11A5 LF 
+
+MIt fruendlichen Grüßen
+
+Michael Rossenbeck
+
+
+---------------------
+
+
+language: de
+computer_model: iMac 3.06 GHz Intel Core 2 Duo
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Michael Rossenbeck
+email: michael@rossenbeck.de
+product_family: EyeTV Hybrid
+problem_specifics: Anschluss
+product_name: 2007 Edition DVB-T/PAL
+problem_specifics2: Gerät wird nicht von EyeTV oder/und System Profiler gefunden
+subject: EyeTV Hybrid wird nicht mehr erkannt
+message: Sehr geehrte Damen und Herren,
+
+mein EyeTV Hybrid wird nicht mehr erkannt. Nachfolgende Punkte habe ich ausprobiert:
+
+Neustart des Rechners, Austausch des USB Kabels (beides Original EyeTV Kabel) zwischen Hybrid und Rechner, alles hat nichts genutzt, der Stick wird auch nicht über den System-Profiler erkannt. Es muss definitiv am Stick liegen, denn ich habe diesen auch an einem anderen Rechner (Macmini) ausprobiert, an dem ich normalerweise einen eyeTV DTT laufen habe. Auch hier wurde der Stick nicht erkannt. Der eyeTV DTT wird jedoch an beiden Rechnern erkannt.
+
+Gibt es eventuell eine Möglichkeit, den Stick auf Funktionalität zu testen oder besteht die Möglichkeit, den Stick zum Testen einzuschicken?
+
+Daten des Sticks:
+eyeTV hybrid
+M/R: 65018/B2C0 #0507
+000DFE1D11A5 LF 
+
+MIt fruendlichen Grüßen
+
+Michael Rossenbeck
+
+
+---------------------
+
+
+language: de
+computer_model: ibook G4 1,25
+os_version: 10.4.11
+operating_system: Mac OS X
+salutation: Herr
+country: CR
+using_elgato: Ja
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Volker Mueller
+email: sipnick@freenet.de
+product_family: EyeTV USB
+problem_specifics: Sender
+product_name: International
+problem_specifics2: Sendersuchlauf startet nicht
+subject: Sendersuchlauf in Costa Rica
+message: Hallo,
+ich befinde mich mit o.g. Konfiguration in Cost Rica. Dort sei NTSC, wie in den USA. Also habe ich USA angewaehlt. Wenn ich den Sendersuchlauf starten will, erscheint nach 1-2sec.:"EyeTV kann elektronische Programminformationen vom TitanTV-Internet Dienst laden. Bitte waehlen sie ihre Postleitzahl und Senderliste aus (was nuetzt hier meine PLZ in Deutschland und hier in CR gibt es keine!)um das EPG-Setup zu beenden.
+Also irgeneine Zahl eingegeben, ein sehr kurzer Download erfolgt bei einigen Zahlen, aber was nuetzt mir in Costa Rica eine Senderliste aus den USA!!?? - Jedesmal, wenn ich den Sendersuchlauf starten will, bekomme ich diesen Bloedsinn mit derm Senderlistendownload - aber ein echter Suchlauf wird nicht durchgefuehrt, so wie unter PAL. Wenn ich als Land Deutschland eingebe sucht er eben nach PAL Sendern, mit der Folge, das ich Bild aber kein Ton habe!
+
+Welchen Trick muss ich anwenden, um in Costa Rica eine gaaanz normalen Sendersuchlauf unter NTSC durchfuehren kann??
+
+vielen Dank fuer ihre Hilfe !!!! Ich will endlich diese olle Telenovella meiner Freundin aufnehmen, damit sie sie ohne diese Werbebloecke und zu einem anderen Zeitpunkt sehen kann - Hilfe!!
+
+
+---------------------
+
+
+language: de
+computer_model: iPad 3G/ MacBook Pro/ iphone 4G / Ipod Touch 4G
+os_version: 4.2
+operating_system: iOS
+using_elgato: Ja
+phone_rep: Ja
+country: DE
+software_product: EyeTV for iPhone/iPad
+product_manufacturer: Elgato
+salutation: Herr
+full_name: Claas Bentzel
+email: bentzel@t-online.de
+product_family: EyeTV Netstream Sat
+problem_specifics: Andere
+subject: Elgato Netstream Sat funktioniert nicht!
+message: Hallo,
+
+ich habe gestern das bei Euch gekaufte netstream Sat erhalten und 
+habe versucht es anzuschließen. Mein iphone hatt ca. 2min kontakt gefunden
+danach war alles weg und das Netstream wurd nicht mehr gefunden, von keinem meiner 4 Geräte.
+
+Ales ist richtig angeschlossen nur blinkt das Teil immer orange und ein Reset bringt auch keinen Erfolg da es nach kurzem grünen Licht sofort wieder auf orange umstellt.
+
+Was soll ich machen?
+
+Mit der Bitte um schnelle Antwort
+
+Claas Bentzel
+0287130113 oder 01717584537
+
+
+---------------------
+
+
+language: de
+computer_model: intel core 2 duo
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+salutation: Herr
+product_family: EyeTV Hybrid
+problem_specifics: Video
+product_name: 2008 Edition DVB-T/PAL
+problem_specifics2: Kein Video vorhanden
+subject: Kein Analoges Video über Composite - Kein EyeTV-Connect mit iPod
+message: Guten Tag,
+ich habe gleich 2 Probleme mit ihren Produkten:
+1. : Einerseits erhalte ich einwandfrei ein Audio- aber nur sporadisch ein verzerrtes Standbild als Videosignal auf dem Bildschirm.
+Die Wiedergabe des analogen Videosignals über einen Beamer funktioniert einwandfrei!! Die Quelle ist also OK! 
+Ich habe bereits mehrere Artikel zum Thema: "Wie schließe ich externe Videoquellen am EyeTV Hybrid an?" gelesen und diverse Einstellungen getätigt.
+2. : Die App EyeTV sagt mir: Kein EyTV im Netzwerk gefunden!
+Auch hier habe ich diverse Möglichkeiten ausprobiert: Ohne Firewall-Neustart-Routereinstellung (Netgear)-diverse FAQ........etc.
+Ohne Erfolg!
+Dann möchte ich noch erwähnen das mir das Forum als recht unübersichtlich, in manchen Fällen chaotisch erscheint.
+Mit freundlichen Gruß
+
+
+full_name: Körner
+email: ukoerner@arcor.de
+
+
+---------------------
+
+
+language: de
+salutation: Herr
+country: DE
+product_presale: Video Streaming
+using_elgato: Nein
+phone_rep: Ja
+full_name: Michael Hörnschemeyer
+email: michael.hoernschemeyer@googlemail.com
+product_presale2: Ich möchte TV/Video in eine andere Anwendung streamen
+subject: Kauf von EyeTV Netstream Sat 
+message: Sehr geehrte Damen und Herren,
+
+ich möchte gerne ihre Lösung „EyeTV Netstream Sat“ kaufen. Vorab habe ich jedoch ein paar Fragen:
+
+Zuhause habe ich eine Sat-Anlage mit einem Quadro LNB, d.h. vier Personen können gleichzeitig TV gucken oder Sendungen aufzeichnen. Frage: Kann ich gleichzeitig ZWEI „EyeTV Netstream Sat“ über Windows Media Center nutzen oder in Verbindung mit „EyeTV Sat Free“ dann sogar VIER Kanäle nutzen d.h. einen gucken und drei aufzeichnen? Oder anders gefragt: Wie viele „EyeTV Netstream Sat“ kann ich mit einem Windows Media Rechner verwenden?
+
+Zweite Frage: Wie schnell schaltet „EyeTV Netstream Sat“ von einem auf den anderen Kanal um? Dies würde mich einmal separat für SD-Kanal auf SD-Kanal und einmal für HD-Kanal auf HD-Kanal interessieren.
+
+Dritte Frage: Verstehe ich ihre Preispolitik richtig wenn ich unseren Quadro LNB Anschluss nutzen will brauche ich 2 mal „EyeTV Netstream Sat“ plus 2 mal „EyeTV Sat Free“ gleich 600 Euro! Oder gibt es hier noch eine andere Möglichkeit?
+
+Mit besten Grüßen aus Bochum
+Michael Hörnschemeyer
+
+
+
+---------------------
+
+
+language: de
+salutation: Herr
+country: DE
+product_presale: Video Streaming
+using_elgato: Nein
+phone_rep: Ja
+full_name: Michael Hörnschemeyer
+email: michael.hoernschemeyer@googlemail.com
+product_presale2: Ich möchte TV/Video in eine andere Anwendung streamen
+subject: Kauf von EyeTV Netstream Sat 
+message: Sehr geehrte Damen und Herren,
+
+ich möchte gerne ihre Lösung „EyeTV Netstream Sat“ kaufen. Vorab habe ich jedoch ein paar Fragen:
+
+Zuhause habe ich eine Sat-Anlage mit einem Quadro LNB, d.h. vier Personen können gleichzeitig TV gucken oder Sendungen aufzeichnen. Frage: Kann ich gleichzeitig ZWEI „EyeTV Netstream Sat“ über Windows Media Center nutzen oder in Verbindung mit „EyeTV Sat Free“ dann sogar VIER Kanäle nutzen d.h. einen gucken und drei aufzeichnen? Oder anders gefragt: Wie viele „EyeTV Netstream Sat“ kann ich mit einem Windows Media Rechner verwenden?
+
+Zweite Frage: Wie schnell schaltet „EyeTV Netstream Sat“ von einem auf den anderen Kanal um? Dies würde mich einmal separat für SD-Kanal auf SD-Kanal und einmal für HD-Kanal auf HD-Kanal interessieren.
+
+Dritte Frage: Verstehe ich ihre Preispolitik richtig wenn ich unseren Quadro LNB Anschluss nutzen will brauche ich 2 mal „EyeTV Netstream Sat“ plus 2 mal „EyeTV Sat Free“ gleich 600 Euro! Oder gibt es hier noch eine andere Möglichkeit?
+
+Mit besten Grüßen aus Bochum
+Michael Hörnschemeyer
+
+
+
+---------------------
+
+
+language: de
+computer_model: MacBook Pro
+os_version: 10.6.5
+operating_system: Mac OS X
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+salutation: Herr
+using_elgato: Ja
+phone_rep: Nein
+full_name: Thomas Gruber
+email: thomas.gruber@essential-thinking.de
+product_family: EyeTV Netstream Sat
+problem_specifics: Video
+problem_specifics2: Video hat schlechte Qualität (Stottern, Artefakte, schlechte Farben)
+subject: Bildstottern Netstream SAT über iPad / iPhone
+message: Sehr geehrte Damen und Herren,
+
+ich verwende ein Netstream SAT, um mittels der EyeTV-App Fernsehprogramme per WLAN auf mein iPad und mein iPhone 4 zu streamen. Leider ohne Erfolg: Das Bild hat, besonders bei komplexen Szenen oder Szenenschnitten, Blockartefakte oder bleibt für eine Sekunde ganz stehen, danach geht es weiter. Das tritt mehrfach jede Minute auf, auf dem iPhone scheinbar öfter als auf dem iPad. Das betrifft nur das Bild, der Ton läuft ohne Probleme. Auf meinem MacBook Pro (Alu late 2008) gibt es auch gelegentlich dieses Problem, aber weniger häufig (über kabelgebundenes LAN funktioniert es dann tadellos). Streaming von ARD/ZDF HD auf das MacBook ist nur über kabelgebundenes Netzwerk möglich, per WLAN völlig unbrauchbar.
+
+Ein paar Infos zu den Rahmenbedinungen: Signalstärke (98%) und Qualität (100%) sind einwandfrei, Aufnahmen per Ethernet auf meinem Mac Mini per EyeTV laufen völlig problemlos und in perfekter Qualität, die mittels Turbo.264 HD erzeugten iPad/iPhone-Versionen lassen sich dann auch problemlos über WLAN streamen.
+
+Das Problem betrifft lediglich das direkte Streaming per WLAN von Netstream SAT auf iPad und iPhone, in gerigerem Mass auch auf das MacBook. Das Netstream SAT ist per Gigabit LAN über einen Cisco Switch mit dem WLAN Router verbunden; auch wenn sonst kein weiterer Netzwerkverkehr auf dem Netz ist, gibt es keine Verbesserung. Als WLAN Router habe ich verschiedene Modelle versucht (alle mit 802.11n): Apple Airport Express, Apple TimeCapsule, und einen Netgear Router. Access Point und iPhone/iPad waren in wenigen Metern Abstand, volle WLAN-Anzeige.
+
+Also meiner Meinung nach ideale Bedingungen, und trotzdem kann ich das Netstream SAT nicht per WLAN benutzen ohne einen Computer eingeschaltet zu haben, der das Video für das Streaming umkodiert. Genau das sollte die Netstream SAT aber laut Werbung leisten.
+
+Gibt es noch etwas was ich tun kann? Ist ihnen dieses Problem bereits bekannt oder ist das bei mir ein Einzelfall? Ich hoffe Sie können helfen, denn ich würde das Streaming direkt auf mein iPad sehr gerne verwenden.
+
+Vielen Dank für Ihre Hilfe,
+Thomas Gruber
+
+
+
+---------------------
+
+
+language: de
+salutation: Herr
+using_elgato: Nein
+country: DE
+product_presale: TV
+product_presale2: Ich möchte TV über einen Kabelanschluss empfangen
+email: siemens.tim@googlemail.com
+full_name: Tim Siemens
+subject: Eye TV Hybrid INT
+message: Sehr geehrte Damen und Herren,
+
+kann ich mit ihrem TV-Stick Eye TV Hybrid im Kabelnetz (Baden-Württemberg) unverschlüsselte DVB-C HD Programme wie ARD HD und ZDF HD empfangen? Oder kann der Tuner kein HD via Kabel und nur über DVB-T wie aus ihrem Support Dokument aus dem Jahr 2008 hervorgeht?
+
+Bitte um schnellstmögliche Aufklärung, da ich heute den Stick noch bestellen muss..
+
+
+Vielen Dank und einen guten Tag 
+
+
+Tim Siemens
+
+
+---------------------
+
+
+language: de
+full_name: Kathrin Boldt
+country: DE
+salutation: Frau
+using_elgato: Nein
+phone_rep: Nein
+product_presale: TV
+email: kathrin.boldt@gmx.de
+subject: Empfang von Hotbird und Nilesat in Deutschland 
+message: Sehr geehrter Kundendienst,
+
+folgende Fragestellung: Ich würde gerne in Erfahrung bringen, wie ich über einen Macintosh Bildschirm fernsehen kann, dh insbesondere auch Hotbird und Nilesat empfangen kann. 
+
+Mir hatte man als Anschlussgerät für den Bildschirm folgendes Gerät empfohlen:
+
+Elgato Eye TV Sat, TV Tuner für DVB - S/S2 . Welches Gerät empfehlen Sie? 
+
+Benötige ich für den Empfang ausserdem noch eine Satellitenschüssel? Falls ja, mit oder ohne Receiver? Was empfehlen Sie im Einzelnen.
+
+Vielen Dank im Voraus für die Bearbeitung meiner Anfrage, 
+
+Kathrin Boldt 
+product_presale2: Ich möchte TV über eine andere Quelle empfangen
+
+
+---------------------
+
+
+language: de
+computer_model: Mac
+os_version: 10.6.4
+operating_system: Mac OS X
+salutation: Herr
+using_elgato: Ja
+phone_rep: Ja
+country: DE
+software_product: Elgato Video Capture
+product_manufacturer: Elgato
+full_name: Timo
+email: timo.engelke@igd.fraunhofer.de
+product_family: Elgato Video Capture
+product_name: Hardware
+problem_specifics: Programm-Verhalten
+problem_specifics2: Andere
+subject: Darstellen von Video in einem Fenster
+message: Wir wollten eigentlich auf einer Messe eine Präsentation eines Video Signals geben und müssen nun die OSX eigene Zoomfunktion missbrauchen um den Rand des VideoCapture programmes auszublenden. 
+Gibt es nicht noch eine andere Möglichkeit das Bild des Videoeingangs im Vollbildmodus anzusehen, ohne vorher eine Aufnahme machen zu müssen? Es wäre wirklich hilfreich einen Tip diesbezüglich von ihnenn zu bekommen.
+Immerhin steht auf der Packung dass man damit auch Videos anschauen kann?
+Vielen Dank und Grüsse,
+
+Timo Engelke
+
+
+
+---------------------
+
+
+language: de
+computer_model: Mac G5
+os_version: 10.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Andreas Schöller
+email: AndiSchoeller@web.de
+product_family: EyeTV 300
+problem_specifics: Aufwachen und Starten
+problem_specifics2: Mac geht nicht in den Ruhestand wenn EyeTV läuft
+message: Kann Eye TV Sat den Rechner hoch und wieder runterfahren?
+
+
+subject: Eye TV Sat
+
+
+---------------------
+
+
+language: de
+computer_model: iMac
+os_version: Leopard Snow
+purchase_date: 11/20/2007
+purchase_place: Data Quest, Zürich
+operating_system: Mac OS X
+salutation: Herr
+country: CH
+product_manufacturer: Elgato
+software_product: EyeTV 3
+using_elgato: Ja
+phone_rep: Nein
+full_name: Bernd Lange
+email: bigbrother-lange@web.de
+product_family: EyeTV Hybrid
+problem_specifics: Freischaltcode
+product_name: 2007 Edition DVB-T/PAL
+problem_specifics2: Freischaltcode verloren
+message: Guten Tag. Ich habe mir vor ca. 3 Jahren Eye-TV gekauft und habe mich nicht registrieren lassen. Da ich in dieser Zeit auch 2 mal umgezogen bin, finde ich meine Karte mit dem Freischaltcode nicht mehr.Ich habe nur noch das Eye-TV. Können Sie mir helfen mein Eye-TV wieder frei zu schalten? Vielen Dank im voraus, Bernd Lange PS: Das angeklickte Kaufdatum ist nur ein geschätztes Datum.
+subject: Freischaltcode
+
+
+---------------------
+
+
+language: de
+computer_model: unterschiedlich von netbook bis amd 4kerner
+os_version: x64 ultimate
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: Terratec Home Cinema
+product_manufacturer: Elgato
+operating_system: Windows 7
+full_name: andreas rolle
+email: arolle@web.de
+product_family: EyeTV Netstream DTT
+subject: web-interface der box läßt sich nicht erreichen
+message: ausprobiert von mehreren rechnern, unterschiedliche kabel, switchports usw. die box funktioniert ansonsten mit der software problemlos...
+
+gruß
+
+a.rolle
+
+
+
+---------------------
+
+
+language: de
+computer_model: Mac Mini 2009
+os_version: 10.6
+operating_system: Mac OS X
+country: DE
+using_elgato: Ja
+software_product: EyeTV 3
+salutation: Herr
+product_manufacturer: Elgato
+full_name: Manhardt
+email: marc.newsletter@googlemail.com
+product_family: EyeTV Hybrid
+problem_specifics: Video
+product_name: 2008 Edition DVB-T/PAL
+problem_specifics2: Andere
+subject: Probleme seit ios 4.2.1
+message: Hallo Elgato,
+
+seit der 4.2.1 aufm Ipad habe ich Probleme mit Eyetv.
+
+Ich nehme per DVBC auf, konvertiere die Sendungen per Ipad Icon und synce per Itunes. Bisher immer ohne Probleme. Nun hapert es aber sauber seit der 4.2.1
+
+Bin ich beim Ipad per Home Button aus dem Video raus----switche ich zurück so sah ich nicht sofort den Film weiter, sondern die Übersichtsseite des Films. Dank Multitasking springt man nun aber direkt zur der Stelle wo man aufgehört hat.
+
+Nachteil - das klappt nicht immer. Häufig öffnet die Video App, ich sehe kurz den IOS Ladekringel, danach passiert nichts mehr. Sehe nur schwarzen Bildschirn. Neustart IOS bringt nichts, auch nicht die Video APP aus dem Multitasking zu werfen.
+
+Einziger Ausweg um die Videoapp überhaupt wieder nutzen zu können. Ipas syncen und betroffene Videodatei zu entfernen.
+
+Das nervt enorm. Bitte dringend um bugfix.
+
+Danke,
+
+Manhardt
+
+
+---------------------
+
+
+language: de
+computer_model: MAC Book Pro
+os_version: 10.6.3
+purchase_date: 11/05/2009
+purchase_place: Media Markt Erding (Verwendungszweck: EC 65283508 04.11 15.10 CE0)
+operating_system: Mac OS X
+country: DE
+product_manufacturer: Elgato
+software_product: EyeTV 3
+using_elgato: Ja
+phone_rep: Ja
+salutation: Herr
+full_name: Jorge Soares
+email: jorge.soares@gmx.de
+product_family: EyeTV Sat
+problem_specifics: Freischaltcode
+problem_specifics2: Freischaltcode verloren
+message: 
+Sehr geehrte Damen und Herren,
+
+Ich habe den Freischaltcode verloren und meine Email bei Elgato nicht hinterlegt. Daher komme ich nicht an den Freischaltcode! Bitte helfen Sie mir.
+
+Ich kann nur den Kaufnachweis vorlegen (5.11.2009 beim Media Markt in Erding bei Muenchen). 
+
+Oder Ihnen die Serien Nummer der ELGATO EYTV SAT Box nennen.
+Diese lautet:
+EyeTV Sat
+DVB-S2 Tuner 2SA308101000
+S/N: 0945-J00828
+
+Würde mich über einen Anruf oder über eine Email freuen.
+
+Mit freundlichen Grüssen
+
+
+Jorge Soares
++49 160 7072924
+Am Bach 28C
+85399 Hallbergmoos
+
+subject: Freischaltcode verloren
+
+
+---------------------
+
+
+language: de
+computer_model: Macbook
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Stefan Ripke
+email: stefan.ripke@googlemail.com
+product_family: EyeTV Netstream Sat
+problem_specifics: Andere
+subject: Netstream Sat nach einem Tag ausgefallen, Keine Verbindung zur Box
+message: Sehr geehrte Damen und Herren,
+vor einem Tag habe ich das o.g. Produkt gekauft und in Betrieb genommen. Alles funktionierte wunderbar. Doch gestern Abend fiel das Gerät aus.
+
+Als ich mich auf per Webbrowser auf das Gerät schaltete, sah ich das die Anzeige der Signalqualität auf 0% stand. Ich nahm das Gerät vom Netz und probierte einen anderen SAT Receiver aus, mit diesem funktionierte es.
+
+Dann schloss ich die Netstream Box an einer anderen SAT Dose an, dort funktioniere sie. ABER,
+nur für ein paar Minuten, denn dann viel der Netzwerkanschluss aus. Als ich die Box für ein paar Minuten vom Strom trennte kam ich wieder auf die Box rauf, sah aber dass jetzt wieder die Signalqualität auf 0% stand.
+
+Die Netzwerkdose und die SAT Dose sind in Ordnung, denn andere Geräte funktionieren daran.
+
+Nun setzte ich die Box auf die Werkseinstellungen zurück und seit dem komme ich nicht mehr auf die Box rauf (per Webbrowser) und EYETV kann die Box auch nicht mehr finden.
+
+Die LEDs des Netzwerkanschlusses blinken, sowie eine orangene LED (im 1 Sek Takt) vorn.
+
+Was kann ich noch tun? Bzw. Gibt es einen Trick die Firmware zu flashen?
+
+Mit freundlichen Grüßen,
+
+Stefan Ripke
+
+
+---------------------
+
+
+language: de
+country: DE
+using_elgato: Nein
+phone_rep: Nein
+product_presale: Andere Fragen
+salutation: Herr
+full_name: Martin Holte
+email: info@martinkeramik.de
+subject: EyeTv Fernbediehnung Elegato
+message: Guten Tag,
+
+bekam heute die Fernbediehnung.
+Wo gibt es eine Bediehnungsanleitung dafür ?
+
+Mit freundlichen Grüßen
+
+Martin Holte
+
+
+---------------------
+
+
+language: de
+computer_model: iMac
+os_version: 10.6.5 SL
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: Turbo.264 HD
+product_manufacturer: Elgato
+full_name: Stephan Tietchen
+email: kontakt@tietchen.de
+product_family: Turbo.264 HD
+product_name: Hardware
+problem_specifics: Anwendungs-Verhalten
+problem_specifics2: Andere
+subject: Keine Reklamation ehr eine Anregung.
+message: Sehr geehrte Damen und Herren,
+
+ich möchte heute keine Reklamation abgeben sonder eine Anregung für die nächste Version der Turbo 264.HD Software Version in verbindung mit dem HD Stift.
+
+Ich nehme viele Serien und Filme aus SKY auf. Diese sind oft mit 2 Tonspuren versehen.
+
+Wenn ich nun mit der Elgato Software einen Film auf das ATV Format umrechne, muss ich mich jedoch für eine Tonspur entscheiden.
+
+Wäre es möglich in der nächsten Version der Software die Möglichkeite der Auswahl von mehreren Tonspuren einzustellen ?
+
+MFG
+
+Stephan Tietchen
+
+
+
+---------------------
+
+
+language: de
+computer_model: iMac
+os_version: 10.6
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: Turbo.264 HD
+product_manufacturer: Elgato
+full_name: Wolfgang Meryk
+email: wolfgang@meryk.de
+product_family: Turbo.264 HD
+product_name: Hardware
+problem_specifics: Nicht aufgeführtes Problem (Beschreibung im Nachrichtenfeld)
+subject: DVD konvertieren
+message: Lieber Elgato Support,
+ich habe vor kurzem den turbo.264 HD gekauft und bin eigentlich sehr zu frieden. Was bei mir aber nicht klappt ist, dass ich von einer ungeschützten DVD nur den Hauptfilm konvertiere. Die DVD liegt als VIDEO TS Folder vor.
+Ich habe auch schon im Internet nach Tipps gesucht, kann aber nichts finden.
+
+Über Hilfe von Ihnen würde ich mich sehr freuen.
+
+Mt freundlichen Grüßen,
+
+Wolfgang Meryk
+
+
+---------------------
+
+
+language: de
+salutation: Herr
+product_presale: TV
+country: DE
+using_elgato: Nein
+phone_rep: Nein
+full_name: Kurt Schneider
+email: schneider.kurt@web.de
+product_presale2: Ich möchte TV direkt über den Satellitenanschluss empfangen
+subject: Satellitenempfang mit iMac
+message: Guten Tag,
+
+vor etwa 2 Wochen habe ich einen iMac und einiges an Zubehör direkt von Apple gekauft, darunter auch den TV Tuner Stick "elgato eyetv hybrid". Bei der telefonischen Beratung vor dieser Bestellung sagte mir der Kundenberater von Apple auf meine Frage, dass dieses Gerät auch für Satellitenempfang am iMac geeignet sei. Nach vergeblichen Versuchen beim Sendersuchlauf sowie Internet-Recherchen vermute ich, dass dies eine falsche Auskunft war und stattdessen das Gerät "eyetv sat" in Frage kommt (Einzelner iMac ohne Netzwerk). Bitte teilen Sie mir mit, ob dies zutrifft und damit auch Sender in HD-Format empfangen können, damit ich bei Apple einen Umtausch des "eyetv hybrid" in die Wege leiten kann.
+
+Mit freundlichen Grüßen Kurt Schneider
+
+
+---------------------
+
+
+language: de
+computer_model: iMAC
+os_version: 10.6.4
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Reinhard Dörr
+email: r.doerr@web.de
+problem_specifics: Sender
+problem_specifics2: Andere
+subject: keine Free-Digital-Sender ...
+message: Hallo!
+
+Ich kann über einen Receiver keine freien DIGITAL-Sender empfangen; sie werden zwar alle angezeigt, sind jedoch mit Schloss versehen.
+
+Beim normalen Fernseher funktioniert das problemlos.
+
+Woi könnte das Problem liegen.
+
+VielenDank im voraus.
+
+R. Dörr
+product_family: EyeTV Hybrid
+product_name: 2008 Edition DVB-T/PAL
+
+
+---------------------
+
+
+language: de
+computer_model: Macmini
+os_version: Snowleopard
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Ja
+salutation: Herr
+country: DE
+product_manufacturer: Elgato
+software_product: EyeTV 3
+full_name: jörg Wagenfeld
+email: prophy@me.com
+product_family: EyeTV Hybrid
+problem_specifics: iPhone Access
+product_name: 2008 Edition DVB-T/PAL
+problem_specifics2: Andere
+subject: auto-konfiguration des routers fehlgeschlagen-
+message: Leider funktioniert die Verbindung über My Eye Tv nicht mehr.
+Bei der Überprüfung des Accounts wird: auto-konfiguration des routers fehlgeschlagen
+angezeigt. Ich nutze eine Fritzbox w-lan 3270. UpnP ist aktiviert und EyTv wird in den freigegebenen Programmen der Mac-Firewall aufgeführt. 
+Bei der Aufforderung mir mein account-password erneut zuzusenden erhalte ich keine E-Mail.
+Der telefonische Support auf deutsch antwortet nicht!
+
+mfG Jörg Wagenfeld
+
+
+---------------------
+
+
+language: de
+computer_model: Macmini4,1 aluminium 2,4GHz
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+using_elgato: Ja
+phone_rep: Ja
+full_name: Markus Nüsseler
+email: markus.nuesseler@web.de
+product_family: EyeTV Hybrid
+problem_specifics: Anwendungs-Verhalten
+product_name: 2007 Edition DVB-T/PAL
+problem_specifics2: EyeTV stürzt ab
+subject: EyeTV hybrid bekommt kein Bild
+message: Hallo liebes Support Team,
+
+mit meinem neuen MAC mini und meinem EyeTV Hybrid habe ich ein ernsthaftes Problem.
+
+Wie wirkt sich das Problem aus?
+Bei Einschalten des Rechners startet EyeTV 3.4.3 automatisch und es öffnet sich auch das TV Fenster. Es erscheint die Meldung "Einen Moment bitte ..." und das war's; mehr passiert nicht. Wenn ich EyeTV über das Menü beenden möchte, dann schliesst sich das TV Fenster; das EyeTV Programme Fenster bleibt aber offen. Es schliesst sich nicht und kann auch nicht mehr bedient werden - es ist tot. Ich habe nun zwei Möglichkeiten: (a) Über "Apfel-Menü | Sofort beenden" EyeTV hard zu beenden. (b) Ich ziehe den EyeTV Hybrid Stick ab, dann schliesst sich die EyeTV Anwendung sofort. Wenn ich nun den Stick wieder stecken, dann sind TV und Programme Fenster wieder offen.
+
+Ich gehe davon aus, dass der Treiber für den EyeTV Hybrid Stick nicht mit meinem Rechnermodell kompatibel ist.
+
+Weitere Infos:
+- Ich kann den EyeTV Hybrid und die Software ohne Probleme auf meinem MacBootPro 17 Zoll verwenden.
+- Ich kann den EyeTV Hybrid und die Software ohen Probleme an meinem 3 Jahren alten Macmini verwenden.
+=> Signal ist stark genug, EyeTV Hybrid scheint technisch einwandfrei zu sein.
+
+- Ich habe meinen neuen Macmini schon komplett mit MAC OS X 10.6.4 und 10.6.5 neu aufgesetzt und EyeTV 3.4.3 dann als erste und einzige Anwendung installiert. Ich habe das gleiche Problem.
+- Ausser einem Monitor und Neztwerk ist keine weitere Hardware angeschlossen.
+
+Mit freundlichen Grüssen,
+Markus Nüsseler
+mailto:markus.nuesseler@web.de
+
+
+---------------------
+
+
+language: de
+computer_model: IPad
+os_version: 4.2
+operating_system: iOS
+salutation: Herr
+using_elgato: Ja
+country: DE
+product_manufacturer: Elgato
+software_product: EyeTV for iPhone/iPad
+full_name: Andre Wilke
+email: info@wilke-it.de
+subject: iPad Eyetv App stürzt ab
+message: Hallo Elgato-Team,
+
+die App. auf dem iPad (iOS 4.2) stürzt bei der Verbindung mit Ihrer Netstream DTT ab. Die App. lässt sich öffnen. In der Mitte wird "EyeTV Netstream" angezeigt. Klickt man darauf, sieht man noch "verbindet, Live-Fernsehen, lädt". Dann wird die App. ohne Fehlermeldung geschlossen.
+
+Die Netstream funktioniert. Ich nutze sie an einem Windows Media Center.
+
+Haben Sie einen Tipp für mich?
+
+Vielen Dank und viele Grüße,
+Andre Wilke
+product_family: EyeTV Netstream DTT
+problem_specifics: LiveTV 
+problem_specifics2: LiveTV nicht verfügbar 
+
+
+---------------------
+
+
+language: de
+computer_model: iMac
+os_version: 10.5.8
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+product_family: EyeTV USB
+problem_specifics: Programm (EPG)
+problem_specifics2: Kein Programm (EPG)
+full_name: Heinz Hagendorf
+email: eisenzahn@hagendorf.de
+subject: EPG
+message: Heute, 27.11.2010, habe ich Ihr EyeTV 3 gekauft und gleich die neueste Version geladen.
+Nachdem ich 4x den Setup Assistententen durchlaufen habe lassen incl. Sendersuchlauf etc.
+bekomme ich zwar die genannten 30 Sender, aber kein EPG, nur die Meldung 
+EPG HAT KEINE DATEN.
+Mit meinem alten TERRATEC kam das EPG problemlos.
+Was tun?
+Grüsse aus Berlin
+Heinz Hagendorf
+eisenzahn@hagendorf.de
+product_name: International
+
+
+---------------------
+
+
+language: de
+computer_model: Mac Pro 2010
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Oliver Behge
+email: oliver.bethge@gmx.de
+product_family: EyeTV Diversity
+problem_specifics: Andere
+product_name: 2007 Edition
+subject: EyeTv reagiert nicht mehr
+message: Ich habe 2 Compiuter mit EyeTv. Die erstellen Sendungen ziehe ich im Finder (Laufwerksfreigabe des anderen Rechners) in EyeTV. Wenn ich jetzt auf dem anderen Computer eine Sendung lösche und dann auf diesem das gleiche probiere, kommt nach mehrmaligen wiederholen der Funktion nur noch die Fehlermeldung (Fehler 43) und nichts läßt sich mehr machen. Früher kam zwar auch die Fehlermeldung, aber es wurden alle Einträge in EyeTv entfernt und das Programm ist nicht abgestürzt.Die letzte Version vin EyeTv, mit der das funktioniert hat war 3.4.2
+
+
+
+---------------------
+
+
+language: de
+country: DE
+product_presale: Video Enkodierung
+salutation: Herr
+using_elgato: Nein
+phone_rep: Nein
+product_presale2: Ich möchte meine Videodateien auf einem AppleTV anschauen
+subject: Mehrkanalton und anamorphes Video mit turbo.264
+message: Hallo,
+
+z.Zt. erstelle ich meist anamorphe Videos mit Mehrkanalton mittels Handbrake. Kann ich hier oder auf einem alternativen Weg vom turbo.264 Stick profitieren?
+
+MfG
+Schneider
+full_name: Bernd Schneider
+email: 500sl@gmx.net
+
+
+---------------------
+
+
+language: de
+computer_model: iMac 24" 22.11.2006
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: CH
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Salib Rainer
+email: r.salib@teleport.ch
+product_family: EyeTV Hybrid
+problem_specifics: Sender
+product_name: 2008 Edition DVB-T/PAL
+problem_specifics2: Andere
+subject: Sender sind vorhanden, aber kein signal
+message: 
+
+Beim iMac sind die Sender Schweiz SF 1, SF Zwei, NDR , Infokanal und Diverse Senden kein Signal aus. Alle anderen Senden.
+
+Info: Die wo nicht Senden Zeigen bei der Einstellung Signalqualität 0% , Signalstärke 100%
+
+Bei meinen Fernseher sind sie vorhanden.
+
+Habe alles schon probiert was vorgeschlagen wurde.
+
+
+
+
+---------------------
+
+
+language: de
+computer_model: MacBook Air
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+using_elgato: Ja
+phone_rep: Nein
+product_manufacturer: Elgato
+full_name: Josef Hobelsberger
+email: JHobelsberger@vodafone.de
+product_family: EyeTV Netstream DTT
+problem_specifics: Andere
+subject: kann Gerät nicht finden
+message: Sehr geehrte Damen und Herrn,
+
+vor ca. einer Woche habe ich eyeTV auf meinem Mac installiert wobei alles auf anhieb funktioniert hatte. Nach nun ca. einer Woche wollte ich die Softwareware wieder starten was aber nicht funktioniert hatte. EyeTV Netstream DTT setzte und setze ich erfolgreich auf meinem IPad ein, bin damit auch sehr zufrieden.
+
+Alle Versuche die ich unternommen habe die Software neu zu installieren sind ohne erfolg verlaufen.
+Meine Vorgehensweise:
+1.) EyeTV Netstream DTT aus und einschalten (Power off/on)
+2.) EyeTV Setup Assistant
+3.) ==> weiter Taste gewählt
+4.) Bitte wählen Sie das Land aus, .... => "Deutschland" ==> weiter gewählt
+5.) Wählen Sie Ihre Hardware aus dem Menü unter aus.
+ Hersteller ==>"Elgato"
+ Produktauswahl ==> "EyeTV Netstream" ausgewählt ?? habe leider nicht passenderes gefunden
+ ==> weiter Taste gewählt
+6.) Bitte geben Sie den Freischaltcode für die EyeTV 3 Software ein:
+ Name: Josef Hobelsberger
+ Firma:
+ Freischaltcode:LVCB1-XXXXXXX-XXXXXXX-XXXXXXX
+ ==> weiter Taste gewählt
+*****************jetzt kommt es zum Problem ***************************
+Wählen Sie die Netzwerk-Tuner aus auf die Sie mit dem Mac zugreifen möchten:
+Geräte: Keine Geräte gefunden
+On: Neue Geräte automatisch aktivieren
+==> über diesen Stolperstein bin ich nicht hinausgekommen.
+
+Über eine baldige Hilfestellung wäre ich Ihnen sehr verbunden.
+
+Mit freundlichen Grüßen,
+Josef Hobelsberger
+
+
+---------------------
+
+
+language: de; popunder
+salutation: Mr.
+country: DE
+using_elgato: No
+phone_rep: No
+product_presale: TV Tuning
+product_presale2: I want to receive TV from a satellite receiver
+subject: Produkt Avermedia
+message: Sehr geehrte Damen und Herren,
+
+ich bin vor kurzen von Windows auf Mac umgestiegen.
+Ich interessiere mich für ihre Software EyeTV.
+Ich habe einen relativ neuen USB-Satreciever von Avermedia.
+Es ist "AVerTV Hybrid DVBS" 
+Leider finde ich auf ihrer Webseite keinen Hinweis, ob sie diesen TV-Empfänger unterstützen.
+Können sie mir diesbezüglich eine Auskunft erteilen?
+
+Freundliche Grüße
+Volker Kurkowiak
+email: volker.k@gmx.at
+full_name: Volker Kurkowiak
+
+
+---------------------
+
+
+language: de
+computer_model: macmini 2010
+os_version: 10.6
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+using_elgato: Ja
+phone_rep: Nein
+full_name: andy kempen
+email: andy.kempen@gmx.net
+product_family: EyeTV Netstream Sat
+problem_specifics: Aufwachen und Starten
+problem_specifics2: Andere
+subject: mac lässt sich nicht wecken
+message: Sehr geehrte Damen und Herren,
+An meinem MacMini hängt per USB ein EyeTV sat und, seit neustem, per Ethernet ein Netstream sat. Leider lässt der Mac sich nicht durch Betätigen der EyeTV Fernsteuerung aufwecken. Es ist nicht möglich, den Ruhezustand des Mac zu beenden. Erst wenn ich z.B. die Bluetooth-Maus anmache wacht der Mac auf. Dann kann ich auch mit der Fernbedienung EyeTV starten.
+Bei einem Neustart klappt es direkt und EyeTV wird gestartet.
+Weiterhin ist es so, dass wenn ich EyeTV mit der FB ausschalte und direkt wieder anschalte es nicht im Vollbild startet. Ich denke das hier die Menüleiste stört. Gibt es da Abhilfe?
+Ich habe schon mal die Wakein-Datei gelöscht. Das hilft aber nur ein Mal. Dann geht es wieder nicht.
+
+Für eine Antwort wäre ich Ihnen dankbar,
+Mit freundlichen Grüßen,
+
+Andy Kempen
+
+
+---------------------
+
+
+language: de
+computer_model: I-Mac
+os_version: Snow Leopard
+operating_system: Mac OS X
+salutation: Dr.
+country: DE
+software_product: EyeTV 3
+using_elgato: Ja
+phone_rep: Nein
+product_manufacturer: Elgato
+full_name: Reinhold Hohler
+email: reinhold-hohler@t-online.de
+product_family: EyeTV Hybrid
+problem_specifics: Programm (EPG)
+product_name: 2008 Edition DVB-T/PAL
+problem_specifics2: Andere
+subject: Privat-Sender
+message: Sehr geehrte Damen und Herren,
+
+ich habe heute Ihr Programm installiert. Ich habe für das TV einen Kabelanschluß bei unitymedia. Über das Fernsehen bekomme ich neben den öffentlich-rechtlichen Programmen, die meisten üblichen privaten Programme. Diese sind in meinem Basis-Paket bei unitymedia erhalten. Es fehlen lediglich die privaten Spezialprogramme. So weit so gut. 
+Nach der Installation von Eye-Hybrid auf meinem I-Mac erhalte ich jedoch nur die öffentlich-rechtlichen Programme, die privaten erscheinen verschlüsselt, die gleichen Programme also, die ich auf dem Fernseher erhalte, woran liegt das, wenn sich das nicht ändern ließe oder nur mit weiteren Kosten verbunden wäre, dann wäre ich von Ihrem Programm doch sehr enttäuscht.
+
+
+Mit freundlichen Grüßen
+
+Dr. Hohler
+
+
+---------------------
+
+
+language: de
+product_presale: Video Capture
+salutation: Herr
+using_elgato: Nein
+phone_rep: Nein
+country: ES
+full_name: Alfons Stoegmueller
+email: stoegmueller@apunkts-ibiza.com
+product_presale2: Ich möchte Video in HD empfangen
+subject: Anschluss am Mac
+message: Hallo Support,
+
+kann ich mit " Video Capture " meinen Videorecorder über eine Airport Time Capsule ( USB ) mit meinem MacBook Pro OS x 10.6.5 verbinden ?
+
+Vielen Dank !
+
+
+Mit freundlichen Gruessen
+Alfons Stoegmueller
+
+
+---------------------
+
+
+language: de
+salutation: Herr
+using_elgato: Nein
+phone_rep: Nein
+product_presale: TV
+country: DE
+product_presale2: Ich möchte TV über einen Kabelanschluss empfangen
+email: miglmu@t-online.de
+full_name: Michael Petersen
+subject: EyeTV Hybrid
+message: Hallo,
+ich möchte mit dem eyeTV Hybrid über Kabel Deutschland DVB-C die freien HD Sender wie arte, ZDF, ARD sehen und aufzeichnen. Ich muss bei der Bestellung von digitalem Empfang über die Hausbuchse eine Receiver Seriennummer angeben. Wie lautet die für den eyeTV bzw. geht das mit dem Gerät?
+Liebe Grüße
+Petersen
+
+
+---------------------
+
+
+language: de; __utma
+computer_model: MacPro
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Mr.
+using_elgato: Yes
+phone_rep: No
+country: DE
+product_manufacturer: Elgato
+software_product: EyeTV 3
+full_name: Kai Martius
+email: kai.martius@freenet.de
+product_family: EyeTV Netstream Sat
+problem_specifics: Channels
+problem_specifics2: Auto Tune misses channels
+subject: Fehlende Kanäle nach Suchlauf
+message: ich besitze seit ca einer Woche ein neues Netstream Sat als Ersastz/Nachfolger meines EyeTV 310. 
+Angeschlossen ist ein Doppel-LNB mit Ausrichtung auf Hotbird (1) und Astra 19.2 (2). Der Sendersuchlauf mit dem alten Eyetv 310 funktioniert problemlos, der neue Netstream Sat liefert allerdings nur einen Teil der Astra-Sender. Bspw. fehlen alle dritten Programme. Beta-Version vom EyeTV 3.5 wurde installiert; auch eine Reset-Prozedur am NetStream Sat durchgeführt (Strom abziehen, Reset drücken und dabei Strom wieder anstecken). Bisher kein Erfolg :-(
+
+Viele Grüße
+Kai Martius
+
+
+---------------------
+
+
+language: de; __utma
+computer_model: MacPro
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Mr.
+using_elgato: Yes
+phone_rep: No
+country: DE
+product_manufacturer: Elgato
+software_product: EyeTV 3
+full_name: Kai Martius
+email: kai.martius@freenet.de
+product_family: EyeTV Netstream Sat
+problem_specifics: Channels
+problem_specifics2: Auto Tune misses channels
+subject: Fehlende Kanäle nach Suchlauf
+message: ich besitze seit ca einer Woche ein neues Netstream Sat als Ersastz/Nachfolger meines EyeTV 310. 
+Angeschlossen ist ein Doppel-LNB mit Ausrichtung auf Hotbird (1) und Astra 19.2 (2). Der Sendersuchlauf mit dem alten Eyetv 310 funktioniert problemlos, der neue Netstream Sat liefert allerdings nur einen Teil der Astra-Sender. Bspw. fehlen alle dritten Programme. Beta-Version vom EyeTV 3.5 wurde installiert; auch eine Reset-Prozedur am NetStream Sat durchgeführt (Strom abziehen, Reset drücken und dabei Strom wieder anstecken). Bisher kein Erfolg :-(
+
+Viele Grüße
+Kai Martius
+
+
+---------------------
+
+
+language: de
+computer_model: MacBook
+os_version: 2006
+activation_key: 1M5RW-PK82A21-H2YTA29-YRHW8SR
+purchase_date: 12/01/2006
+purchase_place: Apple Store
+operating_system: Mac OS X
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+salutation: Herr
+software_product: EyeTV 1
+full_name: Stefan Hildebrandt
+email: hilde_berlin@web.de
+problem_specifics: Freischaltcode
+problem_specifics2: Freischaltcode wird nicht akzeptiert
+subject: Freischaltcode
+message: Guten Tag,
+
+ich habe einen eyeTv-DVB-T-Stick ihrer Firma (ID-#2906).
+Diesen möchte ich nun wieder benutzen.
+Bitte senden Sie mir einen Code zu, der funktioniert. Der alte soll abgelaufen sein:
+1M5RW-PK82A21-H2YTA29-YRHW8SR
+
+Freundliche Grüße
+
+Stefan Hildebrandt
+
+P.S. wie kann es sein das ein Produkt abläuft? kann ich mein macbook bald auch nicht mehr nutzen?
+
+
+---------------------
+
+
+language: de
+computer_model: MAC
+os_version: 10.6.5
+purchase_date: 05/01/2009
+purchase_place: gravis
+operating_system: Mac OS X
+salutation: Frau
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Petra Schiller
+email: petra@bluewaters.de
+problem_specifics: Freischaltcode
+product_family: EyeTV DTT
+product_name: 2008 Edition DVB-T
+problem_specifics2: Freischaltcode verloren
+subject: könnten Sie mir bitte nochmal meinen Freischaltcode geben?
+message: ... muss meinen Rechner neu installieren.
+Rechnung von gravis hatte ich schon mal geschickt, da mir das schon mal passiert ist.
+hinten auf dem Stick ist die Nummer: 2DT308101001 4208 01009
+
+alternativ könnte Ihnen meine mailadresse webmaster@bluewaters.de bekannt sein
+
+Vielen Dank,
+Beste Grüße,
+Petra Schiller
+
+
+---------------------
+
+
+language: de; __utma
+computer_model: iMac
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Mr.
+using_elgato: Yes
+phone_rep: No
+country: AT
+software_product: Turbo.264 HD
+product_manufacturer: Elgato
+full_name: Wilfried Pausa
+email: wilfriedpausa@me.com
+product_family: Turbo.264 HD
+product_name: Hardware
+problem_specifics: Issue not listed (describe in Message Details field)
+subject: EyeTV Netstream DTT
+message: 2 Fragen, bevor ich es kaufe.
+
+1. Kann man an das Gerät auch den Anschluß eines Kabel TV anschließen und funktioniert es dann ?
+
+2. Muß man das Gerät an einen Router (z.B. TimeCapsule) per Ethernet anschließen oder geht die Verbindung zum Router auch über WLAN ?
+
+Danke
+
+W. Pausa
+
+
+
+
+---------------------
+
+
+language: de
+computer_model: MBPro Apple
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Ja
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+salutation: Herr
+full_name: Roland Freund
+email: roland.freund@web.de
+product_family: EyeTV Netstream Sat
+problem_specifics: Sender
+problem_specifics2: Sendersuchlauf findet nicht alle Sender
+subject: Sendersuchlauf findet keinen Sender
+message: Der Sendersuchlauf der Netstream Sat Box findet keinen Sender.
+
+
+---------------------
+
+
+language: de
+computer_model: MAC Pro
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+using_elgato: Ja
+phone_rep: Nein
+product_manufacturer: devolo
+product_family: dLAN TV Sat Tuner
+problem_specifics: Sender
+problem_specifics2: Sendersuchlauf findet nicht alle Sender
+full_name: Michael Thum
+email: michael_thum@gmx.de
+subject: HD Sender werden nicht gefunden ...
+message: Hallo Elgato Team,
+
+seit gestern habe ich "EyeTV lite" auf "EyeTV 3" upgedated. Schon zuvor konnte der Sendersuchlauf unter "EyeTV lite" KEINE klassischen HD-Sender finden (Das Erste HD, ZDF HD, Arte HD) - ansonsten findet der Suchlauf 170 Sender. EyeTV ist mit mit dem Devolo-Produkt "dLAN TV Sat Tuner" gekoppelt.
+
+An derselben SAT-Anlage hängt auch ein digitaler HD-SAT-Receiver, der diese 3 HD-Sender problemlos empfängt.
+
+Bitte teilen Sie mir mit, was ich tun muss, um auch diese 3 Sender mit EyeTV anschauen zu können.
+
+Danke & Gruß
+Michael Thum
+
+
+---------------------
+
+
+language: de
+computer_model: Mac book Pro
+os_version: Snow Leopard
+operating_system: Mac OS X
+salutation: Herr
+using_elgato: Ja
+phone_rep: Nein
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Herbert Filip
+email: filip.herbert@gmail.com
+product_family: EyeTV DTT Deluxe
+problem_specifics: Signal
+product_name: 2009 Edition
+problem_specifics2: Signal Stärke/Qualitäts-Problem
+subject: Hardwaredefekt?
+message: Sehr geehrte Damen und Herren,
+
+ich habe das EyeTV DTT Deluxe erworben und nun habe ich hin und wieder keine und hin und wieder 4 quellen.
+Vor einem Monat hatte ich noch über 20.
+
+Nun habe ich verschiedene Antennenpositionen ausprobiert (früher war das egal), aber es hat alles ncihts geholfen.
+Durch zufall habe ich den USB stecker etwas fester gehalten (leicht gequetscht) und hatte wieder fast alle 20 Quellen.
+Ich wolle ihn nicht öffnen um zu sehen, ob da irgendetwas im inneren ist.
+
+Können Sie mir da weiterhelfen? Es schaut irgendwie nach einer kalten Lötstelle aus. Wie kann ich mein Problem etwas eingrenzen, oder haben sie da vielleicht Ideen?
+
+Danke Filip
+
+
+---------------------
+
+
+language: de
+computer_model: MacBook1,1
+os_version: 10.6.5
+operating_system: Mac OS X
+country: DE
+software_product: EyeTV 3
+salutation: Dr.
+using_elgato: Ja
+phone_rep: Nein
+product_manufacturer: Elgato
+full_name: Friderike Fornoff
+email: fornoff@med.uni-frankfurt.de
+product_family: EyeTV DTT Deluxe
+problem_specifics: Signal
+product_name: 2008 Edition
+problem_specifics2: Kein Signal
+subject: Fehlermeldung: Das Gerät konnte nicht initialisiert werden
+message: Hallo, 
+seit einiger zeit kommt bei mir o.g. Fehlermeldung beim Starten von EyeTv.
+Ich meine es ist nach der installation von Snow Leopard auf meinem Rechner aufgetreten. 
+Ich habe alles probiert, was auf ihrer support-Seite steht. ich habe auch einmal das komplette Programm gelöscht und neu installiert.
+Die Fehlermeldung aber bleibt.
+
+
+wo kann ich die Datei über zur Info über meinen Mac anhängen??
+
+
+---------------------
+
+
+language: de
+computer_model: iMac 27 "
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+using_elgato: Ja
+phone_rep: Nein
+country: CH
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Max Kulzer
+email: mkulzer@intergga.ch
+product_family: EyeTV 250 Plus
+problem_specifics: Anwendungs-Verhalten
+product_name: International
+problem_specifics2: EyeTV startet nicht
+subject: Ärger 
+message: Guten Tag, 
+1. ich ärgere mich, dass ich sehr oft gezwungen werde, den Riesen-Freischaltcode neu einzugeben. Ich sehe keinen Grund dafür. Wenn ich Glück habe, funktionierts dann wieder und die Sender werden wieder angezeigt. 
+
+2. Ärger: von Zeit zu Zeit startet EyeTV überhaupt nicht. Auch wenn ich die Kabelanschlüsse herausziehe und nach einer gewissen Zeit wieder einstecke. Ich bekomme die Meldung, dass kein EyeTV angeschlossen wäre. Da ich keine Zeit hatte, wieder 100 Versuche zu machen, liess ich es einfach sein und plötzlich nach 2 Wochen, war wieder alles da, ohne dass ich etwas getan hätte. 
+Inzwischen aber ist EyeTV wieder einmal nicht da. Ich habe schon zwei Sendungen, die ich programmiert hatte, verloren, da EyeTV offenbar kein Signal sendete. 
+
+3. Im Augenblick bin ich wieder soweit, dass ich den Freischaltcode eingeben muss, damit das Programm angezeigt wird. Ich mache das, komme aber dann nicht weiter, da die Meldung kommt, kein EyeTV angeschlossen. Ich habe die Stecker wieder herausgezogen und neu verkabelt. Ich verbringe meine Freizeit mit EyeTV Versuchen. Toll 
+
+
+Mit freundlichen Grüssen,
+Max Kulzer
+
+Sägeweg 2
+4147 Aesch
+mkulzer@intergga.ch
+
+
+
+
+---------------------
+
+
+language: de
+using_elgato: Nein
+phone_rep: Nein
+country: DE
+salutation: Herr
+product_presale: Andere Fragen
+full_name: Kappmeyer
+email: dkappmeyer@me.com
+subject: Netstream SAT
+message: Hallo,
+
+würde gerne den Netstream SAT in meinem Netzwerk in Verbindung mit dem neuen Apple TV einsetzten. Bitte um Info ob schon möglich, ggf. was möglich wäre? Habe bereits 3 USB-SAT-Empfänger für Mac von Elgato im Einsatz und bin sehr zufrieden, bis auf gelegentliches Stocken des Bildes. Danke für schnelle Info :-) MfG
+
+
+---------------------
+
+
+language: de
+computer_model: Macaintosh
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Sebastian Schaak
+email: sschaak@gmx.de
+product_family: EyeTV 250 Plus
+problem_specifics: Andere
+product_name: International
+subject: EyeTV 250 Plus Netzteil
+message: Hallo, ich besitze ein EyeTV250Plus aber weiß derzeit nicht welches Netzteil das richtige zu dem Gerät ist. Im Internet habe ich gelesen ein 5V 2A wird gebraucht; Mir ist jedoch so dass ich ein 5V 1,2 A dazu bekommen hätte. Bitte um Netzteilnummer und Werten.
+Mit freundlichen Grüßen
+Sebastian Schaak
+
+
+---------------------
+
+
+language: de; __utma
+computer_model: iMac 11,1
+os_version: aktuellste
+operating_system: Mac OS X
+using_elgato: Yes
+phone_rep: No
+salutation: Mr.
+country: DE
+product_manufacturer: Elgato
+software_product: EyeTV 3
+full_name: Tobias Stehle
+email: t.stehle@me.com
+product_family: EyeTV Hybrid
+problem_specifics: Setup Issues
+product_name: 2008 Edition DVB-T/PAL
+subject: USB und EyeTV frieren ein
+message: EyeTv lässt sich nicht wirklich beenden USB nimmt nur noch "angemeldete" Geräte an (Maus, Tastatur) iPhone etc. nicht mehr.
+
+Bis jetzt Reboot zum fixen nötig
+
+hier die prozess analyse:
+
+
+Sampling process 97296 for 3 seconds with 1 millisecond of run time between samples
+Sampling completed, processing symbols...
+Analysis of sampling EyeTV (pid 97296) every 1 millisecond
+Process: EyeTV [97296]
+Path: /Applications/EyeTV.app/Contents/MacOS/EyeTV
+Load Address: 0x1000
+Identifier: com.elgato.eyetv
+Version: 3.4.3 (6306) (3.4.3 (6306))
+Build Info: EyeTV-6306~6306
+Code Type: X86 (Native)
+Parent Process: launchd [168]
+
+Date/Time: 2010-11-29 09:49:10.801 +0100
+OS Version: Mac OS X 10.6.5 (10H574)
+Report Version: 6
+
+Call graph:
+ 2574 Thread_1009755 DispatchQueue_1: com.apple.main-thread (serial)
+ 2574 0xd2d6
+ 2574 0x299f9
+ 2574 0x2988b
+2574 0x49f1a
+ 2574 0x10589
+ 2574 0x4a518
+ 2574 WaitNextEvent
+ 2574 WNEInternal
+ 2574 GetNextEventMatchingMask
+ 2574 RunCurrentEventLoopInMode
+ 2574 CFRunLoopRunInMode
+ 2574 CFRunLoopRunSpecific
+ 2574 __CFRunLoopRun
+ 2574 0x59139
+ 2574 0x75263
+ 2574 0x751e8
+ 2574 0x74dd1
+ 2574 0xa9e61
+ 2574 0x4adaf
+ 2574 0x4ade8
+ 2574 0x4adaf
+ 2574 0x1a3b9
+ 2574 0x1efe9
+ 2574 0x146eda
+ 2574 0x1473e9
+ 2574 0x147a7d
+ 2574 0x1478ef
+ 2574 0x73650
+ 2574 0x71bdd
+ 2574 IOCreatePlugInInterfaceForService
+ 2574 IOUSBDeviceClass::start(__CFDictionary const*, unsigned int)
+ 2574 IOServiceOpen
+ 2574 io_service_open_extended
+ 2574 mach_msg
+ 2574 mach_msg_trap
+ 2574 Thread_1009760 DispatchQueue_2: com.apple.libdispatch-manager (serial)
+ 2574 start_wqthread
+ 2574 _pthread_wqthread
+ 2574 _dispatch_worker_thread2
+ 2574 _dispatch_queue_invoke
+ 2574 _dispatch_mgr_invoke
+ 2574 kevent
+ 2574 Thread_1009766: com.apple.CFSocket.private
+ 2574 thread_start
+ 2574 _pthread_start
+ 2574 __CFSocketManager
+ 2574 select$DARWIN_EXTSN
+ 2574 Thread_1009767
+ 2574 thread_start
+ 2574 _pthread_start
+ 2574 0x1b35ee
+ 2574 0x92457f
+ 2574 0xadac03
+ 2574 select$DARWIN_EXTSN
+ 2574 Thread_1009779
+ 2574 thread_start
+ 2574 _pthread_start
+ 2574 0x10835a
+ 2574 0x5e477
+ 2574 0x4673a7
+ 2574 0x32913
+ 2574 0x108b72
+ 2574 0x108b04
+ 2574 0x107e0a
+ 2574 0x10a6d7
+ 2574 0x10a436
+ 2574 pthread_cond_timedwait$UNIX2003
+ 2574 _pthread_cond_wait
+ 2574 __semwait_signal
+ 2574 Thread_1009780
+ 2574 thread_start
+ 2574 _pthread_start
+ 2574 0x10835a
+ 2574 0x5e477
+ 2574 0x467000
+ 2574 0x108b72
+ 2574 0x108b04
+ 2574 0x107e0a
+ 2574 0x10a6d7
+ 2574 0x10a363
+ 2574 pthread_cond_wait$UNIX2003
+ 2574 _pthread_cond_wait
+ 2574 __semwait_signal
+ 2214 Thread_1010529
+ 2214 start_wqthread
+ 2214 _pthread_wqthread
+ 2214 __workq_kernreturn
+
+Total number in stack (recursive counted multiple, when >=5):
+
+Sort by top of stack, same collapsed (when >= 5):
+ __semwait_signal 5148
+ select$DARWIN_EXTSN 5148
+ kevent 2574
+ mach_msg_trap 2574
+ __workq_kernreturn 2214
+
+Binary Images:
+ 0x1000 - 0xf7effa +com.elgato.eyetv 3.4.3 (6306) (3.4.3 (6306)) <F1E4B28B-D589-9D6C-FEA9-C62B045CFD45> /Applications/EyeTV.app/Contents/MacOS/EyeTV
+ 0x13b9000 - 0x13befff com.apple.FWAUserLib 2.5.9 (2.5.9fc4) <3852A468-94F7-E0E0-CA90-3B5C2D6AEF7B> /System/Library/Frameworks/FWAUserLib.framework/Versions/A/FWAUserLib
+ 0x13c4000 - 0x1479fe7 libcrypto.0.9.7.dylib 0.9.7 (compatibility 0.9.7) <0B69B1F5-3440-B0BF-957F-E0ADD49F13CB> /usr/lib/libcrypto.0.9.7.dylib
+ 0x14bf000 - 0x14c8fe3 +com.elgato.framework.hdhomerun 1.0 (1.0) <7B6901A3-F160-E5EE-F438-A8A8E634494B> /Applications/EyeTV.app/Contents/Frameworks/hdhomerun.framework/Versions/A/hdhomerun
+ 0x14d0000 - 0x1530fe7 +com.elgato.RTP ??? (1.0) <88B4C00F-AB26-860B-6730-66F3B0D90069> /Applications/EyeTV.app/Contents/Frameworks/RTP.framework/Versions/A/RTP
+ 0x1589000 - 0x158dfff +libJsonLib.dylib ??? (???) <CE5987BD-064B-2B5B-8A2A-7B027096E096> /Applications/EyeTV.app/Contents/Frameworks/libJsonLib.dylib
+ 0x1596000 - 0x15a3fff +de.codingmonkeys.TCMPortMapper ??? (1.3.1) <979A2D38-D638-92B7-F57C-D122215B8F0F> /Applications/EyeTV.app/Contents/Frameworks/TCMPortMapper.framework/Versions/A/TCMPortMapper
+ 0x15b2000 - 0x15d0fe7 +com.elgato.ESStreamingKit ??? (1.0) <9CFBA9D6-0851-34C8-FF34-EC7FB77B02FA> /Applications/EyeTV.app/Contents/Frameworks/ESStreamingKit.framework/Versions/A/ESStreamingKit
+ 0x15e1000 - 0x1607fff libssl.0.9.7.dylib 0.9.7 (compatibility 0.9.7) <32607000-7573-6D51-ABC3-420B4A0D6629> /usr/lib/libssl.0.9.7.dylib
+ 0x27c6000 - 0x27caff3 com.apple.audio.AudioIPCPlugIn 1.1.6 (1.1.6) <F402CF88-D96C-42A0-3207-49759F496AE8> /System/Library/Extensions/AudioIPCDriver.kext/Contents/Resources/AudioIPCPlugIn.bundle/Contents/MacOS/AudioIPCPlugIn
+0x184d6000 - 0x184d9ff3 +com.divx.divxtoolkit 1.0 (1.0) <00010203-0405-0607-0809-0A0B0C0D0E0F> /Library/Frameworks/DivX Toolkit.framework/Versions/A/DivX Toolkit
+0x184f4000 - 0x184faffb com.apple.audio.AppleHDAHALPlugIn 1.9.9 (1.9.9f12) <82BFF5E9-2B0E-FE8B-8370-445DD94DA434> /System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAHALPlugIn.bundle/Contents/MacOS/AppleHDAHALPlugIn
+0x18700000 - 0x18755fdf +com.DivXInc.DivXDecoder 6.8.3.5 (6.8.3.5) <00010203-0405-0607-0809-0A0B0C0D0E0F> /Library/QuickTime/DivX Decoder.component/Contents/MacOS/DivX Decoder
+0x19100000 - 0x192e2ff7 +com.elgato.mpegsupport EyeTV MPEG Support 1.2 (build 55) (1.2) <C4AC2554-D002-42C5-01C4-4F6C286BDC58> /Library/QuickTime/EyeTV MPEG Support.component/Contents/MacOS/EyeTV MPEG Support
+0x19bed000 - 0x19bf5ff7 com.apple.iokit.IOUSBLib 4.1.5 (4.1.5) <FC37BC4D-907E-DCC6-70D0-58665757BA89> /System/Library/Extensions/IOUSBFamily.kext/Contents/PlugIns/IOUSBLib.bundle/Contents/MacOS/IOUSBLib
+0x19e00000 - 0x19f78fe7 GLEngine ??? (???) <A4BBE58C-1211-0473-7B78-C3BA7AC29C9B> /System/Library/Frameworks/OpenGL.framework/Resources/GLEngine.bundle/GLEngine
+0x19faa000 - 0x19fcefe7 GLRendererFloat ??? (???) <EFE5EC6D-74B2-37A2-92E4-526A2EF6B791> /System/Library/Frameworks/OpenGL.framework/Resources/GLRendererFloat.bundle/GLRendererFloat
+0x1a593000 - 0x1a991ffb com.apple.ATIRadeonX2000GLDriver 1.6.24 (6.2.4) <042F3E40-8B13-DE60-E89A-95091B4E1D78> /System/Library/Extensions/ATIRadeonX2000GLDriver.bundle/Contents/MacOS/ATIRadeonX2000GLDriver
+0x8fe00000 - 0x8fe4162b dyld 132.1 (???) <A4F6ADCC-6448-37B4-ED6C-ABB2CD06F448> /usr/lib/dyld
+0x90025000 - 0x90065ff3 com.apple.securityinterface 4.0.1 (37214) <83E87779-530F-4D6A-4D42-0A9860D054D2> /System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+0x9010e000 - 0x9011fff7 com.apple.LangAnalysis 1.6.6 (1.6.6) <97511CC7-FE23-5AC3-2EE2-B5479FAEB316> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+0x90153000 - 0x90230ff7 com.apple.vImage 4.0 (4.0) <64597E4B-F144-DBB3-F428-0EC3D9A1219E> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
+0x90231000 - 0x90263fe3 libTrueTypeScaler.dylib ??? (???) <6E9D1A50-330E-F1F4-F93D-9ECC8A61B21A> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libTrueTypeScaler.dylib
+0x90264000 - 0x902ffff7 com.apple.ApplicationServices.ATS 4.4 (???) <ECB16606-4DF8-4AFB-C91D-F7947C26040F> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+0x90300000 - 0x90377ff3 com.apple.backup.framework 1.2.2 (1.2.2) <FE4C6311-EA63-15F4-2CF7-04CF7734F434> /System/Library/PrivateFrameworks/Backup.framework/Versions/A/Backup
+0x90378000 - 0x9037fff7 com.apple.agl 3.0.12 (AGL-3.0.12) <6877F0D8-0DCF-CB98-5304-913667FF50FA> /System/Library/Frameworks/AGL.framework/Versions/A/AGL
+0x903a8000 - 0x90412fe7 libstdc++.6.dylib 7.9.0 (compatibility 7.0.0) <411D87F4-B7E1-44EB-F201-F8B4F9227213> /usr/lib/libstdc++.6.dylib
+0x90418000 - 0x90448ff7 com.apple.MeshKit 1.1 (49.2) <ECFBD794-5D36-4405-6184-5568BFF29BF3> /System/Library/PrivateFrameworks/MeshKit.framework/Versions/A/MeshKit
+0x90449000 - 0x9045bff7 com.apple.MultitouchSupport.framework 207.10 (207.10) <E1A6F663-570B-CE54-0F8A-BBCCDECE3B42> /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+0x90488000 - 0x908bdff7 libLAPACK.dylib 219.0.0 (compatibility 1.0.0) <5E2D2283-57DE-9A49-1DB0-CD027FEFA6C2> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
+0x90a59000 - 0x90a98ff7 com.apple.ImageCaptureCore 1.0.3 (1.0.3) <7E02D104-F31C-CF72-71B4-DA5DF7B48337> /System/Library/Frameworks/ImageCaptureCore.framework/Versions/A/ImageCaptureCore
+0x90b11000 - 0x90b42ff7 libGLImage.dylib ??? (???) <78F59EAB-BBD4-7366-CA84-970547501978> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib
+0x90b43000 - 0x90b4cff7 com.apple.DiskArbitration 2.3 (2.3) <E9C40767-DA6A-6CCB-8B00-2D5706753000> /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+0x90b4d000 - 0x90b50ffb com.apple.help 1.3.1 (41) <EF92C648-2085-C085-8EA7-A1AF37AE94F4> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help
+0x90b51000 - 0x90b54ff7 libCoreVMClient.dylib ??? (???) <1F738E81-BB71-32C5-F1E9-C1302F71021C> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib
+0x90d17000 - 0x90d86ff7 libvMisc.dylib 268.0.1 (compatibility 1.0.0) <2FC2178F-FEF9-6E3F-3289-A6307B1A154C> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
+0x90d87000 - 0x90d87ff7 com.apple.Accelerate.vecLib 3.6 (vecLib 3.6) <1DEC639C-173D-F808-DE0D-4070CC6F5BC7> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
+0x90dae000 - 0x911c4ff7 libBLAS.dylib 219.0.0 (compatibility 1.0.0) <C4FB303A-DB4D-F9E8-181C-129585E59603> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+0x911c5000 - 0x913a0ff3 libType1Scaler.dylib ??? (???) <A7AB841A-3F40-E0B8-ADDD-44014C7287C9> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libType1Scaler.dylib
+0x913a1000 - 0x913deff7 com.apple.CoreMedia 0.484.20 (484.20) <105DDB24-E45F-5473-99E1-B09FDEAE4500> /System/Library/PrivateFrameworks/CoreMedia.framework/Versions/A/CoreMedia
+0x913ef000 - 0x9142dff7 com.apple.QuickLookFramework 2.3 (327.6) <66955C29-0C99-D02C-DB18-4952AFB4E886> /System/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook
+0x91475000 - 0x91489fe7 libbsm.0.dylib ??? (???) <821E415B-6C42-D359-78FF-E892792F8C52> /usr/lib/libbsm.0.dylib
+0x914cb000 - 0x91539ff7 com.apple.QuickLookUIFramework 2.3 (327.6) <74706A08-5399-24FE-00B2-4A702A6B83C1> /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI
+0x9153a000 - 0x91555ff7 libPng.dylib ??? (???) <E14178E0-B92D-94EA-DACB-04F346D7534C> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib
+0x91556000 - 0x91575ff7 com.apple.CoreVideo 1.6.2 (45.6) <EB53CAA4-5EE2-C356-A954-5775F7DDD493> /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+0x91576000 - 0x91fc1ff7 com.apple.WebCore 6533.19 (6533.19.4) <DFCF1BC1-8BF3-E13E-F11B-C98CB36560FD> /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore
+0x91fc2000 - 0x9203dfff com.apple.AppleVAFramework 4.10.12 (4.10.12) <89C4EBE2-FE27-3160-0BD1-D0C2ED5F3605> /System/Library/PrivateFrameworks/AppleVA.framework/Versions/A/AppleVA
+0x9203e000 - 0x92064ffb com.apple.DictionaryServices 1.1.2 (1.1.2) <43E1D565-6E01-3681-F2E5-72AE4C3A097A> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+0x92089000 - 0x922fcfe7 com.apple.Foundation 6.6.4 (751.42) <ACC0BAEB-C590-7052-3AB2-86C207C3D6D4> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+0x922fd000 - 0x9261dff3 com.apple.CoreServices.CarbonCore 861.23 (861.23) <B08756E4-32C5-CC33-0268-7C00A5ED7537> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+0x9295c000 - 0x9297efef com.apple.DirectoryService.Framework 3.6 (621.9) <F2EEE9D7-D4FB-14F3-E647-ABD32754F557> /System/Library/Frameworks/DirectoryService.framework/Versions/A/DirectoryService
+0x9297f000 - 0x92aabffb com.apple.MediaToolbox 0.484.20 (484.20) <D67788A2-B772-C5DB-B12B-173B2F8EE40B> /System/Library/PrivateFrameworks/MediaToolbox.framework/Versions/A/MediaToolbox
+0x92ad7000 - 0x92ae5fe7 libz.1.dylib 1.2.3 (compatibility 1.0.0) <3CE8AA79-F077-F1B0-A039-9103A4A02E92> /usr/lib/libz.1.dylib
+0x92ae6000 - 0x92c8dff7 libSystem.B.dylib 125.2.1 (compatibility 1.0.0) <62291026-D016-705D-DC1E-FC2B09D47DE5> /usr/lib/libSystem.B.dylib
+0x92c8e000 - 0x92d08fff com.apple.audio.CoreAudio 3.2.6 (3.2.6) <F7C9B01D-45AD-948B-2D26-9736524C1A33> /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+0x92e51000 - 0x92f55fe7 libcrypto.0.9.8.dylib 0.9.8 (compatibility 0.9.8) <BDEFA030-5E75-7C47-2904-85AB16937F45> /usr/lib/libcrypto.0.9.8.dylib
+0x92f56000 - 0x92f89ff7 com.apple.AE 496.4 (496.4) <7F34EC47-8429-3077-8158-54F5EA908C66> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+0x92f8a000 - 0x92fe4fe7 com.apple.CorePDF 1.3 (1.3) <696ADD5F-C038-A63B-4732-82E4109379D7> /System/Library/PrivateFrameworks/CorePDF.framework/Versions/A/CorePDF
+0x92fe5000 - 0x93065feb com.apple.SearchKit 1.3.0 (1.3.0) <2F5DE102-A203-7905-7D12-FCBCF17BAEF8> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+0x93066000 - 0x93071ff7 libGL.dylib ??? (???) <48405993-0AE9-292B-6705-C3525528682A> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+0x9315c000 - 0x93162fff com.apple.CommonPanels 1.2.4 (91) <2438AF5D-067B-B9FD-1248-2C9987F360BA> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels
+0x93163000 - 0x931a0ff7 com.apple.SystemConfiguration 1.10.5 (1.10.2) <362DF639-6E5F-9371-9B99-81C581A8EE41> /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+0x931a1000 - 0x93383fff com.apple.imageKit 2.0.3 (1.0) <B4DB05F7-01C5-35EE-7AB9-41BD9D63F075> /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/ImageKit.framework/Versions/A/ImageKit
+0x93384000 - 0x93493fe7 com.apple.WebKit 6533.19 (6533.19.4) <A942073C-83DF-33ED-3D01-A24DE8AEAB3D> /System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+0x93494000 - 0x93496ff7 libRadiance.dylib ??? (???) <10048B4A-2AE8-A4E2-21B8-C6E7A8C5B76F> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib
+0x93497000 - 0x9349aff7 libCGXType.A.dylib 545.0.0 (compatibility 64.0.0) <B624AACE-991B-0FFA-2482-E69970576CE1> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCGXType.A.dylib
+0x934ba000 - 0x934c8ff7 com.apple.opengl 1.6.11 (1.6.11) <286D1BC4-4CD8-3CD4-F723-5C196FE15FE0> /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+0x934c9000 - 0x934ddffb com.apple.speech.synthesis.framework 3.10.35 (3.10.35) <0DBE17D5-17A2-8A0E-8572-5A78408B41C9> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+0x934de000 - 0x934e2ff7 IOSurface ??? (???) <D849E1A5-6B0C-2A05-2765-850EC39BA2FF> /System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+0x934e3000 - 0x93dc3ff7 com.apple.AppKit 6.6.7 (1038.35) <ABC7783C-E4D5-B848-BED6-99451D94D120> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+0x93dc4000 - 0x940e8fef com.apple.HIToolbox 1.6.3 (???) <0A5F56E2-9AF3-728D-70AE-429522AEAD8A> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+0x94125000 - 0x941d5ff3 com.apple.ColorSync 4.6.3 (4.6.3) <AA1076EA-7665-3005-A837-B661260DBE54> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+0x941fd000 - 0x9424dff7 com.apple.framework.familycontrols 2.0.1 (2010) <B9762E20-543D-13B9-F6BF-E8585F04CA01> /System/Library/PrivateFrameworks/FamilyControls.framework/Versions/A/FamilyControls
+0x9424e000 - 0x94252ff7 libGIF.dylib ??? (???) <DA5758A4-71B0-DD6E-7402-B7FB15387569> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib
+0x94430000 - 0x94450fe7 libresolv.9.dylib 41.0.0 (compatibility 1.0.0) <751955F3-21FB-A03A-4E92-1F3D4EFB8C5B> /usr/lib/libresolv.9.dylib
+0x94451000 - 0x946b4fef com.apple.security 6.1.1 (37594) <1949216A-7583-B73A-6112-4D55CA5852E3> /System/Library/Frameworks/Security.framework/Versions/A/Security
+0x946b5000 - 0x94737ffb SecurityFoundation ??? (???) <3670AE8B-06DA-C447-EB14-79423DB9C474> /System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+0x94738000 - 0x94759fe7 com.apple.opencl 12.3 (12.3) <DEA600BF-4F54-66B5-DB2F-DC57FD518543> /System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL
+0x9475a000 - 0x9479dff7 libGLU.dylib ??? (???) <F8580594-0B38-F3ED-A715-CB3776B747A0> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+0x94893000 - 0x94a90ff7 com.apple.JavaScriptCore 6533.19 (6533.19.1) <85A6BFDD-CBB6-7490-748D-8EA8B9B7FDD8> /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+0x94b86000 - 0x94bcdffb com.apple.CoreMediaIOServices 133.0 (1158) <150A5F22-E7EC-9E8E-3B68-BAD75280EFC3> /System/Library/PrivateFrameworks/CoreMediaIOServices.framework/Versions/A/CoreMediaIOServices
+0x94bce000 - 0x94c78fe7 com.apple.CFNetwork 454.11.5 (454.11.5) <D8963574-285A-3BD6-6B25-07D39C6F67A4> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+0x94c79000 - 0x94c80ff3 com.apple.print.framework.Print 6.1 (237.1) <F5AAE53D-5530-9004-A9E3-2C1690C5328E> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print
+0x94c81000 - 0x95bd3fef com.apple.QuickTimeComponents.component 7.6.6 (1756) <00010203-0405-0607-0809-0A0B0C0D0E0F> /System/Library/QuickTime/QuickTimeComponents.component/Contents/MacOS/QuickTimeComponents
+0x95c4a000 - 0x95c71ff7 com.apple.quartzfilters 1.6.0 (1.6.0) <879A3B93-87A6-88FE-305D-DF1EAED04756> /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzFilters.framework/Versions/A/QuartzFilters
+0x95c72000 - 0x95c8efe3 com.apple.openscripting 1.3.1 (???) <DE20A1B9-F9B6-697C-B533-F5869BA43077> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting
+0x95ca3000 - 0x95ca3ff7 com.apple.ApplicationServices 38 (38) <8012B504-3D83-BFBB-DA65-065E061CFE03> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+0x95ca4000 - 0x9615dffb com.apple.VideoToolbox 0.484.20 (484.20) <E7B9F015-2569-43D7-5268-375ED937ECA5> /System/Library/PrivateFrameworks/VideoToolbox.framework/Versions/A/VideoToolbox
+0x9615e000 - 0x9616eff7 libsasl2.2.dylib 3.15.0 (compatibility 3.0.0) <C8744EA3-0AB7-CD03-E639-C4F2B910BE5D> /usr/lib/libsasl2.2.dylib
+0x9616f000 - 0x96179fe7 com.apple.audio.SoundManager 3.9.3 (3.9.3) <5F494955-7290-2D91-DA94-44B590191771> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/CarbonSound
+0x9617a000 - 0x9617aff7 liblangid.dylib ??? (???) <B99607FC-5646-32C8-2C16-AFB5EA9097C2> /usr/lib/liblangid.dylib
+0x9617b000 - 0x961b4ff7 libcups.2.dylib 2.8.0 (compatibility 2.0.0) <D6F24434-8217-DF72-2126-1953080680D7> /usr/lib/libcups.2.dylib
+0x961b5000 - 0x962e4fe3 com.apple.audio.toolbox.AudioToolbox 1.6.5 (1.6.5) <0A0F68E5-4806-DB51-764B-D97554B801AD> /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+0x962e5000 - 0x963affef com.apple.CoreServices.OSServices 357 (357) <CF9530AD-F581-B831-09B6-16D9F9283BFA> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+0x963c6000 - 0x9640ffe7 libTIFF.dylib ??? (???) <AC1FC806-F7F4-174B-375F-FE5D6008666C> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib
+0x96410000 - 0x96447fe7 libssl.0.9.8.dylib 0.9.8 (compatibility 0.9.8) <7DCB5938-3140-E71A-92BD-8C242F30C8F5> /usr/lib/libssl.0.9.8.dylib
+0x9648b000 - 0x964efffb com.apple.htmlrendering 72 (1.1.4) <4D451A35-FAB6-1288-71F6-F24A4B6E2371> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HTMLRendering.framework/Versions/A/HTMLRendering
+0x96657000 - 0x966f4fe3 com.apple.LaunchServices 362.1 (362.1) <885D8567-9E40-0105-20BC-42C7FF657583> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+0x966f5000 - 0x966faff7 com.apple.OpenDirectory 10.6 (10.6) <C1B46982-7D3B-3CC4-3BC2-3E4B595F0231> /System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+0x96702000 - 0x96702ff7 com.apple.quartzframework 1.5 (1.5) <CEB78F00-C5B2-3B3F-BF70-DD6D578719C0> /System/Library/Frameworks/Quartz.framework/Versions/A/Quartz
+0x96703000 - 0x96804fe7 libxml2.2.dylib 10.3.0 (compatibility 10.0.0) <89E648DC-E865-0AF4-5D4D-9562458FE939> /usr/lib/libxml2.2.dylib
+0x96805000 - 0x9687eff7 com.apple.PDFKit 2.5.1 (2.5.1) <CEF13510-F08D-3177-7504-7F8853906DE6> /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/PDFKit.framework/Versions/A/PDFKit
+0x9687f000 - 0x96889ffb com.apple.speech.recognition.framework 3.11.1 (3.11.1) <45083DBA-5EA4-9B90-8BEB-A089E515180F> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition
+0x9688a000 - 0x96b83fef com.apple.QuickTime 7.6.6 (1756) <F08B13B6-31D7-BD18-DA87-A0CDFCF13B8F> /System/Library/Frameworks/QuickTime.framework/Versions/A/QuickTime
+0x96b84000 - 0x96bbffeb libFontRegistry.dylib ??? (???) <4FB144ED-8AF9-27CF-B315-DCE5575D5231> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib
+0x96bc0000 - 0x96c79fe7 libsqlite3.dylib 9.6.0 (compatibility 9.0.0) <52438E77-55D1-C231-1936-76F1369518E4> /usr/lib/libsqlite3.dylib
+0x96c7a000 - 0x96c85ff7 com.apple.CrashReporterSupport 10.6.5 (252) <1781CBE9-F2F4-0272-B434-124250CD48B5> /System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+0x96cbd000 - 0x96cc1ff7 libGFXShared.dylib ??? (???) <C3A805C4-C0E5-B300-430A-7E811395CB8E> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib
+0x96cc2000 - 0x96dc4fef com.apple.MeshKitIO 1.1 (49.2) <34322CDD-E67E-318A-F03A-A3DD05201046> /System/Library/PrivateFrameworks/MeshKit.framework/Versions/A/Frameworks/MeshKitIO.framework/Versions/A/MeshKitIO
+0x96dc5000 - 0x96dd2ff7 com.apple.NetFS 3.2.1 (3.2.1) <1F28472D-9913-B8CE-B025-BBA52372F568> /System/Library/Frameworks/NetFS.framework/Versions/A/NetFS
+0x96e06000 - 0x96f12ff7 libGLProgrammability.dylib ??? (???) <8B308FAE-843F-EE76-0254-3374CBFFA7B3> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib
+0x96f13000 - 0x96f13ff7 com.apple.Cocoa 6.6 (???) <EA27B428-5904-B00B-397A-185588698BCC> /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+0x96f14000 - 0x970cdfeb com.apple.ImageIO.framework 3.0.4 (3.0.4) <C145139E-24C4-5A3D-B17C-809D528354B2> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/ImageIO
+0x970ce000 - 0x97106ff7 com.apple.LDAPFramework 2.0 (120.1) <001A70A8-3984-8E19-77A8-758893CC128C> /System/Library/Frameworks/LDAP.framework/Versions/A/LDAP
+0x97107000 - 0x971b7fe3 com.apple.QuickTimeImporters.component 7.6.6 (1756) <9276DEF5-B027-75CD-A0EB-69709F903196> /System/Library/QuickTime/QuickTimeImporters.component/Contents/MacOS/QuickTimeImporters
+0x971b8000 - 0x97266ff3 com.apple.ink.framework 1.3.3 (107) <57B54F6F-CE35-D546-C7EC-DBC5FDC79938> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink
+0x97267000 - 0x9731dff7 libFontParser.dylib ??? (???) <33F62EE1-E457-C6FD-369E-E86745B94A4B> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontParser.dylib
+0x97337000 - 0x97408fe3 ColorSyncDeprecated.dylib 4.6.0 (compatibility 1.0.0) <8FDB4C40-D453-DA53-2A66-9A53998AB23C> /System/Library/Frameworks/ApplicationServices.framework/Frameworks/ColorSync.framework/Versions/A/Resources/ColorSyncDeprecated.dylib
+0x97409000 - 0x9746afe7 com.apple.CoreText 3.5.0 (???) <BB50C045-25F5-65B8-B1DB-8CDAEF45EB46> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreText.framework/Versions/A/CoreText
+0x97479000 - 0x974d1fe7 com.apple.datadetectorscore 2.0 (80.7) <18C2FB6A-BF60-F838-768C-0306151C21DA> /System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/DataDetectorsCore
+0x97542000 - 0x97593ff7 com.apple.HIServices 1.8.1 (???) <51BDD848-32A5-2425-BE07-BD037A89630A> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+0x97594000 - 0x975a4ff7 com.apple.DSObjCWrappers.Framework 10.6 (134) <81A0B409-3906-A98F-CA9B-A49E75007495> /System/Library/PrivateFrameworks/DSObjCWrappers.framework/Versions/A/DSObjCWrappers
+0x975b2000 - 0x975fffeb com.apple.DirectoryService.PasswordServerFramework 6.0 (6.0) <52906E26-3D22-6F37-8C90-E50BBCDEA5D0> /System/Library/PrivateFrameworks/PasswordServer.framework/Versions/A/PasswordServer
+0x976af000 - 0x976f2ff7 com.apple.NavigationServices 3.5.4 (182) <753B8906-06C0-3AE0-3D6A-8FF5AC18ED12> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework/Versions/A/NavigationServices
+0x976f3000 - 0x976f4ff7 com.apple.audio.units.AudioUnit 1.6.5 (1.6.5) <BE4C2495-B758-AD22-DCC0-56A6791E948E> /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit
+0x976f5000 - 0x97920ff3 com.apple.QuartzComposer 4.2 ({156.28}) <08AF01DC-110D-9443-3916-699DBDED0149> /System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuartzComposer.framework/Versions/A/QuartzComposer
+0x97921000 - 0x979c9ffb com.apple.QD 3.36 (???) <FA2785A4-BB69-DCB4-3BA3-7C89A82CAB41> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+0x979ca000 - 0x979cbff7 com.apple.TrustEvaluationAgent 1.1 (1) <8C570606-D77C-738E-7148-6B28846F0B3C> /System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent
+0x979cc000 - 0x979d4ff7 com.apple.DisplayServicesFW 2.3.0 (283) <48D94761-7340-D029-99E3-9BE0262FAF22> /System/Library/PrivateFrameworks/DisplayServices.framework/Versions/A/DisplayServices
+0x979d5000 - 0x97b57fe7 libicucore.A.dylib 40.0.0 (compatibility 1.0.0) <35DB7644-0780-D2AB-F6A9-45F28D2D434A> /usr/lib/libicucore.A.dylib
+0x97b58000 - 0x97d5ffeb com.apple.AddressBook.framework 5.0.3 (875) <759B660B-00F6-F08C-37CD-69468C774B5E> /System/Library/Frameworks/AddressBook.framework/Versions/A/AddressBook
+0x97d60000 - 0x97e97ff7 com.apple.CoreAUC 6.04.04 (6.04.04) <050D9D16-AAE7-3460-4318-8449574F26C7> /System/Library/PrivateFrameworks/CoreAUC.framework/Versions/A/CoreAUC
+0x97e98000 - 0x97edcfe7 com.apple.Metadata 10.6.3 (507.12) <8632684D-ED4C-4CE1-4C53-015DFF10D873> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+0x97edd000 - 0x97edfff7 com.apple.securityhi 4.0 (36638) <38D36D4D-C798-6ACE-5FA8-5C001993AD6B> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI
+0x97ee0000 - 0x97f8dfe7 libobjc.A.dylib 227.0.0 (compatibility 1.0.0) <3308DD74-5D03-6189-2AFD-63BF06848E91> /usr/lib/libobjc.A.dylib
+0x97f8e000 - 0x9877d557 com.apple.CoreGraphics 1.545.0 (???) <1AB39678-00D5-FB88-3B41-93D78348E0DE> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+0x9877e000 - 0x98ae9ff7 com.apple.QuartzCore 1.6.3 (227.34) <CC1C1631-D8D1-D416-171E-A1683274E479> /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+0x98aea000 - 0x98b2eff3 com.apple.coreui 2 (114) <29F8F1A4-1C96-6A0F-4CC2-9B85CF83209F> /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+0x98b3a000 - 0x98b3bff7 com.apple.MonitorPanelFramework 1.3.0 (1.3.0) <0EC4EEFF-477E-908E-6F21-ED2C973846A4> /System/Library/PrivateFrameworks/MonitorPanel.framework/Versions/A/MonitorPanel
+0x98b73000 - 0x98ceefe7 com.apple.CoreFoundation 6.6.4 (550.42) <C78D5079-663E-9734-7AFA-6CE79A0539F1> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+0x98cef000 - 0x98d4cff7 com.apple.framework.IOKit 2.0 (???) <A769737F-E0D6-FB06-29B4-915CF4F43420> /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+0x98d4d000 - 0x98d4dff7 com.apple.Carbon 150 (152) <9252D5F2-462D-2C15-80F3-109644D6F704> /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+0x98d9c000 - 0x99182ffb com.apple.RawCamera.bundle 3.4.1 (546) <557C094F-BF8D-B298-E502-C4EE78914C55> /System/Library/CoreServices/RawCamera.bundle/Contents/MacOS/RawCamera
+0x99183000 - 0x99183ff7 com.apple.CoreServices 44 (44) <51CFA89A-33DB-90ED-26A8-67D461718A4A> /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+0x99184000 - 0x991c6ff7 libvDSP.dylib 268.0.1 (compatibility 1.0.0) <3F0ED200-741B-4E27-B89F-634B131F5E9E> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+0x991c7000 - 0x991dcfff com.apple.ImageCapture 6.0.1 (6.0.1) <E7ED2AC1-834C-A44E-531E-EC05F0496DBF> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture
+0x991dd000 - 0x9926ffe7 com.apple.print.framework.PrintCore 6.3 (312.7) <7410D1B2-655D-68DA-D4B9-2C65747B6817> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+0x99270000 - 0x9939efe7 com.apple.CoreData 102.1 (251) <E6A457F0-A0A3-32CD-6C69-6286E7C0F063> /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+0x9939f000 - 0x993e0ff7 libRIP.A.dylib 545.0.0 (compatibility 64.0.0) <16DAE1A5-937A-1CA2-D98F-2AF958B62993> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib
+0x994dd000 - 0x994e0fe7 libmathCommon.A.dylib 315.0.0 (compatibility 1.0.0) <1622A54F-1A98-2CBE-B6A4-2122981A500E> /usr/lib/system/libmathCommon.A.dylib
+0x99538000 - 0x99538ff7 com.apple.vecLib 3.6 (vecLib 3.6) <7362077A-890F-3AEF-A8AB-22247B10E106> /System/Library/Frameworks/vecLib.framework/Versions/A/vecLib
+0x99616000 - 0x9966cff7 com.apple.MeshKitRuntime 1.1 (49.2) <F1EAE9EC-2DA3-BAFD-0A8C-6A3FFC96D728> /System/Library/PrivateFrameworks/MeshKit.framework/Versions/A/Frameworks/MeshKitRuntime.framework/Versions/A/MeshKitRuntime
+0x9966d000 - 0x99679ff7 libkxld.dylib ??? (???) <F0E915AD-6B32-0D5E-D24B-B188447FDD23> /usr/lib/system/libkxld.dylib
+0x9967a000 - 0x99692ff7 com.apple.CFOpenDirectory 10.6 (10.6) <F9AFC571-3539-6B46-ABF9-46DA2B608819> /System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory
+0x99693000 - 0x996b7ff7 libJPEG.dylib ??? (???) <46AF3A0F-2B8D-87B9-62D4-0905678A64DA> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib
+0x996b8000 - 0x99793feb com.apple.DesktopServices 1.5.9 (1.5.9) <CED00AC1-924B-0E45-7D5E-1CEA8929F5BE> /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+0x99794000 - 0x998d7fef com.apple.QTKit 7.6.6 (1756) <4D809734-4E1B-8E18-C825-86C5422FC3DC> /System/Library/Frameworks/QTKit.framework/Versions/A/QTKit
+0x998d8000 - 0x998d8ff7 com.apple.Accelerate 1.6 (Accelerate 1.6) <BC501C9F-7C20-961A-B135-0A457667D03C> /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+0x998d9000 - 0x9991fff7 libauto.dylib ??? (???) <29422A70-87CF-10E2-CE59-FEE1234CFAAE> /usr/lib/libauto.dylib
+0x99920000 - 0x99948ff7 libxslt.1.dylib 3.24.0 (compatibility 3.0.0) <769EF4B2-C1AD-73D5-AAAD-1564DAEA77AF> /usr/lib/libxslt.1.dylib
+0x99949000 - 0x99981fe7 libcurl.4.dylib 6.1.0 (compatibility 6.0.0) <242954AD-3BE1-29E8-E2E0-08063201F105> /usr/lib/libcurl.4.dylib
+0x99982000 - 0x99a1afe7 edu.mit.Kerberos 6.5.10 (6.5.10) <8B83AFF3-C074-E47C-4BD0-4546EED0D1BC> /System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos
+0x99a26000 - 0x99a31ff7 libCSync.A.dylib 545.0.0 (compatibility 64.0.0) <CB2510BD-A5B3-9D90-5917-C73F6ECAC913> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCSync.A.dylib
+0xffff0000 - 0xffff1fff libSystem.B.dylib ??? (???) <62291026-D016-705D-DC1E-FC2B09D47DE5> /usr/lib/libSystem.B.dylib
+Sample analysis of process 97296 written to file /dev/stdout
+
+Hier der Fehlerbericht:
+
+Date/Time: 2010-11-29 09:56:47 +0100
+OS Version: 10.6.5 (Build 10H574)
+Architecture: x86_64
+Report Version: 6
+
+Command: EyeTV
+Path: /Applications/EyeTV.app/Contents/MacOS/EyeTV
+Version: 3.4.3 (6306) (3.4.3 (6306))
+Build Version: 6306
+Project Name: EyeTV
+Source Version: 6306
+Parent: launchd [168]
+
+PID: 97296
+Event: hang
+Duration: 52.94s (sampling started after 2 seconds)
+Steps: 509 (100ms sampling interval)
+
+Pageins: 693
+Pageouts: 0
+
+
+Process: EyeTV [97296]
+Path: /Applications/EyeTV.app/Contents/MacOS/EyeTV
+UID: 501
+
+
+Process: 1PasswordAgent [198]
+Path: /Users/stehle/Library/Application Support/1Password/Agent/1PasswordAgent.app/Contents/MacOS/1PasswordAgent
+UID: 501
+
+
+Process: Activity Monitor [97303]
+Path: /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor
+UID: 501
+
+ Thread 1ccb0000 DispatchQueue 1
+ User stack:
+ 509 ??? (in Activity Monitor + 6996) [0x100001b54]
+ 509 NSApplicationMain + 364 (in AppKit) [0x7fff82d5f1a8]
+ 501 -[NSApplication run] + 395 (in AppKit) [0x7fff82d6648b]
+ 501 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 155 (in AppKit) [0x7fff82da07a9]
+ 500 _DPSNextEvent + 718 (in AppKit) [0x7fff82da0e64]
+ 500 BlockUntilNextEventMatchingListInMode + 59 (in HIToolbox) [0x7fff879835d8]
+ 500 ReceiveNextEventCommon + 310 (in HIToolbox) [0x7fff8798371f]
+ 500 RunCurrentEventLoopInMode + 333 (in HIToolbox) [0x7fff8798391a]
+ 500 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 472 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 472 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ 26 __CFRunLoopRun + 6488 (in CoreFoundation) [0x7fff862d4be8]
+ 26 __NSFireTimer + 114 (in Foundation) [0x7fff844768f5]
+ 26 ??? (in Activity Monitor + 38377) [0x1000095e9]
+ 26 ??? (in Activity Monitor + 39148) [0x1000098ec]
+ 26 ??? (in Activity Monitor + 39892) [0x100009bd4]
+ 26 ??? (in Activity Monitor + 41655) [0x10000a2b7]
+ 26 read + 10 (in libSystem.B.dylib) [0x7fff852849c6]
+ 1 __CFRunLoopRun + 468 (in CoreFoundation) [0x7fff862d3464]
+ 1 __CFRunLoopDoObservers + 519 (in CoreFoundation) [0x7fff862f7b37]
+ 1 _handleWindowNeedsDisplay + 678 (in AppKit) [0x7fff82dcba46]
+ 1 -[NSView displayIfNeeded] + 969 (in AppKit) [0x7fff82dd0b9a]
+ 1 -[NSView _displayRectIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView:] + 2683 (in AppKit) [0x7fff82e57362]
+ 1 -[NSThemeFrame _recursiveDisplayRectIfNeededIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView:topView:] + 254 (in AppKit) [0x7fff82e5aab0]
+ 1 -[NSView _recursiveDisplayRectIfNeededIgnoringOpacity:isVisibleRect:rectIsVisibleRectForView:topView:] + 2112 (in AppKit) [0x7fff82e5b4cf]
+ 1 -[NSView _drawRect:clip:] + 3566 (in AppKit) [0x7fff82e5dcf9]
+ 1 -[NSThemeFrame drawRect:] + 109 (in AppKit) [0x7fff82e5e66d]
+ 1 -[NSFrameView drawThemeContentFill:inView:] + 1310 (in AppKit) [0x7fff82e64428]
+ 1 -[NSThemeFrame drawWindowBackgroundRegion:] + 150 (in AppKit) [0x7fff82e64a70]
+ 1 _NSDrawWindowBackgroundRegion + 228 (in AppKit) [0x7fff82ecd676]
+ 1 CGContextDrawPath + 160 (in CoreGraphics) [0x7fff805236ff]
+ 1 ripc_DrawPath + 678 (in libRIP.A.dylib) [0x7fff81d13e46]
+ 1 ripc_Render + 375 (in libRIP.A.dylib) [0x7fff81cf7d86]
+ 1 ripl_BltShape + 410 (in libRIP.A.dylib) [0x7fff81cfa746]
+ 1 ripd_Lock + 46 (in libRIP.A.dylib) [0x7fff81cfae43]
+ 1 CGSDeviceLock + 535 (in CoreGraphics) [0x7fff804c1a2f]
+ 1 _CGSLockWindow + 4665 (in CoreGraphics) [0x7fff804baf2f]
+ 1 _CGSSynchronizeWindowBackingStore + 97 (in CoreGraphics) [0x7fff804d5344]
+ 1 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ 1 __CFRunLoopRun + 5201 (in CoreFoundation) [0x7fff862d46e1]
+ 1 __CFMachPortPerform + 366 (in CoreFoundation) [0x7fff862fc68e]
+ 1 PullEventsFromWindowServerOnConnection(unsigned int, unsigned char) + 99 (in HIToolbox) [0x7fff8796136e]
+ 1 CGEventCreateNextEvent + 60 (in CoreGraphics) [0x7fff804b4850]
+ 1 CGSGetNextEventRecordInternal + 124 (in CoreGraphics) [0x7fff804b491e]
+ 1 snarfEvents + 239 (in CoreGraphics) [0x7fff804b4b60]
+ 1 _CGSGetPortStreamInline + 134 (in CoreGraphics) [0x7fff804b4d23]
+ 1 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ 1 _DPSNextEvent + 1205 (in AppKit) [0x7fff82da104b]
+ 1 AEProcessAppleEvent + 48 (in HIToolbox) [0x7fff87989741]
+ 1 aeProcessAppleEvent + 210 (in AE) [0x7fff8025c123]
+ 1 dispatchEventAndSendReply(AEDesc const*, AEDesc*) + 32 (in AE) [0x7fff8025c21c]
+ 1 aeDispatchAppleEvent(AEDesc const*, AEDesc*, unsigned int, unsigned char*) + 162 (in AE) [0x7fff8025c323]
+ 1 _NSAppleEventManagerGenericHandler + 114 (in Foundation) [0x7fff8444ed92]
+ 1 -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:] + 360 (in Foundation) [0x7fff8444ef62]
+ 1 -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:] + 101 (in AppKit) [0x7fff82e9bf99]
+ 1 -[NSApplication(NSAppleEventHandling) _handleAEReopen] + 245 (in AppKit) [0x7fff82f76996]
+ 1 ??? (in Activity Monitor + 69962) [0x10001114a]
+ 1 ??? (in Activity Monitor + 38377) [0x1000095e9]
+ 1 ??? (in Activity Monitor + 39148) [0x1000098ec]
+ 1 ??? (in Activity Monitor + 39892) [0x100009bd4]
+ 1 ??? (in Activity Monitor + 41655) [0x10000a2b7]
+ 1 read + 10 (in libSystem.B.dylib) [0x7fff852849c6]
+ 8 -[NSApplication run] + 474 (in AppKit) [0x7fff82d664da]
+ 8 -[NSApplication sendEvent:] + 4719 (in AppKit) [0x7fff82dcfa86]
+ 8 -[NSWindow sendEvent:] + 5409 (in AppKit) [0x7fff82e9a34f]
+ 6 -[NSControl mouseDown:] + 624 (in AppKit) [0x7fff82f80215]
+ 6 -[NSButtonCell trackMouse:inRect:ofView:untilMouseUp:] + 555 (in AppKit) [0x7fff82fb22aa]
+ 5 -[NSCell trackMouse:inRect:ofView:untilMouseUp:] + 1715 (in AppKit) [0x7fff82f8176b]
+ 5 -[NSControl sendAction:to:] + 94 (in AppKit) [0x7fff82ef5df9]
+ 5 -[NSApplication sendAction:to:from:] + 95 (in AppKit) [0x7fff82ef5e9a]
+ 3 ??? (in Activity Monitor + 107773) [0x10001a4fd]
+ 3 NSBeginAlertSheet + 206 (in AppKit) [0x7fff82ff5419]
+ 3 _NXDoLocalRunAlertSheet + 822 (in AppKit) [0x7fff82ff5148]
+ 3 -[NSApplication _commonBeginModalSessionForWindow:relativeToWindow:modalDelegate:didEndSelector:contextInfo:] + 714 (in AppKit) [0x7fff82fd9b6b]
+ 3 -[NSApplication _orderFrontModalWindow:relativeToWindow:] + 734 (in AppKit) [0x7fff82fda103]
+ 3 -[NSWindow _reallyDoOrderWindow:relativeTo:findKey:forCounter:force:isModal:] + 1291 (in AppKit) [0x7fff82d98cd4]
+ 3 -[NSWindow(NSSheets) _orderFrontRelativeToWindow:] + 200 (in AppKit) [0x7fff82fe0564]
+ 3 -[NSMoveHelper(NSSheets) _moveParent:andOpenSheet:] + 1753 (in AppKit) [0x7fff82fe0c70]
+ 2 -[NSMoveHelper _doAnimation] + 1117 (in AppKit) [0x7fff82fe2731]
+ 2 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 1 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 1 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ 1 __CFRunLoopRun + 6488 (in CoreFoundation) [0x7fff862d4be8]
+ 1 _NSMoveHelperTimerCallBack + 612 (in AppKit) [0x7fff82fe3168]
+ 1 MetalSheetProgress + 7841 (in CoreGraphics) [0x7fff805ebdca]
+ 1 resizeTopShadow + 474 (in CoreGraphics) [0x7fff805ecce9]
+ 1 CGContextFillRect + 18 (in CoreGraphics) [0x7fff804f7b4a]
+ 1 CGContextFillRects + 143 (in CoreGraphics) [0x7fff804c1371]
+ 1 ripc_DrawRects + 732 (in libRIP.A.dylib) [0x7fff81cf5317]
+ 1 ripc_Render + 210 (in libRIP.A.dylib) [0x7fff81cf7ce1]
+ 1 ripc_GetColor + 375 (in libRIP.A.dylib) [0x7fff81cf89d2]
+ 1 CGColorTransformConvertColorFloatComponents + 370 (in CoreGraphics) [0x7fff804ae27e]
+ 1 CGCMSInterfaceTransformConvertColorComponents + 56 (in CoreGraphics) [0x7fff804af0dc]
+ 1 CMSTransformConvertComponents + 84 (in libCSync.A.dylib) [0x7fff81ce883b]
+ 1 acquireColorWorld + 107 (in libCSync.A.dylib) [0x7fff81ce8998]
+ 1 aquireColorWorldByAttributes + 379 (in libCSync.A.dylib) [0x7fff81ce8b8a]
+ 1 create + 1059 (in libCSync.A.dylib) [0x7fff81cef135]
+ 1 ColorSyncTransformCreate + 1964 (in ColorSync) [0x7fff874c0db6]
+ 1 ColorSyncCMMInitializeTransform + 112 (in ColorSync) [0x7fff87519fb8]
+ 1 AppleCMMInitializeTransform + 164 (in ColorSync) [0x7fff874ec708]
+ 1 DoInitializeTransform + 797 (in ColorSync) [0x7fff874ebfcd]
+ 1 ConversionManager::MakeConversionSequence(CMMProfileInfoContainer*, CMMColorConversionInfo*) + 990 (in ColorSync) [0x7fff874ea928]
+ 1 ConversionManager::AddMatrixConv(CMMXYZTag* (&) [3], CMMRGBCurves&) + 69 (in ColorSync) [0x7fff874de36b]
+ 1 CMMRGBCurves::MakeLutTable(CMMFloatLutInfo*, CMMMemMgr&, unsigned int) + 128 (in ColorSync) [0x7fff874c9aa4]
+ 1 CMMParaCurveTag::MakeLutTable(CMMFloatLutInfo*, CMMMemMgr&, CMMLutRangeMapping, double) + 235 (in ColorSync) [0x7fff874dec77]
+ 1 CMMParaCurveTag::MakeLut(CMMFloatLutInfo*, int*, CMMLutRangeMapping) + 1196 (in ColorSync) [0x7fff874cd342]
+ 1 pow + 968 (in libSystem.B.dylib) [0x7fff852a7b78]
+ 1 -[NSMoveHelper _doAnimation] + 1252 (in AppKit) [0x7fff82fe27b8]
+ 1 -[NSWindow _setLocationTemporary:] + 119 (in AppKit) [0x7fff82fe28d6]
+ 1 -[NSThemeFrame _resetDragMargins] + 1325 (in AppKit) [0x7fff82daa436]
+ 1 _NSAddRectsToWindow + 48 (in AppKit) [0x7fff82de63b8]
+ 1 CGSClearButtonRegion + 49 (in CoreGraphics) [0x7fff804d75fe]
+ 1 _setWindowRegion + 321 (in CoreGraphics) [0x7fff804a8fb5]
+ 1 _CGSDeleteWindowRegion + 187 (in CoreGraphics) [0x7fff804a90cc]
+ 1 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ 2 -[NSAlert buttonPressed:] + 264 (in AppKit) [0x7fff82fdcff4]
+ 2 -[NSApplication endSheet:returnCode:] + 321 (in AppKit) [0x7fff82fe3bd1]
+ 2 -[NSAlert didEndSheet:returnCode:contextInfo:] + 122 (in AppKit) [0x7fff82ff4a3b]
+ 2 -[NSWindow orderWindow:relativeTo:] + 94 (in AppKit) [0x7fff82d9877a]
+ 2 -[NSWindow _reallyDoOrderWindow:relativeTo:findKey:forCounter:force:isModal:] + 1581 (in AppKit) [0x7fff82d98df6]
+ 2 -[NSWindow(NSSheets) _orderOutRelativeToWindow:] + 115 (in AppKit) [0x7fff82fe3c75]
+ 2 -[NSMoveHelper(NSSheets) _closeSheet:andMoveParent:] + 532 (in AppKit) [0x7fff82fe3ee6]
+ 2 -[NSMoveHelper _doAnimation] + 1117 (in AppKit) [0x7fff82fe2731]
+ 2 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 2 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 2 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ 1 -[NSCell trackMouse:inRect:ofView:untilMouseUp:] + 1129 (in AppKit) [0x7fff82f81521]
+ 1 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 155 (in AppKit) [0x7fff82da07a9]
+ 1 _DPSNextEvent + 718 (in AppKit) [0x7fff82da0e64]
+ 1 BlockUntilNextEventMatchingListInMode + 59 (in HIToolbox) [0x7fff879835d8]
+ 1 ReceiveNextEventCommon + 310 (in HIToolbox) [0x7fff8798371f]
+ 1 RunCurrentEventLoopInMode + 333 (in HIToolbox) [0x7fff8798391a]
+ 1 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 1 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 1 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ 1 -[_NSThemeWidget mouseDown:] + 87 (in AppKit) [0x7fff82fddaaa]
+ 1 -[NSControl mouseDown:] + 624 (in AppKit) [0x7fff82f80215]
+ 1 -[NSButtonCell trackMouse:inRect:ofView:untilMouseUp:] + 555 (in AppKit) [0x7fff82fb22aa]
+ 1 -[NSCell trackMouse:inRect:ofView:untilMouseUp:] + 1129 (in AppKit) [0x7fff82f81521]
+ 1 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 155 (in AppKit) [0x7fff82da07a9]
+ 1 _DPSNextEvent + 718 (in AppKit) [0x7fff82da0e64]
+ 1 BlockUntilNextEventMatchingListInMode + 59 (in HIToolbox) [0x7fff879835d8]
+ 1 ReceiveNextEventCommon + 310 (in HIToolbox) [0x7fff8798371f]
+ 1 RunCurrentEventLoopInMode + 333 (in HIToolbox) [0x7fff8798391a]
+ 1 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 1 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 1 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ 1 -[NSOutlineView mouseDown:] + 638 (in AppKit) [0x7fff82f9542d]
+ 1 -[NSTableView mouseDown:] + 593 (in AppKit) [0x7fff82ef7b9b]
+ 1 -[NSTableView _performDragFromMouseDown:] + 290 (in AppKit) [0x7fff82ef90c7]
+ 1 -[NSTableView _dragShouldBeginFromMouseDown:] + 624 (in AppKit) [0x7fff82efa02b]
+ 1 -[NSApplication nextEventMatchingMask:untilDate:inMode:dequeue:] + 155 (in AppKit) [0x7fff82da07a9]
+ 1 _DPSNextEvent + 718 (in AppKit) [0x7fff82da0e64]
+ 1 BlockUntilNextEventMatchingListInMode + 59 (in HIToolbox) [0x7fff879835d8]
+ 1 ReceiveNextEventCommon + 310 (in HIToolbox) [0x7fff8798371f]
+ 1 RunCurrentEventLoopInMode + 333 (in HIToolbox) [0x7fff8798391a]
+ 1 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 1 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 1 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ Kernel stack:
+ 474 ipc_mqueue_receive_continue + 0 [0x210ce6]
+ 27 lo64_unix_scall + 77 [0x2a143d]
+ 27 unix_syscall64 + 617 [0x4f12e8]
+ 27 read_nocancel + 158 [0x498ed3]
+ 27 write + 312 [0x498757]
+ 27 pipeinit + 2205 [0x49a6ad]
+ 27 soreceive + 1134 [0x4b2688]
+ 27 sbwait + 150 [0x4b4786]
+ 27 msleep + 157 [0x48a665]
+ 27 wakeup + 334 [0x489f72]
+27 lck_mtx_sleep + 87 [0x221a0b]
+ 27 thread_block + 33 [0x2272e7]
+ 27 thread_block_reason + 331 [0x227259]
+ 27 thread_dispatch + 1966 [0x226fba]
+ 27 machine_switch_context + 753 [0x2a8a6e]
+ 7 lo64_mach_scall + 77 [0x2a148d]
+ 7 thread_setuserstack + 405 [0x295156]
+ 7 mach_msg_overwrite_trap + 586 [0x216dd5]
+ 7 ipc_mqueue_receive + 89 [0x211b53]
+ 7 thread_block + 33 [0x2272e7]
+ 7 thread_block_reason + 309 [0x227243]
+ 7 thread_go + 1961 [0x22661f]
+ 7 thread_setrun + 1360 [0x22584d]
+ 7 machine_idle + 239 [0x2abb88]
+ 1 lo_allintrs + 302 [0x2a0b5e]
+ 1 interrupt + 171 [0x2aa0d6]
+ 1 lapic_interrupt + 126 [0x2b16c2]
+ 1 intel_startCPU + 405 [0x2b2c92]
+ 1 sync_iss_to_iks + 124 [0x2a99dc]
+
+ Thread 1034db7c DispatchQueue 2
+ User stack:
+ 509 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 509 _pthread_wqthread + 353 (in libSystem.B.dylib) [0x7fff85294168]
+ 509 _dispatch_worker_thread2 + 252 (in libSystem.B.dylib) [0x7fff8529483e]
+ 509 _dispatch_queue_invoke + 185 (in libSystem.B.dylib) [0x7fff85294d14]
+ 509 kevent + 10 (in libSystem.B.dylib) [0x7fff8529316a]
+ Kernel stack:
+ 509 kevent + 97 [0x473932]
+
+ Thread fa46000 
+ User stack:
+ 70 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 70 __workq_kernreturn + 10 (in libSystem.B.dylib) [0x7fff85293f8a]
+ Kernel stack:
+ 70 bsdthread_create + 1313 [0x4cd52d]
+
+ Thread d4657a8 
+ User stack:
+ 66 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 66 __workq_kernreturn + 10 (in libSystem.B.dylib) [0x7fff85293f8a]
+ Kernel stack:
+ 66 bsdthread_create + 1313 [0x4cd52d]
+
+ Thread 103bc7a8 
+ User stack:
+ 49 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 49 __workq_kernreturn + 10 (in libSystem.B.dylib) [0x7fff85293f8a]
+ Kernel stack:
+ 49 bsdthread_create + 1313 [0x4cd52d]
+ 17 bsdthread_create + 1477 [0x4cd5d1]
+
+ Thread 11923000 
+ User stack:
+ 66 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 66 __workq_kernreturn + 10 (in libSystem.B.dylib) [0x7fff85293f8a]
+ Kernel stack:
+ 66 bsdthread_create + 1313 [0x4cd52d]
+
+ Thread f7a4b7c 
+ User stack:
+ 17 thread_start + 13 (in libSystem.B.dylib) [0x7fff852b33e9]
+ 17 _pthread_start + 331 (in libSystem.B.dylib) [0x7fff852b3536]
+ 17 __NSThread__main__ + 1429 (in Foundation) [0x7fff844210a5]
+ 15 -[NSUIHeartBeat _heartBeatThread:] + 1540 (in AppKit) [0x7fff82eec361]
+ 15 usleep + 57 (in libSystem.B.dylib) [0x7fff852b4dc3]
+ 15 __semwait_signal + 10 (in libSystem.B.dylib) [0x7fff852b4fca]
+ 2 -[NSUIHeartBeat _heartBeatThread:] + 455 (in AppKit) [0x7fff82eebf24]
+2 -[NSLock lock] + 175 (in Foundation) [0x7fff8442193b]
+ 2 semaphore_wait_signal_trap + 10 (in libSystem.B.dylib) [0x7fff8527a322]
+ Kernel stack:
+ 17 semaphore_wait_continue + 0 [0x22a3dd]
+
+ Binary Images:
+ 0x100000000 - 0x10002dff7 com.apple.ActivityMonitor 10.6 (212) <E7040DC1-473F-4BE9-0E1D-3900F36AF5ED> /Applications/Utilities/Activity Monitor.app/Contents/MacOS/Activity Monitor
+ 0x7fff80259000 - 0x7fff80294fff com.apple.AE 496.4 (496.4) <CBEDB6A1-FD85-F842-4EB8-CC289FAE0F24> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+ 0x7fff8049d000 - 0x7fff80b9a06f com.apple.CoreGraphics 1.545.0 (???) <356D59D6-1DD1-8BFF-F9B3-1CE51D2F1EC7> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+ 0x7fff81ce5000 - 0x7fff81cf2fe7 libCSync.A.dylib ??? (???) <397B9057-5CDF-3B19-4E61-9DFD49369375> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libCSync.A.dylib
+ 0x7fff81cf3000 - 0x7fff81d36ff7 libRIP.A.dylib ??? (???) <7E30B5F6-99FD-C716-8670-5DD4B4BAED72> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib
+ 0x7fff82d5d000 - 0x7fff83753fff com.apple.AppKit 6.6.7 (1038.35) <9F4DF818-9DB9-98DA-490C-EF29EA757A97> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+ 0x7fff84410000 - 0x7fff84693ff7 com.apple.Foundation 6.6.4 (751.42) <9A99D378-E97A-8C0F-3857-D0FAA30FCDD5> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+ 0x7fff85279000 - 0x7fff8543afff libSystem.B.dylib ??? (???) <71E6D4C9-F945-6EC2-998C-D61AD590DAB6> /usr/lib/libSystem.B.dylib
+ 0x7fff86287000 - 0x7fff863fefe7 com.apple.CoreFoundation 6.6.4 (550.42) <770C572A-CF70-168F-F43C-242B9114FCB5> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+ 0x7fff874b8000 - 0x7fff8756dfe7 com.apple.ColorSync 4.6.3 (4.6.3) <AA93AD96-6974-9104-BF55-AF7A813C8A1B> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+ 0x7fff87955000 - 0x7fff87c53fe7 com.apple.HIToolbox 1.6.3 (???) <CF0C8524-FA82-3908-ACD0-A9176C704AED> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+
+
+Process: activitymonitord [97305]
+Path: /Applications/Utilities/Activity Monitor.app/Contents/MacOS/activitymonitord
+UID: 0
+
+
+Process: Adium [96970]
+Path: /Applications/Adium.app/Contents/MacOS/Adium
+UID: 501
+
+
+Process: Air Video Server [233]
+Path: /Applications/Air Video Server.app/Contents/MacOS/Air Video Server
+UID: 501
+
+
+Process: aosnotifyd [243]
+Path: /usr/sbin/aosnotifyd
+UID: 501
+
+ Thread 105e83d4 DispatchQueue 1
+ User stack:
+ 509 start + 52 (in aosnotifyd) [0x100001070]
+ 509 main + 806 (in aosnotifyd) [0x1000020e8]
+ 509 CFRunLoopRun + 70 (in CoreFoundation) [0x7fff862d2b46]
+ 509 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 509 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 509 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ Kernel stack:
+ 509 ipc_mqueue_receive_continue + 0 [0x210ce6]
+
+ Thread eade3d4 DispatchQueue 2
+ User stack:
+ 509 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 509 _pthread_wqthread + 353 (in libSystem.B.dylib) [0x7fff85294168]
+ 509 _dispatch_worker_thread2 + 252 (in libSystem.B.dylib) [0x7fff8529483e]
+ 509 _dispatch_queue_invoke + 185 (in libSystem.B.dylib) [0x7fff85294d14]
+ 509 kevent + 10 (in libSystem.B.dylib) [0x7fff8529316a]
+ Kernel stack:
+ 509 kevent + 97 [0x473932]
+
+ Thread 102ee000 
+ User stack:
+ 509 thread_start + 13 (in libSystem.B.dylib) [0x7fff852b33e9]
+ 509 _pthread_start + 331 (in libSystem.B.dylib) [0x7fff852b3536]
+ 509 select$DARWIN_EXTSN + 10 (in libSystem.B.dylib) [0x7fff852bde92]
+ Kernel stack:
+ 509 sleep + 52 [0x48a322]
+
+ Thread 1c862000 
+ User stack:
+ 50 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 50 __workq_kernreturn + 10 (in libSystem.B.dylib) [0x7fff85293f8a]
+ Kernel stack:
+ 50 bsdthread_create + 1313 [0x4cd52d]
+
+ Binary Images:
+ 0x100000000 - 0x100011fff aosnotifyd ??? (???) <887126C0-8850-68A0-AF30-37FAF68F5FEA> /usr/sbin/aosnotifyd
+ 0x7fff85279000 - 0x7fff8543afff libSystem.B.dylib ??? (???) <71E6D4C9-F945-6EC2-998C-D61AD590DAB6> /usr/lib/libSystem.B.dylib
+ 0x7fff86287000 - 0x7fff863fefe7 com.apple.CoreFoundation 6.6.4 (550.42) <770C572A-CF70-168F-F43C-242B9114FCB5> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+
+Process: AppleSpell [293]
+Path: /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+UID: 501
+
+ Thread e0243d4 DispatchQueue 1
+ User stack:
+ 509 ??? (in AppleSpell + 4816) [0x1000012d0]
+ 509 ??? (in AppleSpell + 5472) [0x100001560]
+ 509 -[NSSpellServer run] + 72 (in Foundation) [0x7fff8448f00e]
+ 509 CFRunLoopRun + 70 (in CoreFoundation) [0x7fff862d2b46]
+ 509 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 509 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 509 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ Kernel stack:
+ 509 ipc_mqueue_receive_continue + 0 [0x210ce6]
+
+ Thread 10a9cb7c DispatchQueue 2
+ User stack:
+ 509 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 509 _pthread_wqthread + 353 (in libSystem.B.dylib) [0x7fff85294168]
+ 509 _dispatch_worker_thread2 + 252 (in libSystem.B.dylib) [0x7fff8529483e]
+ 509 _dispatch_queue_invoke + 185 (in libSystem.B.dylib) [0x7fff85294d14]
+ 509 kevent + 10 (in libSystem.B.dylib) [0x7fff8529316a]
+ Kernel stack:
+ 509 kevent + 97 [0x473932]
+
+ Thread d48e3d4 
+ User stack:
+ 50 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 50 __workq_kernreturn + 10 (in libSystem.B.dylib) [0x7fff85293f8a]
+ Kernel stack:
+ 50 bsdthread_create + 1313 [0x4cd52d]
+
+ Binary Images:
+ 0x100000000 - 0x1000a9fe7 com.apple.AppleSpell 1.6.2 (62.2) <B3C504CB-5E66-639E-9F2A-2F184565496A> /System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell
+ 0x7fff84410000 - 0x7fff84693ff7 com.apple.Foundation 6.6.4 (751.42) <9A99D378-E97A-8C0F-3857-D0FAA30FCDD5> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+ 0x7fff85279000 - 0x7fff8543afff libSystem.B.dylib ??? (???) <71E6D4C9-F945-6EC2-998C-D61AD590DAB6> /usr/lib/libSystem.B.dylib
+ 0x7fff86287000 - 0x7fff863fefe7 com.apple.CoreFoundation 6.6.4 (550.42) <770C572A-CF70-168F-F43C-242B9114FCB5> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+
+Process: AppleVNCServer [189]
+Path: /System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/MacOS/AppleVNCServer
+UID: 501
+
+ Thread fe0cb7c 
+ User stack:
+ 509 ??? (in AppleVNCServer + 5220) [0x100001464]
+ 509 ??? (in AppleVNCServer + 6677) [0x100001a15]
+ 509 ??? (in AppleVNCServer + 19068) [0x100004a7c]
+ 509 CFRunLoopRun + 70 (in CoreFoundation) [0x7fff862d2b46]
+ 509 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 509 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 509 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ Kernel stack:
+ 509 ipc_mqueue_receive_continue + 0 [0x210ce6]
+
+ Thread fe0c000 DispatchQueue 2
+ User stack:
+ 509 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 509 _pthread_wqthread + 353 (in libSystem.B.dylib) [0x7fff85294168]
+ 509 _dispatch_worker_thread2 + 252 (in libSystem.B.dylib) [0x7fff8529483e]
+ 509 _dispatch_queue_invoke + 185 (in libSystem.B.dylib) [0x7fff85294d14]
+ 509 kevent + 10 (in libSystem.B.dylib) [0x7fff8529316a]
+ Kernel stack:
+ 509 kevent + 97 [0x473932]
+
+ Thread fe7a000 
+ User stack:
+ 509 thread_start + 13 (in libSystem.B.dylib) [0x7fff852b33e9]
+ 509 _pthread_start + 331 (in libSystem.B.dylib) [0x7fff852b3536]
+ 509 PrivateMPEntryPoint + 63 (in CarbonCore) [0x7fff82654411]
+ 509 kevent + 10 (in libSystem.B.dylib) [0x7fff8529316a]
+ Kernel stack:
+ 509 kevent + 97 [0x473932]
+
+ Thread fe86b7c 
+ User stack:
+ 509 thread_start + 13 (in libSystem.B.dylib) [0x7fff852b33e9]
+ 509 _pthread_start + 331 (in libSystem.B.dylib) [0x7fff852b3536]
+ 509 PrivateMPEntryPoint + 63 (in CarbonCore) [0x7fff82654411]
+ 509 select$DARWIN_EXTSN + 10 (in libSystem.B.dylib) [0x7fff852bde92]
+ Kernel stack:
+ 509 sleep + 52 [0x48a322]
+
+ Binary Images:
+ 0x100000000 - 0x100050fe7 com.apple.AppleVNCServer 3.3.2 (3.3.2) <7FBD0348-AAF7-BD03-C83A-70B181F0ED12> /System/Library/CoreServices/RemoteManagement/AppleVNCServer.bundle/Contents/MacOS/AppleVNCServer
+ 0x7fff8264d000 - 0x7fff82981fff com.apple.CoreServices.CarbonCore 861.23 (861.23) <08F360FA-1771-4F0B-F356-BEF68BB9D421> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+ 0x7fff85279000 - 0x7fff8543afff libSystem.B.dylib ??? (???) <71E6D4C9-F945-6EC2-998C-D61AD590DAB6> /usr/lib/libSystem.B.dylib
+ 0x7fff86287000 - 0x7fff863fefe7 com.apple.CoreFoundation 6.6.4 (550.42) <770C572A-CF70-168F-F43C-242B9114FCB5> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+
+Process: Aurora Wakeup Helper [235]
+Path: /Users/stehle/Library/Application Support/Aurora/Aurora Wakeup Helper.app/Contents/MacOS/Aurora Wakeup Helper
+UID: 501
+
+
+Process: autofsd [64]
+Path: /usr/libexec/autofsd
+UID: 0
+
+ Thread e0483d4 DispatchQueue 1
+ User stack:
+ 509 ??? (in autofsd + 5340) [0x1000014dc]
+ 509 ??? (in autofsd + 6461) [0x10000193d]
+ 509 CFRunLoopRun + 70 (in CoreFoundation) [0x7fff862d2b46]
+ 509 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 509 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 509 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ Kernel stack:
+ 509 ipc_mqueue_receive_continue + 0 [0x210ce6]
+
+ Thread e2ca000 DispatchQueue 2
+ User stack:
+ 509 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 509 _pthread_wqthread + 353 (in libSystem.B.dylib) [0x7fff85294168]
+ 509 _dispatch_worker_thread2 + 252 (in libSystem.B.dylib) [0x7fff8529483e]
+ 509 _dispatch_queue_invoke + 185 (in libSystem.B.dylib) [0x7fff85294d14]
+ 509 kevent + 10 (in libSystem.B.dylib) [0x7fff8529316a]
+ Kernel stack:
+ 508 kevent + 97 [0x473932]
+ 1 lo64_unix_scall + 77 [0x2a143d]
+ 1 unix_syscall64 + 617 [0x4f12e8]
+ 1 kevent + 95 [0x473930]
+ 1 kqueue_scan + 1643 [0x473828]
+ 1 kqueue_scan + 415 [0x47335c]
+ 1 thread_block_parameter + 32 [0x2272c4]
+ 1 thread_block_reason + 309 [0x227243]
+ 1 thread_go + 1961 [0x22661f]
+ 1 thread_setrun + 1360 [0x22584d]
+ 1 machine_idle + 239 [0x2abb88]
+
+ Thread e0143d4 
+ User stack:
+ 50 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 50 __workq_kernreturn + 10 (in libSystem.B.dylib) [0x7fff85293f8a]
+ Kernel stack:
+ 50 bsdthread_create + 1313 [0x4cd52d]
+
+ Binary Images:
+ 0x100000000 - 0x100001ff7 autofsd ??? (???) <E07FB03F-038C-D995-51F3-FF8A686F645B> /usr/libexec/autofsd
+ 0x7fff85279000 -0x7fff8543afff libSystem.B.dylib ??? (???) <71E6D4C9-F945-6EC2-998C-D61AD590DAB6> /usr/lib/libSystem.B.dylib
+ 0x7fff86287000 - 0x7fff863fefe7 com.apple.CoreFoundation 6.6.4 (550.42) <770C572A-CF70-168F-F43C-242B9114FCB5> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+
+Process: awacsd [34]
+Path: /usr/sbin/awacsd
+UID: 0
+
+ Thread e014000 DispatchQueue 1
+ User stack:
+ 509 ??? (in awacsd + 8584) [0x100002188]
+ 509 ??? (in awacsd + 32728) [0x100007fd8]
+ 509 ??? (in awacsd + 59422) [0x10000e81e]
+ 509 semaphore_wait_trap + 10 (in libSystem.B.dylib) [0x7fff8527a316]
+ Kernel stack:
+ 509 semaphore_wait_continue + 0 [0x22a3dd]
+
+ Thread dfd97a8 DispatchQueue 2
+ User stack:
+ 509 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 509 _pthread_wqthread + 353 (in libSystem.B.dylib) [0x7fff85294168]
+ 509 _dispatch_worker_thread2 + 252 (in libSystem.B.dylib) [0x7fff8529483e]
+ 509 _dispatch_queue_invoke + 185 (in libSystem.B.dylib) [0x7fff85294d14]
+ 509 kevent + 10 (in libSystem.B.dylib) [0x7fff8529316a]
+ Kernel stack:
+ 509 kevent + 97 [0x473932]
+
+ Thread 1075d000 
+ User stack:
+ 50 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 50 __workq_kernreturn + 10 (in libSystem.B.dylib) [0x7fff85293f8a]
+ Kernel stack:
+ 50 bsdthread_create + 1313 [0x4cd52d]
+
+ Binary Images:
+ 0x100000000 - 0x100042fff awacsd ??? (???) <6E146544-9253-6244-6F4B-5AFC6432F160> /usr/sbin/awacsd
+ 0x7fff85279000 - 0x7fff8543afff libSystem.B.dylib ??? (???) <71E6D4C9-F945-6EC2-998C-D61AD590DAB6> /usr/lib/libSystem.B.dylib
+
+
+Process: backupd [97312]
+Path: /System/Library/CoreServices/backupd
+UID: 0
+
+ Thread 1107b7a8 
+ User stack:
+ 509 ??? (in backupd + 18124) [0x1000046cc]
+ 509 ??? (in backupd + 63754) [0x10000f90a]
+ 509 CFRunLoopRun + 70 (in CoreFoundation) [0x7fff862d2b46]
+ 509 CFRunLoopRunSpecific + 575 (in CoreFoundation) [0x7fff862d2dbf]
+ 509 __CFRunLoopRun + 1698 (in CoreFoundation) [0x7fff862d3932]
+ 509 mach_msg_trap + 10 (in libSystem.B.dylib) [0x7fff8527a2da]
+ Kernel stack:
+ 509 ipc_mqueue_receive_continue + 0 [0x210ce6]
+
+ Thread e6ef7a8 DispatchQueue -1810769786
+ User stack:
+ 509 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+509 _pthread_wqthread + 353 (in libSystem.B.dylib) [0x7fff85294168]
+ 509 _dispatch_worker_thread2 + 252 (in libSystem.B.dylib) [0x7fff8529483e]
+ 509 _dispatch_queue_invoke + 185 (in libSystem.B.dylib) [0x7fff85294d14]
+ 509 kevent + 10 (in libSystem.B.dylib) [0x7fff8529316a]
+ Kernel stack:
+ 509 kevent + 97 [0x473932]
+
+ Thread 1b8173d4 
+ User stack:
+ 50 start_wqthread + 13 (in libSystem.B.dylib) [0x7fff85294005]
+ 50 __workq_kernreturn + 10 (in libSystem.B.dylib) [0x7fff85293f8a]
+ Kernel stack:
+ 50 bsdthread_create + 1313 [0x4cd52d]
+
+ Binary Images:
+ 0x100000000 - 0x100061ff7 backupd ??? (???) <CD6CEDBA-648A-9572-A160-5E5CFCFD9043> /System/Library/CoreServices/backupd
+ 0x7fff85279000 - 0x7fff8543afff libSystem.B.dylib ??? (???) <71E6D4C9-F945-6EC2-998C-D61AD590DAB6> /usr/lib/libSystem.B.dylib
+ 0x7fff86287000 - 0x7fff863fefe7 com.apple.CoreFoundation 6.6.4 (550.42) <770C572A-CF70-168F-F43C-242B9114FCB5> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+
+
+Process: bash [366]
+Path: /bin/bash
+UID: 501
+
+ Thread dfdb7a8 
+ User stack:
+ 509 ??? (in bash + 3800) [0x100000ed8]
+ 509 ??? (in bash + 12424) [0x100003088]
+ 509 ??? (in bash + 13362) [0x100003432]
+ 509 ??? (in bash + 12981) [0x1000032b5]
+ 509 ??? (in bash + 12743) [0x1000031c7]
+ 509 ??? (in bash + 37465) [0x100009259]
+ 509 ??? (in bash + 26050) [0x1000065c2]
+ 509 ??? (in bash + 21571) [0x100005443]
+ 509 ??? (in bash + 16041) [0x100003ea9]
+ 509 ??? (in bash + 331096) [0x100050d58]
+ 509 ??? (in bash + 330199) [0x1000509d7]
+ 509 ??? (in bash + 398215) [0x100061387]
+ 509 read + 10 (in libSystem.B.dylib) [0x7fff852849c6]
+ Kernel stack:
+ 509 lo64_unix_scall + 77 [0x2a143d]
+ 509 unix_syscall64 + 617 [0x4f12e8]
+ 509 read_nocancel + 158 [0x498ed3]
+ 509 write + 312 [0x498757]
+ 509 utf8_encodelen + 3711 [0x2f319c]
+ 509 VNOP_READ + 157 [0x2fe14d]
+ 509 spec_read + 104 [0x30b5f2]
+ 509 _devfs_setattr + 2069 [0x4a1765]
+ 509 ttread + 917 [0x49e2a9]
+ 509 ttysleep + 77 [0x49b0e6]
+ 509 msleep0 + 103 [0x48a5c6]
+ 509 wakeup + 334 [0x489f72]
+ 509 lck_mtx_sleep + 87 [0x221a0b]
+ 509 thread_block + 33 [0x2272e7]
+ 509 thread_block_reason + 331 [0x227259]
+ 509 thread_dispatch + 1966 [0x226fba]
+ 509 machine_switch_context + 753 [0x2a8a6e]
+
+ Binary Images:
+ 0x100000000 - 0x100098fe7 bash ??? (???) <ACD27835-E506-DDF5-63B3-6207AD1FC513> /bin/bash
+ 0x7fff85279000 - 0x7fff8543afff libSystem.B.dylib ??? (???) <71E6D4C9-F945-6EC2-998C-D61AD590DAB6> /usr/lib/libSystem.B.dylib
+
+
+Process: bash [252]
+Path: /bin/bash
+U
+
+
+---------------------
+
+
+language: de
+computer_model: IMac
+os_version: 10.6
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Ja
+software_product: EyeTV 2
+full_name: Peter Wagner
+email: software@techfactor.net
+problem_specifics: Anschluss
+subject: Fehlermeldung USB 1
+message: Ich bekomme folgende Fehlermeldung:
+
+Das EyeTV Hybrid-Gerät kann nicht funktionieren, da es mit einem USB 1.1-Anschluss verbunden ist. Bitte verbinden Sie das Gerät mit einem verfügbaren USB 2.0-Anschluss.
+
+Der IMac verfügt jedoch über keine USB 1 Anschlüsse
+
+Danke für Ihre Antwort,
+
+mfG
+
+Peter Wagner
+problem_specifics2: USB 1.1 Fehlermeldung
+
+
+---------------------
+
+
+language: de
+computer_model: iMac 11.3
+os_version: 10.6.5
+operating_system: Mac OS X
+country: DE
+product_manufacturer: Elgato
+salutation: Herr
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeTV 3
+product_family: EyeTV Hybrid
+problem_specifics: Schwierigkeiten mit dem Konto
+product_name: 2007 Edition DVB-T/PAL
+problem_specifics2: Problem beim Einloggen ins Konto
+subject: EPG-Zugang
+message: Sehr geehrte Damen und Herren,
+nach einer Umstellung auf einen neuen PC findet der EPG keine Daten.
+
+Der Setup-Assitent läuft durch, das tvtv-Konto wird aktiv bis 04/2011 angezeigt aber es werden keine Daten übernommen.
+
+Es folgt die Aufforderung, den Assistenten neu zu starten.
+
+Wie erhalte ich wieder die Programmdaten?
+
+MFG 
+Hesse
+full_name: Heinz-Wilhelm Hesse
+email: hwhesse@me.com
+
+
+---------------------
+
+
+language: de
+computer_model: iMac 24/SD 2,8 GHz Core2, 2 Gb RAM
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+country: DE
+software_product: Turbo.264 HD
+salutation: Herr
+product_manufacturer: Elgato
+full_name: Uwe Beuckenhauer
+email: uwebeuckenhauer@mac.com
+product_family: Turbo.264 HD
+product_name: Hardware
+problem_specifics: Anwendungs-Verhalten
+problem_specifics2: Andere
+subject: Audio Sync Probleme
+message: Sehr geehrte Damen und Herren,
+
+das am 26.11.2010 erworbene Elgat Torbo.264 HD liefert unbrauchbare Ergebnisse:
+
+Audio und Video werden nicht synchron ausgegeben. Mehrere Tests mit verschiedenen Quellen und verschiedenen Profileinstellungen weisen im Ergebnis Sync-Probleme auf.
+
+Bei Verwendung von Softwarelösungen Handbrake oder Video-Converter mit den gleichen Quellen und Profileinstellungen treten keine Probleme auf.
+
+Ein Besuch von Foren zu diesem Thema zeigt, das es sich nicht um einen Einzelfall, sondern um ein grundsätzliches Problem handelt. Übrigens sind auch keine weiteren Video-Codecs installiert bzw. aktiv.
+
+Da das Produkt in dieser Form für mich nicht brauchbar ist, beabsichtige ich eine Rückgabe an den Händler.
+
+Mit freundlichen Grüßen
+Uwe Beuckenhauer
+
+
+
+
+---------------------
+
+
+language: de
+country: DE
+product_presale: TV
+using_elgato: Nein
+phone_rep: Nein
+salutation: Herr
+full_name: Bertram Bilek
+email: bbilek@mac.com
+product_presale2: Ich möchte TV direkt über den Satellitenanschluss empfangen
+subject: EyeTV 3
+message: Hallo !
+Ich würde gerne einen "twinreceiver" mit 2 EyeTV3 an einen MacMini-2010-SnowLeopard erstellen.
+Sat-Antenne mit 2-Quad-Lnbs und Dyseqc über zwei getrennte Leitungen - möglich ?
+Besten Dank für eine Antwort
+B.Bilek
+
+
+
+---------------------
+
+
+language: de
+using_elgato: Nein
+phone_rep: Nein
+country: DE
+salutation: Herr
+product_presale: Video Enkodierung
+full_name: Erhard Ziburski
+email: erzibur@unitybox.de
+product_presale2: Ich möchte meine Videodateien auf einem AppleTV anschauen
+subject: Turbo 264 HD
+message: Guten Tag,
+
+kann ich mit das o. aufg. Gerät jedes Format ent.- und codieren. 
+
+
+---------------------
+
+
+language: de
+upnp_hardware_product: samsung uec7700
+computer_model: imac
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+phone_rep: Nein
+software_product: EyeConnect
+full_name: Wolfgang Röttsches
+email: wolf@roettsches.de
+problem_specifics: Wiedergabe
+problem_specifics2: Probleme bei der Wiedergabe von Foto-Dateien
+subject: keine Wiedergabe von Bildern
+message: Guten Tag,
+ich habe ihre Testversion geladen und meinen mac mit dem samsung uec7700 TV verbunden - die Verbindung bzw das abspielen von Musik funktioniert Bilder werden keine wiedergegeben. Im den Systemeinstellungen von eyeconnect ist der Ordner von iphoto Bilder ausgewählt - kennt eyeconnect die neue Version von iphoto noch nicht oder woran kann scheitert es?
+
+DAnke für die Hilfe
+
+
+---------------------
+
+
+language: de
+computer_model: iMac Intel Core i7 2.93 GHz
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+country: CH
+software_product: EyeTV 3
+product_manufacturer: TerraTec
+salutation: Herr
+full_name: Gunter Rätsch
+email: raetsch@sunrise.ch
+product_family: TerraTec H7
+problem_specifics: Video
+product_name: International
+problem_specifics2: Video wird nicht flüssig abgespielt
+subject: Bildruckeln
+message: Trotz aktuellster Hard- und Sofware (iMac i7, 12 GB RAM, Mac OS 10.6.5) gelingt mit EyeTV keine unterbrechungsfreie Live-Wiedergabe und Aufnahme des DVB-C-Transportstreams der Terratec H7 USB-Box. Es kommt in unregelmässigen Abständen alle paar Minuten zu Bild- und Ton-Ruckeln, wobei das Problem auch auf einem MacBook Pro Core2Duo 2.16 GHz und auf einem iMac Core2Duo 2.16 GHz nachvollziehbar ist. Die Box ist ohne Hub direkt am Mac angeschlossen und die Aufzeichnung erfolgt auf die interne Festplatte.
+Die Terratec Home Cinema-Software funktioniert hingegen einwandfrei unter einer virtuellen Windows-XP-Umgebung mit Parallels. Sogar auf einem eeePC Windows 7-Netbook mit Intel-Atom-Prozessor und nur 2 GB RAM lässt sich der Transportstream unterbrechungsfrei aufzeichnen, obwohl hier die Prozessorleistung nicht für eine flüssige Live-Wiedergabe ausreicht.
+Offensichtlich liegt hier also kein Hardware- oder USB-Problem vor, sondern eine mangelhafte Unterstützung durch die EyeTV-Software. Könnten Sie dies bitte in einem zukünftigen Update berücksichtigen? Ich habe das Problem zudem auch Terratec geschildert.
+Des weiteren verweigert der iMac i7 nach Timeraufnahmen mit EyeTV (sowohl bei Terratec H7 als auch bei EyeTV 250 Plus) die Rückkehr in den Ruhezustand. Diverse Support-Vorschläge wie Löschen des EyeTV-Helper und Reparatur der Zugriffsrechte oder Reset des SMC habe nichts gebracht. Wird dieses weit verbreitete Problem ebenfalls in künftigen Updates berücksichtigt?
+
+
+---------------------
+
+
+language: de
+computer_model: iMac9,1
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+country: AT
+product_manufacturer: Elgato
+software_product: EyeTV 3
+salutation: Herr
+full_name: Herbert Hanold
+email: herbert.hanold@chello.at
+product_family: EyeTV Hybrid
+problem_specifics: Anschluss
+product_name: 2007 Edition DVB-T/PAL
+problem_specifics2: USB 1.1 Fehlermeldung
+subject: USB 1.1
+message: Hallo,
+bei mir kommt entweder die Meldung
+- Gerät an USB 1.1 angeschlossen..... oder
+- Eye TV konnte den Sender nicht wechseln
+
+Habe alle ihrer Vorschläge zur Problembehebung durchprobiert. Manchmal funktioniert es, manchmal nicht. 
+
+Hanold
+
+/Users/Herbert/Desktop/iMac.spx
+
+
+---------------------
+
+
+language: de
+computer_model: iMac 2008
+os_version: iOS4
+operating_system: iOS
+using_elgato: Ja
+phone_rep: Nein
+salutation: Herr
+country: DE
+software_product: EyeTV for iPhone/iPad
+product_manufacturer: Elgato
+full_name: Rainer Gahn
+email: rfg@online.no
+product_family: EyeTV Sat
+problem_specifics: My EyeTV
+problem_specifics2: Keine Verbindung zu meinem Mac 
+subject: Plötzlich wird mein Router nicht mehr gefunden
+message: Guten Tag.
+Ich habe MyEyeTV seit Erscheinen der Software problemlos betreiben können, ohne Probleme, und nun, ohne dass an der konfiguration am Netzwerk funktioniert das nicht mehr. Wie gesagt, keine Veränderung am Netzwerk. Freigaben geschaltet, und alles mir Bekannte ausgetestet. Finde auch in den FAQ keine Lösung. 
+Ich will in den Konfigurationen des Routers nicht so sehr herumspielen, da mir Email und Web zur Zeit wichtiger sind, und ich da kein "Speialist" bin. 
+
+Ich verstehe nur nicht, warum das von einem Tag auf den anderen nicht mehr funktioniert, ohne jeglichen Eingriff meinerseits auf den Router. 
+
+Keine neuen Geräte ohne Ähnliches, und deshalb bitte ich um Support. 
+
+Router, der funktioniert hat und den ich immer noch habe: Zycel P2602HWT
+Alle Software auf dem neuesten Stand, meines Wissens nach. 
+Ich wäre für rat und Tat sehr dankbar!
+
+Rainer Gahn
+
+
+---------------------
+
+
+language: de
+computer_model: Macbook
+os_version: Leopard
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+salutation: Frau
+country: DE
+software_product: Turbo.264 HD
+product_manufacturer: Elgato
+full_name: Ellen Robinson
+email: contact@CreativeTerracotta.com
+product_family: Turbo.264 HD
+product_name: Hardware
+problem_specifics: Nicht aufgeführtes Problem (Beschreibung im Nachrichtenfeld)
+subject: TV in England
+message: Ich habe den obigen Stick in Deutschland gekauft und mit Erfolg installiert.
+Funktioniert super!
+
+Jetzt bin in England u. würde gern auch hier fernsehen.
+
+Ich habe die Installation auf England durchgeführt und das System hat 55 Programme initialisiert.
+
+Doch dann kam die Meldung kein Kanal steht zur Verfügung.
+In meiner Gegend ist noch kein Digitalzugang und soll erst im kommenden Jahr sein.
+Kann es daran liegen? Was kann ich tun um trotzdem Programme zu empfangen.
+
+Ihr Stick ist jedenfalls in England bekannt.
+
+Mit freundlichen Grüssen
+
+Ellen Robinson
+
+
+---------------------
+
+
+language: de
+computer_model: Macbook Pro 13"
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+salutation: Herr
+country: DE
+software_product: EyeTV 3
+product_manufacturer: Elgato
+full_name: Sascha Reuter
+email: s.reuter@me.com
+product_family: EyeTV DTT Deluxe
+problem_specifics: Andere
+product_name: 2009 Edition
+subject: Probleme mit Fernbedienung
+message: Sehr geehrte Damen und Herren,
+prinzipiell bin ich mit dem DVB-T Stick zufrieden. Leider fällt hin und wieder die Funktion der Fernbedienung aus. Den Fehler konnte ich bisher nicht beheben, deshalb bitte ich um Hilfe. Fehlerbeschreibung: Also die Fernbedienung funktioniert unmittelbar nach einem Neustart des Systems und somit einem Neustart der Eyetv software. Man kann alle Sender verändern und die Lautstärke regulieren. Sobald aber bspw. die Lautstärke per Apple Tastatur verändert wird, funktioniert die Fernbedienung gar nicht mehr. Erst ein Neustart des Systems belebt die Fernbedienung wieder. Das kann ja aber eigentlich der Sinn der Sache sein, oder?
+
+MfG
+
+Sascha Reuter
+
+
+---------------------
+
+
+language: de
+computer_model: iMac i7
+os_version: 10.6.5
+operating_system: Mac OS X
+country: DE
+salutation: Herr
+using_elgato: Ja
+software_product: EyeTV 3
+product_manufacturer: TerraTec
+full_name: Jochen Leise
+email: J.Leise@gmx.de
+product_family: TerreTec H5
+problem_specifics: Andere
+subject: Video schneiden
+message: Guten Tag,
+
+ich habe Ihnen bereits in der letzten Woche eine Mail gesendet und bislang leider noch keine Antwort erhalten. Mein Thema war, „bildgenauer Videoschnitt“. Beim Schneiden ist mir aufgefallen, dass sogar im Modus „fein“ein genauer Schnitt nicht möglich ist. Das Programm springt bei einer Aufnahme von ca 2,5 Stunden, über eine Sekunde weiter. Das Europäische Format PAL speichert jedoch 25 Bilder pro Sekunde. Wie greife ich nun auf die 25 einzelnen Bilder zu?
+
+Mit meinem Windows Rechner und dem Programm Video Deluxe, ist es ohne weiteres möglich, eines der 25 Einzelbilder auszuwählen. 
+
+Ich freue mich auf Ihre schnelle und kompetente Antwort 
+
+Mit freundlichen Grüßen 
+
+Jochen Leise
+
+
+
+---------------------
+
+
+language: de
+computer_model: iMac 27"
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+using_elgato: Ja
+phone_rep: Nein
+country: DE
+software_product: Turbo.264
+product_manufacturer: Elgato
+full_name: Bodo Meseke
+email: info@meseke.de
+product_family: Turbo.264
+problem_specifics: Nicht aufgeführtes Problem (Beschreibung im Nachrichtenfeld)
+product_name: Hardware
+subject: Upgrade auf Turbo 264 HD
+message: Hallo,
+
+ich habe den normalen Turbo 264. Gibt es eine Möglichkeit des Upgrades auf die HD Variante`
+
+MfG
+B. Meseke
+
+
+---------------------
+
+
+language: de
+computer_model: Macbook Pro
+os_version: 10.6.4
+operating_system: Mac OS X
+salutation: Herr
+country: DE
+using_elgato: Ja
+software_product: Turbo.264 HD
+product_manufacturer: Elgato
+full_name: Michael Fuchs
+email: fuchs.berlin@gmail.com
+product_family: Turbo.264 HD
+product_name: Hardware
+problem_specifics: Anwendungs-Verhalten
+problem_specifics2: Turbo.264 startet nicht
+subject: Elgato Turbo.264 HD Stick konvertiert nicht mehr
+message: Guten Tag,
+sobald ich den Elgato Turbo.264 HD Stick in einen USB-Port stecke, kann ich Video nicht konvertieren, es erscheint der Fehlercode -36 - die LED am Stick leuchtet rot. Ohne eingesteckten Stick kann ich dagegen problemlos konvertieren. Das habe ich mit verschiedenen Videodateien und verschiedenen Output-Varianten probiert. Der Stick hat bis jetzt problemlos funktioniert. Kann es sein, dass die Hardware defekt ist?
+Gruß Michael Fuchs
+
+
+---------------------
+
+
+language: de
+computer_model: Mac Book Pro
+os_version: 10.6.5
+operating_system: Mac OS X
+salutation: Herr
+country: CH
+using_elgato: Ja
+phone_rep: Nein
+software_product: Turbo.264
+product_manufacturer: Elgato
+full_name: Martin Huber
+email: t_nu@bluewin.ch
+product_family: Turbo.264
+product_name: Hardware
+problem_specifics: Anschluss
+problem_specifics2: Andere
+message: Guten Tag
+
+Ich möchte eine DVD mit der Turbo.264 ins Apple TV Format stellen. 
+Wie kann ich jetzt die Untertitel des Films selektieren damit diese auch übernommen werden.?
+
+Der Film soll mit der französischen Sprache und mit deutschen Untertiteln erstellt werden.
+Wie und wo kann ich das einstellen ?
+
+Besten Dank und Gruss
+Martin Huber
+subject: Untertitel bei Turbo.264 -> Apple TV Format
+
+
+---------------------
+
+
+language: de
+country: DE
+salutation: Herr
+using_elgato: Nein
+phone_rep: Nein
+product_presale: Video Streaming
+full_name: Thomas Straßer
+email: tstrasser@web.de
+product_presale2: Ich möchte TV/Video in eine andere Anwendung streamen
+subject: EyeTV mit Playstation 3 verbinden
+message: Sehr geehrte Damen und Herren,
+ich habe auf Ihrer Homepage gerade gelesen, dass es mit EyeTV nicht möglich ist das Live DVBS Signal zur PS3 zu streamen.
+
+Wäre dies über die Zwischenschaltung eines MediaServers möglich (z.B. von Qnap oder Synology), der das Signal dann an die PS3 weiterleitet, oder gibt es derzeit gar keine Lösung mit der PS3 DVBS zu sehen?
+
+Vielen Dank für die Beantwortung meiner Frage & viele Grüße
+Thomas Straßer
+
+
+
+---------------------
+
+
+language: de
+computer_model: mac book pro
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+country: DE
+salutation: Herr
+software_product: EyeTV 2
+full_name: Armin B. Bergmann
+problem_specifics: Signal
+problem_specifics2: Kein Signal
+email: minbepunkt@web.de
+subject: plötzlich kein Signal 
+message: ich bekam im funktionierenden betrieb plötzlich kein signal mehr. alle beschriebenen Support Center » FAQ » Fehlermeldung: Kein Signal – DVB-T/DTT lösungsschritte wurden ausgeführt. gerät wurde auch an weiterem im haushalt vorhandenen mac-mini gestestet. weiterhin kein signal. 
+
+
+---------------------
+
+
+language: de
+computer_model: mac book pro
+os_version: 10.6.5
+operating_system: Mac OS X
+using_elgato: Ja
+phone_rep: Nein
+country: DE
+salutation: Herr
+software_product: EyeTV 2
+full_name: Armin B. Bergmann
+problem_specifics: Signal
+problem_specifics2: Kein Signal
+email: minbepunkt@web.de
+subject: plötzlich kein Signal 
+message: ich bekam im funktionierenden betrieb plötzlich kein signal mehr. alle beschriebenen Support Center » FAQ » Fehlermeldung: Kein Signal – DVB-T/DTT lösungsschritte wurden ausgeführt. gerät wurde auch an weiterem im haushalt vorhandenen mac-mini gestestet. weiterhin kein signal. 
+
+
+---------------------
+
+
+language: de; popunder
+computer_model: iMac
+os_version: 10.6.5
+activation_key: 971VB-Z48BAT7-NBJSD17-Z6BVJXG
+purchase_date: 11/23/2010
+purchase_place: Amazon
+operating_system: Mac OS X
+salutation: Mr.
+country: DE
+using_elgato: Yes
+phone_rep: Yes
+software_product: EyeTV 2
+full_name: Oliver Erens
+email: erens@gmx.de
+problem_specifics: Activation key
+problem_specifics2: Activation key not accepted
+subject: Upgrade auf EyeTV 3
+message: Sehr geehrte Damen und Herren,
+
+verg. Freitag habe ich Ihnen meine Kaufrechnung als PDF und meinen Aktivierungscode über Ihre Website "http://services.elgato.com/eyetvupgrade" mitgeteilt.
+
+Heute habe ich von Ihnen folgende E-Mail erhalten:
+
+"Hallo Oliver Erens,
+leider müssen wir Ihnen mitteilen, dass das von Ihnen eingereichte Dokument keine gültige Rechnung ist, um ein gratis EyeTV 3 Upgrade zu erhalten. Bitte kontrollieren Sie noch einmal, ob Sie das richtige Dokument im richtigen Format (JPG, PNG oder PDF) hochgeladen haben und versuchen Sie es erneut.
+Bitte beachten Sie, dass das Datum auf der Rechnung der 1. Dezember 2007 oder später sein muss, damit Sie zu einem gratis EyeTV 3 Software Upgrade berechtigt sind. Vielen Dank für Ihr Verständnis.
+Mit freundlichen Grüßen,
+Elgato Systems"
+
+Soeben wollte ich die Rechnung als JPG nochmals hochladen. Ihr System hat jetzt allerdings folgende Meldung angezeigt:
+
+"Es tut uns leid. Dieser EyeTV Freischaltcode wurde bereits benutzt, um ein gratis EyeTV 3 Upgrade zu erhalten. Der Code kann nur einmal benutzt werden."
+
+Da ich kein Upgrade von Ihnen bekam und gebeten wurde, die Rechnung nochmals hochzuladen, ist mir diese Fehlermeldung unverständlich. - Wie kann ich denn nun das Upgrade beantragen, wenn mein Freischaltcode von Ihrem System gar nicht akzeptiert wird?
+
+Ich bin erreichbar unter der Rufnummer 0170-2081634.
+
+Mit freundlichen Grüßen
+O. Erens
+
+
+
+---------------------
+
+

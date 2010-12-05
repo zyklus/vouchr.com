@@ -1,0 +1,6 @@
+var show_form = require(__dirname + '/show_form');
+
+module.exports = function(req, res, next){
+	req.query.form_name = 'Create a Ticket';
+	show_form(req, res, next);
+}

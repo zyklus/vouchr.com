@@ -1,0 +1,3 @@
+/**
+ * Delete an API reference
+ */

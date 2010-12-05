@@ -1,0 +1,24 @@
+var api = require(__dirname + '/../../api'),
+   step = require('step');
+
+var steps = step.fn(function(){
+	var token = (this.shared.req.cookies || {}).auth_token;
+
+	// see if the user has permission to edit the data
+	api.user.hasPermissions({apis: '/localize/setString', auth_token: token}, this.parallel());
+
+	// and get the strings
+	api.localize.getAllStrings({auth_token : token}, this.parallel());
+
+}, function(err, perms, data){
+	if(err && (err.code != 300)){ throw err; }
+
+	if(!perms.hasPermissions || err){ return this.shared.res.send(401); }
+
+	this.shared.res.send(this.shared.res.partial('edit_strings/edit', {locals: data}));
+});
+
+
+module.exports = function(req, res, next){
+	steps({shared:{req:req,res:res,next:next}});
+};

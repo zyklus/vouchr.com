@@ -1,0 +1,2 @@
+!= partial('jquery_global')
+!= partial('js', ['concat?js/application.js,js/core.js'])

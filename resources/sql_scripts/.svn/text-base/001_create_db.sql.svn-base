@@ -1,0 +1,531 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL';
+
+CREATE SCHEMA IF NOT EXISTS `elgato` DEFAULT CHARACTER SET utf8 COLLATE utf8_swedish_ci ;
+USE `elgato` ;
+
+-- -----------------------------------------------------
+-- Table `elgato`.`user`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`user` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`user` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `email` VARCHAR(255) NOT NULL ,
+  `password` CHAR(64) NOT NULL ,
+  `first_name` VARCHAR(45) NOT NULL DEFAULT '' ,
+  `last_name` VARCHAR(45) NOT NULL DEFAULT '' ,
+  `deleted` BIT NOT NULL DEFAULT 0 ,
+  PRIMARY KEY (`pk_id`) ,
+  INDEX `login` (`email` ASC, `password` ASC) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`user_group`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`user_group` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`user_group` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `name` VARCHAR(45) NOT NULL DEFAULT '' ,
+  PRIMARY KEY (`pk_id`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`api_name`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`api_name` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`api_name` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `name` VARCHAR(255) NOT NULL DEFAULT '' ,
+  PRIMARY KEY (`pk_id`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`map_user_group`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`map_user_group` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`map_user_group` (
+  `fk_user_id` INT UNSIGNED NOT NULL ,
+  `fk_group_id` INT UNSIGNED NOT NULL ,
+  PRIMARY KEY (`fk_user_id`, `fk_group_id`) ,
+  INDEX `map_users_groups_fk_user_id__users_pk_id` (`fk_user_id` ASC) ,
+  INDEX `map_users_groups_fk_group_id__groups_pk_id` (`fk_group_id` ASC) ,
+  CONSTRAINT `map_users_groups_fk_user_id__users_pk_id`
+    FOREIGN KEY (`fk_user_id` )
+    REFERENCES `elgato`.`user` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `map_users_groups_fk_group_id__groups_pk_id`
+    FOREIGN KEY (`fk_group_id` )
+    REFERENCES `elgato`.`user_group` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`map_group_api`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`map_group_api` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`map_group_api` (
+  `fk_group_id` INT UNSIGNED NOT NULL ,
+  `fk_api_id` INT UNSIGNED NOT NULL ,
+  PRIMARY KEY (`fk_group_id`, `fk_api_id`) ,
+  INDEX `map_groups_apis_fk_group_id__groups_pk_id` (`fk_group_id` ASC) ,
+  INDEX `map_groups_apis_fk_api_id__apis_pk_id` (`fk_api_id` ASC) ,
+  CONSTRAINT `map_groups_apis_fk_group_id__groups_pk_id`
+    FOREIGN KEY (`fk_group_id` )
+    REFERENCES `elgato`.`user_group` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `map_groups_apis_fk_api_id__apis_pk_id`
+    FOREIGN KEY (`fk_api_id` )
+    REFERENCES `elgato`.`api_name` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`token`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`token` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`token` (
+  `token` CHAR(32) NOT NULL ,
+  `fk_user_id` INT UNSIGNED NOT NULL ,
+  `ip` VARCHAR(15) NOT NULL ,
+  `expires_at` INT NOT NULL ,
+  PRIMARY KEY (`token`) ,
+  INDEX `token_token__user_pk_id` (`fk_user_id` ASC) ,
+  CONSTRAINT `token_token__user_pk_id`
+    FOREIGN KEY (`fk_user_id` )
+    REFERENCES `elgato`.`user` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`localized_strings`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`localized_strings` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`localized_strings` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `name` VARCHAR(50) NOT NULL ,
+  `en` TEXT NOT NULL ,
+  `fr` TEXT NOT NULL ,
+  `de` TEXT NOT NULL ,
+  PRIMARY KEY (`pk_id`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`lifespan`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`lifespan` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`lifespan` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `start` DATETIME NOT NULL ,
+  `end` DATETIME NOT NULL ,
+  PRIMARY KEY (`pk_id`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`product`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`product` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`product` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `fk_name_string_id` INT UNSIGNED NULL ,
+  `fk_manufacturer_string_id` INT UNSIGNED NULL ,
+  `fk_family_string_id` INT UNSIGNED NULL ,
+  `fk_lifespan_id` INT UNSIGNED NULL ,
+  `img` VARCHAR(50) NOT NULL DEFAULT '' ,
+  PRIMARY KEY (`pk_id`) ,
+  INDEX `product_fk_name_string_id__localized_strings_pk_id` (`fk_name_string_id` ASC) ,
+  INDEX `product_fk_manufacturer_string_id__localized_strings_pk_id` (`fk_manufacturer_string_id` ASC) ,
+  INDEX `product_fk_family_string_id__localized_strings_pk_id` (`fk_family_string_id` ASC) ,
+  INDEX `product_fk_lifespan_id__lifespan_pk_id` (`fk_lifespan_id` ASC) ,
+  CONSTRAINT `product_fk_name_string_id__localized_strings_pk_id`
+    FOREIGN KEY (`fk_name_string_id` )
+    REFERENCES `elgato`.`localized_strings` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `product_fk_manufacturer_string_id__localized_strings_pk_id`
+    FOREIGN KEY (`fk_manufacturer_string_id` )
+    REFERENCES `elgato`.`localized_strings` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `product_fk_family_string_id__localized_strings_pk_id`
+    FOREIGN KEY (`fk_family_string_id` )
+    REFERENCES `elgato`.`localized_strings` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `product_fk_lifespan_id__lifespan_pk_id`
+    FOREIGN KEY (`fk_lifespan_id` )
+    REFERENCES `elgato`.`lifespan` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`product_feature`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`product_feature` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`product_feature` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `name` VARCHAR(45) NOT NULL ,
+  `description` TEXT NOT NULL ,
+  PRIMARY KEY (`pk_id`, `name`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`map_product_product_feature`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`map_product_product_feature` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`map_product_product_feature` (
+  `fk_product_id` INT UNSIGNED NOT NULL ,
+  `fk_feature_id` INT UNSIGNED NOT NULL ,
+  PRIMARY KEY (`fk_product_id`, `fk_feature_id`) ,
+  INDEX `mppf_fk_product_id__product_pk_id` (`fk_product_id` ASC) ,
+  INDEX `mppf_fk_product_feature_id__product_feature_pk_id` (`fk_feature_id` ASC) ,
+  CONSTRAINT `mppf_fk_product_id__product_pk_id`
+    FOREIGN KEY (`fk_product_id` )
+    REFERENCES `elgato`.`product` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `mppf_fk_product_feature_id__product_feature_pk_id`
+    FOREIGN KEY (`fk_feature_id` )
+    REFERENCES `elgato`.`product_feature` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`form`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`form` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`form` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `fk_lifespan_id` INT UNSIGNED NULL ,
+  `name` VARCHAR(45) NOT NULL ,
+  `json_data` TEXT NOT NULL ,
+  PRIMARY KEY (`pk_id`) ,
+  INDEX `form_fk_lifespan_id__lifespan_pk_id` (`fk_lifespan_id` ASC) ,
+  UNIQUE INDEX `UNIQUE_FORM_NAME` (`name` ASC) ,
+  CONSTRAINT `form_fk_lifespan_id__lifespan_pk_id`
+    FOREIGN KEY (`fk_lifespan_id` )
+    REFERENCES `elgato`.`lifespan` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`form_field_type`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`form_field_type` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`form_field_type` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `name` VARCHAR(45) NOT NULL ,
+  `constructor` VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`pk_id`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`form_field`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`form_field` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`form_field` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `fk_form_id` INT UNSIGNED NOT NULL ,
+  `fk_type_id` INT UNSIGNED NOT NULL ,
+  `fk_string_id` INT UNSIGNED NULL ,
+  `fk_lifespan_id` INT UNSIGNED NULL ,
+  `field_name` VARCHAR(255) NOT NULL DEFAULT '' ,
+  `lft` SMALLINT NOT NULL ,
+  `rht` SMALLINT NOT NULL ,
+  `json_config` TEXT NULL ,
+  PRIMARY KEY (`pk_id`) ,
+  INDEX `form_field_fk_form_id__form_pk_id` (`fk_form_id` ASC) ,
+  INDEX `form_field_fk_type_id__form_field_type_pk_id` (`fk_type_id` ASC) ,
+  INDEX `form_field_fk_string_id__localized_strings_pk_id` (`fk_string_id` ASC) ,
+  INDEX `form_field_fk_lifespan_id__lifespan_pk_id` (`fk_lifespan_id` ASC) ,
+  CONSTRAINT `form_field_fk_form_id__form_pk_id`
+    FOREIGN KEY (`fk_form_id` )
+    REFERENCES `elgato`.`form` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `form_field_fk_type_id__form_field_type_pk_id`
+    FOREIGN KEY (`fk_type_id` )
+    REFERENCES `elgato`.`form_field_type` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `form_field_fk_string_id__localized_strings_pk_id`
+    FOREIGN KEY (`fk_string_id` )
+    REFERENCES `elgato`.`localized_strings` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `form_field_fk_lifespan_id__lifespan_pk_id`
+    FOREIGN KEY (`fk_lifespan_id` )
+    REFERENCES `elgato`.`lifespan` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`raw_geo_ip_data`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`raw_geo_ip_data` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`raw_geo_ip_data` (
+  `begin_ip` VARCHAR(15) NULL ,
+  `end_ip` VARCHAR(15) NULL ,
+  `begin_num` INT UNSIGNED NULL ,
+  `end_num` INT UNSIGNED NULL ,
+  `country` VARCHAR(5) NULL ,
+  `name` VARCHAR(255) NULL )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`region`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`region` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`region` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `name` VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`pk_id`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`country`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`country` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`country` (
+  `country_code` CHAR(2) NOT NULL ,
+  `fk_region_id` INT UNSIGNED NOT NULL ,
+  `fk_country_string_id` INT UNSIGNED NOT NULL ,
+  PRIMARY KEY (`country_code`) ,
+  INDEX `country_fk_region_id__region_pk_id` (`fk_region_id` ASC) ,
+  INDEX `country_fk_country_string_id__localized_strings_pk_id` (`fk_country_string_id` ASC) ,
+  CONSTRAINT `country_fk_region_id__region_pk_id`
+    FOREIGN KEY (`fk_region_id` )
+    REFERENCES `elgato`.`region` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `country_fk_country_string_id__localized_strings_pk_id`
+    FOREIGN KEY (`fk_country_string_id` )
+    REFERENCES `elgato`.`localized_strings` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`ip_range`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`ip_range` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`ip_range` (
+  `start` INT UNSIGNED NOT NULL ,
+  `end` INT UNSIGNED NOT NULL ,
+  `country_code` CHAR(2) NULL ,
+  PRIMARY KEY (`start`, `end`) ,
+  INDEX `ip_range_country_code__country_country_code` (`country_code` ASC) ,
+  CONSTRAINT `ip_range_country_code__country_country_code`
+    FOREIGN KEY (`country_code` )
+    REFERENCES `elgato`.`country` (`country_code` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`raw_problem_strings`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`raw_problem_strings` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`raw_problem_strings` (
+  `product` VARCHAR(255) NULL ,
+  `type` VARCHAR(255) NULL ,
+  `en` TEXT NULL ,
+  `de` TEXT NULL ,
+  `fr` TEXT NULL ,
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  PRIMARY KEY (`pk_id`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`raw_products`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`raw_products` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`raw_products` (
+  `product_manufacturer` VARCHAR(255) NULL DEFAULT NULL ,
+  `product_family` VARCHAR(255) NULL DEFAULT NULL ,
+  `product_name` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_USB` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_FireWire` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_tuner` VARCHAR(255) NULL DEFAULT NULL ,
+  `multi_tuner` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_composite` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_svideo` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_component` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_SCART` VARCHAR(255) NULL DEFAULT NULL ,
+  `for_north_america` VARCHAR(255) NULL DEFAULT NULL ,
+  `for_international` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_NTSC` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_PAL` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_PAL60` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_ATSC` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_CLEARQAM` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_ATSC-MH` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_SECAM` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_DVB-T` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_DVB-C` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_DVB-S` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_DVB-S2` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_DVB-T2` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_ISDB-T` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_CI` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_CI+` VARCHAR(255) NULL DEFAULT NULL ,
+  `requires_EyeTV3` VARCHAR(255) NULL DEFAULT NULL ,
+  `requires_activation_key` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_software` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_hardware` VARCHAR(255) NULL DEFAULT NULL ,
+  `product_image` VARCHAR(255) NULL DEFAULT NULL ,
+  `USB_powered` VARCHAR(255) NULL DEFAULT NULL ,
+  `hardware_encoder` VARCHAR(255) NULL DEFAULT NULL ,
+  `software_encoder` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_ethernet` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_wifi` VARCHAR(255) NULL DEFAULT NULL ,
+  `for_iPhone` VARCHAR(255) NULL DEFAULT NULL ,
+  `for_iPod_touch` VARCHAR(255) NULL DEFAULT NULL ,
+  `for_AppleTV` VARCHAR(255) NULL DEFAULT NULL ,
+  `for_Android` VARCHAR(255) NULL DEFAULT NULL ,
+  `for_MacOS` VARCHAR(255) NULL DEFAULT NULL ,
+  `for_iOS` VARCHAR(255) NULL DEFAULT NULL ,
+  `for_Win7` VARCHAR(255) NULL DEFAULT NULL ,
+  `needs_activation_key` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_service` VARCHAR(255) NULL DEFAULT NULL ,
+  `from_Elgato` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_IR_receiver` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_IR_blaster` VARCHAR(255) NULL DEFAULT NULL ,
+  `uses_Elgato_remote` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_CAS` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_USB_host` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_remote_control` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_breakout_cable` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_antenna` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_carrying_case` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_MCX_F` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_MCX_IEC` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_splitter_cable` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_USB_cable` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_composite_cable` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_component_cable` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_SVIDEO_cable` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_power_supply` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_uncompressed` VARCHAR(255) NULL DEFAULT NULL ,
+  `encodes_H264` VARCHAR(255) NULL DEFAULT NULL ,
+  `encodes_MPEG1` VARCHAR(255) NULL DEFAULT NULL ,
+  `encodes_MPEG2` VARCHAR(255) NULL DEFAULT NULL ,
+  `encodes_MPEG4` VARCHAR(255) NULL DEFAULT NULL ,
+  `encodes_DIVX` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_UPNPAV_server` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_demo_version` VARCHAR(255) NULL DEFAULT NULL ,
+  `has_game_mode` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_light_version` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_support_eligible` VARCHAR(255) NULL DEFAULT NULL ,
+  `is_PCMCIA` VARCHAR(255) NULL DEFAULT NULL ,
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  PRIMARY KEY (`pk_id`) );
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`submitted_form_data`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`submitted_form_data` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`submitted_form_data` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `fk_form_id` INT UNSIGNED NOT NULL ,
+  `json_data` MEDIUMTEXT NOT NULL ,
+  `bitmask` BIGINT NOT NULL DEFAULT 0 ,
+  PRIMARY KEY (`pk_id`) ,
+  INDEX `submitted_form_data_fk_form_id__form_pk_id` (`fk_form_id` ASC) ,
+  CONSTRAINT `submitted_form_data_fk_form_id__form_pk_id`
+    FOREIGN KEY (`fk_form_id` )
+    REFERENCES `elgato`.`form` (`pk_id` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`nested_strings`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`nested_strings` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`nested_strings` (
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  `fk_string_id` INT UNSIGNED NOT NULL ,
+  `lft` INT NOT NULL ,
+  `rht` INT NOT NULL ,
+  PRIMARY KEY (`pk_id`) ,
+  INDEX `nested_strings_fk_string_id__localized_strings_pk_id` (`fk_string_id` ASC) ,
+  CONSTRAINT `nested_strings_fk_string_id__localized_strings_pk_id`
+    FOREIGN KEY (`fk_string_id` )
+    REFERENCES `elgato`.`localized_strings` (`pk_id` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `elgato`.`raw_presales`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `elgato`.`raw_presales` ;
+
+CREATE  TABLE IF NOT EXISTS `elgato`.`raw_presales` (
+  `type` VARCHAR(50) NULL ,
+  `en` VARCHAR(255) NULL ,
+  `fr` VARCHAR(255) NULL ,
+  `de` VARCHAR(255) NULL ,
+  `pk_id` INT UNSIGNED NOT NULL AUTO_INCREMENT ,
+  PRIMARY KEY (`pk_id`) )
+ENGINE = InnoDB;
+
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

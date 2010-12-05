@@ -1,0 +1,1 @@
+UPDATE localized_strings l1 INNER JOIN localized_strings l2 ON l1.en=l2.en AND l1.en!='' AND (l1.fr='' OR l1.de='') AND (l2.fr!=l1.fr OR l2.de != l1.de) SET l1.fr=CASE WHEN l1.fr='' THEN l2.fr ELSE l1.fr END, l1.de= CASE WHEN l1.de='' THEN l2.de ELSE l1.de END;

@@ -1,0 +1,37 @@
+!!! strict
+head
+  title Admin
+  != partial('css', ['css/reset.css'])
+  != partial('js_modules')
+  != partial('js', ['concat?js/jquery/inactive_text.js,js/jquery/value_is.js'])
+  != partial('api')
+  :javascript
+    | $.modules.load('admin', $.noop);
+body
+  #login(style='display:none;')
+    #login-wrapper
+      #loginBox
+        form
+          input(name='email'         , type='email')
+          input(name='password'      , type='password')
+          input#doLogin(type='submit', value=' ')
+  #admin(style='display:none;')
+    .titleBar
+      .leftBorder
+      .rightBorder
+      div.navContainer.navBar(style='display:none')
+        ul
+        div
+      div.navContainer.rightNav
+        ul
+          li.logout logout
+            div
+          li.add(style='display:none')
+            div
+        div
+    #leftPanel
+    #rightPanel
+      img#contentBG(src="modules/admin/images/contentBG.png")
+      .titleBar
+        .leftBorderMini
+        .title

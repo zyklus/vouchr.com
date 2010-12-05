@@ -1,0 +1,2 @@
+var jQ = document.createElement('SCRIPT');jQ.src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js';jQ.type = 'text/javascript';document.getElementsByTagName('HEAD')[0].appendChild(jQ);
+$('form[name=submitticket]').attr({action:'http://tickets.kb.elgato.local:8000/regurgitate_form_data', enctype:''});$('fieldset table .smalltext').each(function(){var val;$(this).parent('td').next('td').find('input').val(val=$(this).text().replace(/:|\s+\*| $/g, '')).end().find('select option:eq(0)').val(val).text(val);})

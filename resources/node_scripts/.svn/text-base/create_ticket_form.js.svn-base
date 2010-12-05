@@ -1,0 +1,93 @@
+/**
+ * json_config
+ *	sourceData
+ *	flex
+ *	dependencies
+ *	sourceApi
+ *	apiDisplayField
+ *	apiValueField
+ *	apiRoot
+ *	apiFilter
+ *	isComboTitle
+ */
+
+var api = require(__dirname + '/../../api'),
+
+ fields = [
+	{field_type : 'FieldSet', title: 'Tell us about yourself...', children : [
+		{field_type : 'CompositeField', title: 'Full Name', children : [
+			{field_type : 'ComboBox' , name: 'salutation', title: 'Salutation', json_config : {sourceData: ['Mr.', 'Mrs.', 'Ms.'], flex : 1}},
+			{field_type : 'TextField', name: 'full_name' , title: 'Your Name', json_config : {flex : 3}}
+		]},
+		{field_type : 'TextField', name: 'email'  , title: 'Your Email'   },
+		{field_type : 'ComboBox' , name: 'country', title: 'Please select your country', json_config : {sourceApi: 'localize/getCountries', apiDisplayField: 'name', apiValueField: 'country_code', apiRoot: 'countries'}},
+
+		{field_type : 'ComboBox' , name: 'have_elgato', title: 'Are you currently using an Elgato product?', json_config : {sourceData : ['No', 'Yes']}},
+		{field_type : 'ComboBox' , name: 'question_specifics', title: 'How can we help you today?', json_config : {dependencies: {have_elgato: 'No'}, sourceApi : ''}}
+	]},
+
+	{field_type : 'FieldSet', title: 'Which products do you use?', json_config : {dependencies: {have_elgato: 'Yes'}}, children: [
+		{field_type : 'ComboBox',  title: 'Product Manufacturer' , name: 'product_manufacturer', json_config : {sourceApi : 'product/getList?type=hardware', apiDisplayField: 'manufacturer'}},
+		{field_type : 'ComboBox',  title: 'Product Name'         , name: 'product_family'      , json_config : {sourceApi : 'product/getList?type=hardware', apiDisplayField: 'family', apiFilter: {manufacturer: 'product_manufacturer'}}},
+		{field_type : 'ComboBox',  title: 'Edition'              , name: 'product_name'        , json_config : {sourceApi : 'product/getList?type=hardware', apiDisplayField: 'name', apiFilter: {manufacturer: 'product_manufacturer', family: 'product_family'}}},
+
+		{field_type : 'DisplayField'},
+
+//		{field_type : 'ComboBox',  title: 'Software Manufacturer', name: 'software_manufacturer', json_config : {sourceApi : 'product/getList?type=software', apiDisplayField: 'manufacturer'}},
+//		{field_type : 'ComboBox',  title: 'Product Name'         , name: 'software_family'      , json_config : {sourceApi : 'product/getList?type=software', apiDisplayField: 'family', apiFilter: {manufacturer: 'software_manufacturer'}}},
+		{field_type : 'TextField', title: 'Version'              , name: 'software_name'        , json_config : {sourceApi : 'product/getList?type=software', dependencies: {software_family: '*'}}},
+		{field_type : 'TextField', title: 'Activation Key'       , name: 'activation_key'       , json_config : {dependencies : [{need_exchange: 'Yes', 'product.features.is_software' : 1}, {need_return: 'Yes', 'product.features.is_software' : 1}]}},
+		{field_type : 'ComboBox',  title: 'Operating System'     , name: 'operating_system'     , json_config : {sourceData: ['Mac OS X', 'Windows 7', 'iOS', 'Other']}},
+	]},
+
+	{field_type : 'FieldSet', title: 'Reason For Contact', children : [
+		{field_type : 'ComboBox', name: 'problem_specifics' , title: 'Problem Specifics' , json_config : {sourceApi : 'product/getProblems', apiDisplayField: 'problem', dependencies: {have_problem: 'Yes'}, apiFilter: {'product*': 'product_family'}, apiRoot: 'problems', isComboTitle: {type: "Problem Area"}}}
+	]},
+
+	{field_type : 'FieldSet', title: 'Purchase Info', children : [
+		{field_type : 'DateField', name: 'purchase_date' , title: 'Date of Purchase'  , json_config : {dependencies : [{'problem_specifics.need_return': 'Yes'}, {'problem_specifics.need_return': 'Yes'}]}},
+		{field_type : 'TextField', name: 'purchase_place', title: 'Place of Purchase' , json_config : {dependencies : [{'problem_specifics.need_return': 'Yes'}, {'problem_specifics.need_return': 'Yes'}]}},
+		{field_type : 'TextField', name: 'shipping_address', title: 'Shipping Address', json_config : {dependencies : [{'problem_specifics.need_return': 'Yes'}, {'problem_specifics.need_return': 'Yes'}]}}
+	]},
+
+	{field_type : 'FieldSet', title: 'Message Details', json_config : {labelWidth: 75}, children: [
+		{field_type : 'DisplayField', title: 'Support Phone #', json_config : {sourceApi : 'elgato/getSupportPhoneNumbers', apiDisplayField: 'number', apiFilter: {country: 'country'}}},
+		{field_type : 'TextField', name: 'subject', title: 'Subject'},
+		{field_type : 'TextArea' , name: 'message', json_config : {hideLabel : true, height:300}}
+	]}
+];
+
+// add the form
+api.form.add({name: 'Create a Ticket', json_config: '{autoHeight : true, width : 500, labelWidth : 180, labelAlign: "right"}'}, function(err, resp){
+	if(err){ throw err; }
+
+	var form_id  = resp.form_id;
+	var field_id = resp.root_field_id;
+
+	// recursively add all the fields
+	for(var i=0, l=fields.length; i<l; i++){
+		
+		// the timeout is to get them in the database in the correct order since we're running everything in parallel
+		addFields(form_id, field_id, fields[i]);
+	}
+});
+
+var ix = 0;
+
+function addFields(form_id, parent_id, data){
+	data.form_id     = form_id;
+	data.parent_id   = parent_id;
+	data.json_config && (data.json_config = JSON.stringify(data.json_config));
+
+	setTimeout(function(){
+		api.form.field.add(data, function(err, resp){
+			if(err){ throw err; }
+
+			if(data.children){
+				for(var i=0, l=data.children.length; i<l; i++){
+					addFields(form_id, resp.field_id, data.children[i]);
+				}
+			}
+		});
+	}, (ix++) * 100);
+}

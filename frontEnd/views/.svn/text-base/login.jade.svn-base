@@ -1,0 +1,46 @@
+!!! strict
+head
+  title Login
+  != partial('css', ['concat?css/reset.css,css/main.css'])
+  != partial('js_modules')
+  != partial('api')
+style
+  | form {
+  |   text-align : center;
+  | }
+  | 
+  | form span {
+  |   width      : 100px;
+  |   display    : inline-block;
+  |   text-align : right;
+  |   padding    : 0 5px 0 0;
+  | }
+  | 
+  | button {
+  |   padding : 5px;
+  |   margin  : 5px;
+  | }
+  | 
+  | a.logout {
+  |   text-decoration : none;
+  |   color           : #414D59;
+  | }
+script(type='text/javascript')
+  | $(function(){
+  |   $('form').bind('submit', function(ev){ ev.preventDefault(); $.api.get('user/getAuthToken', $(this).serialize(), function(resp){ alert(resp.msg || resp.status); }); });
+  |   $('a.logout').bind('click', function(ev){ ev.preventDefault(); $.api.get('user/deleteAuthToken', function(resp){ alert(resp.msg || resp.status); }); });
+  | });
+  
+body
+  #page
+    != partial('elgato_header')
+    form
+      span Email:
+      input(name='email')
+      br
+      span Password:
+      input(name='password',type='password')
+      br
+      button Login
+    a.logout(href='#') Log Out
+    != partial('footer/elgato_footer-' + req.language)

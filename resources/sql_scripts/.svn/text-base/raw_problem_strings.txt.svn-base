@@ -1,0 +1,191 @@
+EyeTV	Problem Area	RMA (Exchange and Return)	RMA (Austausch und Rücksendung)	RMA (échange et retour)
+EyeTV		Product needs to be exchanged	Produkt soll ausgetauscht werden	Échange du produit
+EyeTV		Product needs to be returned for a refund	Produkt soll zurückgegeben werden	Retour du produit (remboursement)
+EyeTV	Problem Area	Activation key	Freischaltcode	Clé d'activation
+EyeTV		Activation key lost	Freischaltcode verloren	Clé d'activation perdue
+EyeTV		Activation key not accepted	Freischaltcode wird nicht akzeptiert	Clé d'activation non acceptée
+EyeTV	Problem Area	Audio	Ton	Audio
+EyeTV		Audio is missing	Kein Ton vorhanden	Audio manquante
+EyeTV		Audio does not match source material	Ton stimmt nicht mit Ausgangsmaterial überein	Audio ne correspondant pas à la source
+EyeTV	Problem Area	Video	Video	Vidéo
+EyeTV		Video is missing	Kein Video vorhanden	Vidéo manquante
+EyeTV		Video has wrong aspect ratio	Video hat das falsche Bildseitenverhältnis	Vidéo avec rapport de fenêtre incorrect
+EyeTV		"Video is low quality (static, pixelated, bad color)"	"Video hat schlechte Qualität (Stottern, Artefakte, schlechte Farben)"	"Vidéo de mauvaise qualité (bloquée, pixellisée, mauvaise couleurs)"
+EyeTV		Video doesn't play smoothly	Video wird nicht flüssig abgespielt	Vidéo saccadée ou non lue correctement
+EyeTV	Problem Area	Signal	Signal	Signal
+EyeTV		No Signal	Kein Signal	Pas de Signal
+EyeTV		Signal Strength/Quality problem	Signal Stärke/Qualitäts-Problem	"Niveau ou qualité du signal insuffisants"""
+EyeTV	Problem Area	Scheduling	Programmierung	Programmation
+EyeTV		Schedule does not start recording	Programmierte Sendungen werden nicht ausgeführt	Non démarrage des enregistrements
+EyeTV		Smart Guide does not lead to recording	Intelligenter EPG führt keine Aufnahmen durch	Pas d'enregistrements via les guides intelligents
+EyeTV	Problem Area	Recording	Aufnahme	Enregistrements
+EyeTV		0 Second recordings	0 Sekunden Aufnahmen	Enregistrements de 0 secondes
+EyeTV		Recording ends before scheduled time	Aufnahmen enden vor der programmierten Uhrzeit	Enregistrements finissant avant la fin prévue
+EyeTV	Problem Area	Program Guide	Programm (EPG)	Guide des programmes
+EyeTV		No Program Guide	Kein Programm (EPG)	Pas de guide des programmes
+EyeTV		Incorrect Program Guide data	Falsche Programm (EPG) Informationen	Données du guide des programmes incorrectes
+EyeTV		No Program Guide update	Keine Programm (EPG) Aktualisierung	Guide des programmes non mis à jour
+EyeTV		Guide service sign up problems	Programm (EPG) Aktivierungs-Probleme	Problème de création d'un compte pour le guide des programmes
+EyeTV	Problem Area	Channels	Sender	Chaînes
+EyeTV		Auto Tune doesn't start	Sendersuchlauf startet nicht	Le réglage des chaînes ne démarre pas
+EyeTV		Auto Tune misses channels	Sendersuchlauf findet nicht alle Sender	Le réglage des chaînes ne trouve pas toutes les chaînes
+EyeTV		Incorrect Channel Lineup	Falsche Sendersortierung	Liste des chaînes incorrecte
+EyeTV		Problem with Clear QAM setup	Problem mit Clear QAM Einrichtung	Problème de configuration des chaînes en QAM claire (Clear QAM)
+EyeTV	Problem Area	Sharing	Freigabe	Partage
+EyeTV		Sharing won't start	Freigabe startet nicht	Le partage ne démarre pas
+EyeTV		Shared items don't appear	Freigegebene Dateien erscheinen nicht	Les éléments partagés ne sont pas visibles
+EyeTV	Problem Area	iPhone Access	iPhone Access	Accès iPhone
+EyeTV		iPhone Access won't start	iPhone Access startet nicht	L'accès iPhone ne démarre pas
+EyeTV		iPhone Access won't display a web page	iPhone Access zeigt keine Startseite an	Page Web non visible via l'accès iPhone
+EyeTV		iPhone Access won't play video	iPhone Access gibt kein Video wieder	Vidéo(s) non jouée(s) via l'accès iPhone
+EyeTV	Problem Area	Application Performance	Anwendungs-Verhalten	Application
+EyeTV		EyeTV won't launch	EyeTV startet nicht	EyeTV ne démarre pas
+EyeTV		EyeTV crashes	EyeTV stürzt ab	EyeTV plante (crash)
+EyeTV		Kernel panic when using EyeTV	Kernel panic bei Verwendung von EyeTV	EyeTV provoque un 'kernel panic'
+EyeTV		Spinning Rainbow Wheel while using EyeTV	Drehendes Rad (spinning wheel) beim Start von EyeTV	EyeTV est bloqué (roue multicolore tournante)
+EyeTV	Problem Area	"Wake, Sleep and Boot"	Aufwachen und Starten	Réactivation et démarrage du Mac
+EyeTV		EyeTV won't wake from sleep to record	EyeTV weckt den Mac nicht für Aufnahmen	Le Mac n'est pas réactivé pour effectuer un enregistrement
+EyeTV		EyeTV won't boot Mac to record	EyeTV startet den Mac nicht  für Aufnahmen	Le Mac n'est pas démarré pour effectuer un enregistrement
+EyeTV		Mac won't sleep properly when EyeTV is in use	?????	Le Mac n'est pas démarré pour effectuer un enregistrement
+EyeTV	Problem Area	Connection	Anschluss	Connexion au Mac
+EyeTV		USB 1.1 error message	USB 1.1 Fehlermeldung	Message d'erreur '...car il est branché sur un port USB 1.1'
+EyeTV		Device Not Initialized	Gerät konnte nicht initialisiert werden (Device Not Initialized)	Message d'erreur 'Le matériel ne peut pas être initialisé'
+EyeTV		Device not found by software or System Profiler	Gerät wird nicht von EyeTV oder/und System Profiler gefunden	Appareil EyeTV non trouvé par le logiciel ou dans les infos système
+EyeTV		Conflict with other devices	Konflikt mit anderen Geräten	Conflit avec d'autres appareils connectés au Mac
+EyeTV	Problem Area	Export Issues	Export Probleme	Exportations
+EyeTV		Exported file has missing content	Exportierte Datei ist unvollständig	"Partie(s) manquante(s) dans les fichiers exportés"""
+EyeTV		Exported file does not play	Exportierte Datei lässt sich nicht abspielen	Impossible de jouer le fichier exporté
+EyeTV		Exported file has pixelation or distortion	Exportierte Datei hat Störungen/Artefakte	La vidéo du fichier exporté est pixellisée ou distordue
+EyeTV		Exported file has incorrect aspect ratio	Exportierte Date hat das falsche Bildseitenverhältnis	La vidéo du fichier exporté a un rapport de fenêtre incorrect
+EyeTV	Problem Area	Pay TV Issue	Pay TV Probleme	Chaînes payantes (cryptées)
+EyeTV		CAM not found	CAM wird nicht erkannt	Module CAM non détecté
+EyeTV		CAM does not authorize channels	CAM entschlüsselt bestimmte Sender nicht	Chaînes non décryptées
+EyeTV	Problem Area	Text Issues	Text Probleme	Sous-titres
+EyeTV		Closed Captioning or Subtitles won't appear	Erweiterte Untertitel oder Untertitel erscheinen nicht	Les sous-titres ou sous-titres codés (closed captions) n'apparaissent pas
+EyeTV		Incorrect Subtitles or Closed Captions	Falsche Untertitel	Sous-titres ou sous-titres codés (closed captions) incorrects
+EyeTV		Closed Captions won't export	Erweiterte Untertitel werden nicht exportiert	Sous-titres codés (closed captions) non exportés
+EyeTV		Teletext won't appear	Teletext wird nicht angezeigt	Les sous-titres télétexte n'apparaissent pas
+EyeTV	Problem Area	Peripherals	Zubehör	Périphériques
+EyeTV		Remote does not control EyeTV	Fernbedienung funktioniert nicht mit EyeTV	La télécommande ne marche pas
+EyeTV		IR Blaster does not change channels	IR Blaster schaltet die Sender nicht um	Le boîtier 'IR Blaster' ne change pas les chaînes
+EyeTV		Audio/video cable does not work	Audio/Video Kabel funktioniert nicht	Le câble d'adaptation audio/vidéo ne marche pas
+EyeTV	Problem Area	Software Update	Software Aktualisierung	Mise à jour du logiciel
+EyeTV		Update process does not complete	Aktualisierung wird nicht vollständig ausgeführt	La mise à jour ne se termine pas correctement
+EyeTV		Updated software does not launch	Aktualisierung der Software startet nicht	Le logiciel mis à jour ne démarre pas
+EyeTV		Updated software has a problem	Aktualisierung der Software hat ein Problem	Problème avec le logiciel mis à jour
+EyeTV	Problem Area	Setup Issues	?????	?????
+EyeTV		Problem with antenna input	?????	?????
+EyeTV		Problem with cable input	?????	?????
+EyeTV		Problem with satellite input	?????	?????
+EyeTV		Problem with set top box input	?????	?????
+EyeTV		Problem with game console input	?????	?????
+EyeTV		Problem with other input	?????	?????
+EyeTV		Problem with VCR input	?????	?????
+EyeTV	Problem Area	Account Issues	?????	?????
+EyeTV		Problem logging into account	?????	?????
+EyeTV		"Problem signing up for account"""	?????	?????
+EyeTV		Issue not listed (Describe in Message Details field)	Nicht aufgeführtes Problem (Beschreibung im Nachrichtenfeld)	Problème non répertorié (décrivez-le dans le champ Message)
+EyeTV for iPhone/iPad	Problem Area	Networking	?????	Réseau
+EyeTV for iPhone/iPad		Mac not visible in the home network	?????	Mac non visible dans le réseau local
+EyeTV for iPhone/iPad		Mac not visible outside the home network	?????	Mac non visible à l'extérieur du réseau local
+EyeTV for iPhone/iPad	Problem Area	Live TV	?????	TV en direct
+EyeTV for iPhone/iPad		Live TV not available	?????	TV en direct non disponible
+EyeTV for iPhone/iPad		Live TV missing audio	?????	TV en direct sans son
+EyeTV for iPhone/iPad		Live TV missing video	?????	TV en direct sans image
+EyeTV for iPhone/iPad		Live TV plays incorrectly	?????	TV en direct lue incorrectement
+EyeTV for iPhone/iPad	Problem Area	Recordings	?????	Enregistrements
+EyeTV for iPhone/iPad		Recordings not available	?????	Enregistrements non disponibles
+EyeTV for iPhone/iPad		Recordings missing audio	?????	Enregistrements sans son
+EyeTV for iPhone/iPad		Recordings missing video	?????	Enregistrements sans image
+EyeTV for iPhone/iPad		Recordings plays incorrectly	?????	Enregistrements lus incorrectement
+EyeTV for iPhone/iPad	Problem Area	Schedules	?????	Programmes (d'enregistrement)
+EyeTV for iPhone/iPad		Schedules not available	?????	Programmes non disponibles
+EyeTV for iPhone/iPad		Not able to add/change schedules	?????	Impossible d'ajouter/changer des programmes
+EyeTV for iPhone/iPad		Some schedules missing	?????	Certains programmes sont manquants
+EyeTV for iPhone/iPad	Problem Area	Guide	?????	Guide
+EyeTV for iPhone/iPad		Guide not available	?????	Guide non disponible
+EyeTV for iPhone/iPad		Guide data incorrect	?????	Données du guide incorrectes
+EyeTV for iPhone/iPad	Problem Area	Channels	?????	Chaînes
+EyeTV for iPhone/iPad		Channel list not available	?????	Liste des chaînes non disponible
+EyeTV for iPhone/iPad		Some channels don't work	?????	Certaines chaînes ne fonctionnent pas
+EyeTV for iPhone/iPad	Problem Area	Firewall	?????	Coupe-feu
+EyeTV for iPhone/iPad		Mac not found unless Firewall is off	?????	"Mac non-trouvé lorsque le coupe-feu est activé"""
+EyeTV for iPhone/iPad		"Don't know how to open TCP 2170/UDP 1900"""	?????	Ne sais pas comment ouvrir les ports TCP 2170/UDP 1900
+EyeTV for iPhone/iPad		Other Firewall issue	?????	Autre problèmes avec le coupe-feu
+EyeTV for iPhone/iPad	Problem Area	Router	?????	Routeur
+EyeTV for iPhone/iPad		Router incompatible message	?????	Message 'routeur incompatible
+EyeTV for iPhone/iPad		Don't know how to adjust router	?????	Ne sais pas comment configurer le routeur
+EyeTV for iPhone/iPad	Problem Area	My EyeTV	?????	Accès à My EyeTV
+EyeTV for iPhone/iPad		Can't sign up for account	?????	Ne peut pas créer un compte
+EyeTV for iPhone/iPad		Account is inactive	?????	Compte inactif
+EyeTV for iPhone/iPad		Need to change email or password	?????	Besoin de changer le courriel ou le mot de passe
+EyeTV for iPhone/iPad		Won't connect to my Mac	?????	Pas de connexion au Mac
+EyeTV for iPhone/iPad		Issue not listed (describe in Message Details field)	Nicht aufgeführtes Problem (Beschreibung im Nachrichtenfeld)	Problème non répertorié (décrivez-le dans le champ Message)
+Turbo.264 HD	Problem Area	RMA (Exchange and Return)	RMA (Austausch und Rücksendung)	RMA (échange et retour)
+Turbo.264 HD		Product needs to be exchanged	Produkt soll ausgetauscht werden	Échange du produit
+Turbo.264 HD		Product needs to be returned for a refund	Produkt soll zurückgegeben werden	Retour du produit (remboursement)
+Turbo.264 HD	Problem Area	Activation key	Freischaltcode	Clé d'activation
+Turbo.264 HD		Activation key lost	Freischaltcode verloren	Clé d'activation perdue
+Turbo.264 HD		Activation key not accepted	Freischaltcode wird nicht akzeptiert	Clé d'activation non acceptée
+Turbo.264 HD	Problem Area	Application Performance	Anwendungs-Verhalten	Application
+Turbo.264 HD		Turbo.264 HD won't launch	Turbo.264 startet nicht	Turbo.264 ne démarre pas
+Turbo.264 HD		Turbo.264 HD crashes	Turbo.264 stürzt ab	Turbo.264 plante (crash)
+Turbo.264 HD		Spinning Rainbow Wheel while using Turbo.264 HD	Drehendes Rad (spinning wheel) beim Start von  Turbo.264	Turbo.264 est bloqué (roue multicolore tournante)
+Turbo.264 HD	Problem Area	Connection	Anschluss	Connexion au Mac
+Turbo.264 HD		Device not found by software or System Profiler	Gerät wird nicht von EyeTV oder/und System Profiler gefunden	Appareil Turbo.264 non trouvé par le logiciel ou dans les infos système
+Turbo.264 HD		Conflict with other devices	Konflikt mit anderen Geräten	Conflit avec d'autres appareils connectés au Mac
+Turbo.264 HD	Problem Area	Export Issues	Export Probleme	Exportations
+Turbo.264 HD		"Export does not complete, lists error message"	"Exportierte Datei ist unvollständig, es wird eine Fehlermeldung angezeigt"	"Exportation non terminée, message d'erreur"
+Turbo.264 HD		Exported file has missing content	Exportierte Datei ist unvollständig	"Partie(s) manquante(s) dans les fichiers exportés"""
+Turbo.264 HD		Exported file has pixelation or distortion	Exportierte Datei hat Störungen/Artefakte	La vidéo du fichier exporté est pixellisée ou distordue
+Turbo.264 HD		Exported file has incorrect aspect ratio	Exportierte Date hat das falsche Bildseitenverhältnis	La vidéo du fichier exporté a un rapport de fenêtre incorrect
+Turbo.264 HD		Exported file does not play	Exportierte Datei lässt sich nicht abspielen	Impossible de jouer le fichier exporté
+Turbo.264 HD		Exported file has audio problems	Exportierte Datei hat Probleme mit dem Ton	?????
+Turbo.264 HD		Export process is slow	Export-Durchführung ist langsam	Exportation lente
+Turbo.264 HD	Problem Area	Issue not listed (describe in Message Details field)	Nicht aufgeführtes Problem (Beschreibung im Nachrichtenfeld)	Problème non répertorié (décrivez-le dans le champ Message)
+EyeConnect	Problem Area	RMA (Exchange and Return)	RMA (Austausch und Rücksendung)	RMA (échange et retour)
+EyeConnect		Product needs to be returned for a refund	Produkt soll zurückgegeben werden	Retour du produit (remboursement)
+EyeConnect	Problem Area	Activation key	Freischaltcode	Clé d'activation
+EyeConnect		Activation key lost	Freischaltcode verloren	Clé d'activation perdue
+EyeConnect		Activation key not accepted	Freischaltcode wird nicht akzeptiert	Clé d'activation non acceptée
+EyeConnect	Problem Area	Network	Netzwerk	Réseau
+EyeConnect		UPnP AV client not found by EyeConnect	UPnP AV Client wird von EyeConnect nicht gefunden	Client UPnP AV non trouvé par EyeConnect
+EyeConnect		UPnP AV client does not find EyeConnect	UPnP AV Client findet EyeConnect Server nicht	EyeConnect non trouvé par le client UPnP AV
+EyeConnect		Problems with Firewall	Probleme mit der Firewall	Problèmes avec le coupe-feu
+EyeConnect		Not enough bandwidth to send data	"Nicht genügend Bandbreite vorhanden, um Daten zu senden"	Bande passante insuffisante pour envoyer les données
+EyeConnect		Network connection variable	Netzwerk-Verbindung schwankt	Connexion réseau instable
+EyeConnect	Problem Area	Playback	Wiedergabe	Lecture
+EyeConnect		Problems playing EyeTV content	Probleme bei der Wiedergabe von EyeTV Aufnahmen	Problèmes pour jouer des contenus EyeTV
+EyeConnect		Problems playing video content	Probleme bei der Wiedergabe von Video-Dateien	Problèmes pour jouer des contenus vidéo
+EyeConnect		Problems playing audio content	Probleme bei der Wiedergabe von Audio-Dateien	Problèmes pour jouer des contenus audio
+EyeConnect		Problems playing photo content	Probleme bei der Wiedergabe von Foto-Dateien	Problèmes pour jouer des contenus photo
+EyeConnect		Error message during playback	Fehlermeldung bei der Wiedergabe	Message d'erreur pendant la lecture
+EyeConnect		Issue not listed (describe in Message Details field)	Nicht aufgeführtes Problem (Beschreibung im Nachrichtenfeld)	Problème non répertorié (décrivez-le dans le champ Message)
+Elgato Video Capture	Problem Area	RMA (Exchange and Return)	RMA (Austausch und Rücksendung)	RMA (échange et retour)
+Elgato Video Capture		Product needs to be exchanged	Produkt soll ausgetauscht werden	Échange du produit
+Elgato Video Capture		Product needs to be returned for a refund	Produkt soll zurückgegeben werden	Retour du produit (remboursement)
+Elgato Video Capture	Problem Area	Application Performance	Programm-Verhalten	Application
+Elgato Video Capture		Video Capture won't launch	Video Capture startet nicht	Video Capture ne démarre pas
+Elgato Video Capture		Video Capture crashes	Video Capture stürzt ab	Video Capture plante (crash)
+Elgato Video Capture		Spinning Rainbow Wheel while using Video Capture	Drehendes Rad (spinning rainbow) bei der Anwendung von Video Capture	Video Capture est bloqué (roue multicolore tournante)
+Elgato Video Capture	Problem Area	Audio	Ton	Audio
+Elgato Video Capture		Audio is missing	Kein Ton vorhanden	Audio manquante
+Elgato Video Capture		Audio does not match source material	Ton stimmt nicht mit Ausgangsmaterial überein	Audio ne correspondant pas à la source
+Elgato Video Capture	Problem Area	Video	Video	Vidéo
+Elgato Video Capture		Video is missing	Kein Video vorhanden	Vidéo manquante
+Elgato Video Capture		Video has wrong aspect ratio	Video hat das falsche Bildseitenverhältnis	Vidéo avec rapport de fenêtre incorrect
+Elgato Video Capture		"Video is low quality (static, pixelated, bad color)"	"Video hat schlechte Qualität (Stottern, Artefakte, schlechte Farben)"	"Vidéo de mauvaise qualité (bloquée, pixellisée, mauvaise couleurs)"
+Elgato Video Capture		Video doesn't play smoothly	Video wird nicht flüssig abgespielt	"Vidéo saccadée ou non lue correctement"">Vidéo saccadée ou non lue correctement"
+Elgato Video Capture	Problem Area	Recording	Aufnahme	Enregistrements
+Elgato Video Capture		Recording won't start	Aufnahme startet nicht	Enregistrements ne démarrant pas
+Elgato Video Capture		Recording ends too soon	Aufnahme endet zu früh	Enregistrements finissant avant la fin prévue
+Elgato Video Capture	Problem Area	Connection	Anschluss	Connexion au Mac
+Elgato Video Capture		Device not found by software or System Profiler	"Gerät wird nicht von EyeTV oder/und System Profiler gefunden"""	Appareil Video Capture non trouvé par le logiciel ou dans les informations système
+Elgato Video Capture		Conflict with other devices	Konflikt mit anderen Geräten	Conflit avec d'autres appareils connectés au Mac
+Elgato Video Capture	Problem Area	Post-Recording	Nachbereitung der Aufnahmen	Post-traitement
+Elgato Video Capture		Problem with trimming (editor)	Problem mit schneiden (Editor)	Problème pour couper l'enregistrement (éditeur)
+Elgato Video Capture		Video won't open with QuickTime Player	Video lässt sich nicht mit QuickTime Player öffnen	La vidéo ne s'ouvre pas dans QuickTime Player
+Elgato Video Capture		Video won't add to iTunes	Video kann nicht zu iTunes hinzugefügt werden	La vidéo n'est pas ajoutée à iTunes
+Elgato Video Capture		Video won't open with iMovie	Video lässt sich nicht mit iMovie öffnen	La vidéo ne s'ouvre pas dans iMovie
+Elgato Video Capture		Video won't upload to YouTube	Video lässt sich nicht auf YouTube laden	La vidéo n'est pas téléchargée sur YouTube
+Elgato Video Capture		Issue not listed (describe in Message Details field)	Nicht aufgeführtes Problem (Beschreibung im Nachrichtenfeld)	Problème non répertorié (décrivez-le dans le champ Message)

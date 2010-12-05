@@ -1,0 +1,2 @@
+!= partial('js',['js/jquery-ui-min.js'])
+!= partial('css', ['css/jquery-ui/jquery-ui.css'])

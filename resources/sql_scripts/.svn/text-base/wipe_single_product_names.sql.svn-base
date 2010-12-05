@@ -1,0 +1,2 @@
+# Just get rid of product names if there's only one name
+UPDATE product p INNER JOIN (SELECT p.fk_family_string_id FROM product p GROUP BY p.fk_manufacturer_string_id, p.fk_family_string_id HAVING count(p.fk_family_string_id)=1) p2 ON p.fk_family_string_id=p2.fk_family_string_id SET p.fk_name_string_id=NULL;

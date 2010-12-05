@@ -1,0 +1,16 @@
+!!! strict
+head
+  title Thank you for your submission
+  != partial('css', ['concat?css/reset.css,css/main.css'])
+style
+  | p {
+  |   font-size : .75em;
+  |   padding   : 10px;
+  | }
+body
+  #page
+    != partial('elgato_header')
+    div
+      p= thankyou1
+      p= thankyou2
+    != partial('footer/elgato_footer-' + req.language)

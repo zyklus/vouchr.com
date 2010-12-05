@@ -1,0 +1,7 @@
+- rnd = Math.random().toString().substr(2);
+- frm = JSON.stringify(form)
+
+div(id=rnd)
+  //-!= partial('js', ['concat?modules/form/js/form.js,modules/form/js/formItem.js,modules/form/js/data_controller.js,modules/form/js/button.js,modules/form/js/combo.js,modules/form/js/composite.js,modules/form/js/dateField.js,modules/form/js/displayField.js,modules/form/js/fieldset.js,modules/form/js/productImage.js,modules/form/js/textarea.js,modules/form/js/textfield.js'])
+  :javascript
+    | $.modules.load('form', #{frm}, function(mod){ mod.renderTo('##{rnd}'); });

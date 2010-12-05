@@ -1,0 +1,318 @@
+.form-fieldset-x {
+	padding  : 0px;
+	position : relative;
+}
+
+.form-fieldset-content {
+	padding : 0 100px 0 50px;
+}
+
+.form-fieldset-title {
+	font-family : Arial, sans-serif;
+	font-size   : .9em;
+	font-weight : normal;
+	color       : #FFF;
+	line-height : 25px;
+	padding     : 0px 0px 0px 7px;
+	height      : 25px;
+	background  : url(../images/header_bg.png);
+	position    : relative;
+	margin      : 20px 0 15px 0;
+}
+
+.form-fieldset-title-left, .form-fieldset-title-right {
+	background : url(../images/header_sides.png);
+	height     : 25px;
+	width      : 3px;
+	position   : absolute;
+	top        : 0px;
+	left       : 0px;
+}
+
+.form-fieldset-title-right {
+	left                : auto;
+	right               : 0px;
+	background-position : -3px 0;
+}
+
+.form-item-x {
+	display       : block;
+	margin-bottom : 4px;
+	position      : relative;
+}
+
+.form-textarea-x {
+	height : 100%;
+	width  : 100%;
+}
+
+.form-combo-x, .form-textfield-x, .form-datefield-x, .form-textarea-x, .field_editor{
+	font-family : tahoma, verdana, sans-serif;
+	font-size   : .75em;
+	border      : 1px solid #97AFB5;
+}
+
+.form-item-label {
+	clear      : left;
+	display    : block;
+	float      : left;
+	padding    : 3px 10px 3px 0px;
+	position   : relative;
+	width      : 100px;
+	z-index    : 2;
+	font-size  : .75em;
+	text-align : right;
+}
+
+.form-item-element {
+	position     : relative;
+	padding-left : 105px;
+}
+
+.form-item-clear {
+	clear       : left;
+	font-size   : 0px;
+	height      : 0px;
+	line-height : 0;
+}
+
+.form-textfield-x, .form-datefield-x, .form-textarea-x {
+	background   : #FFF url(../images/text-bg.gif) repeat-x;
+	border       : 1px solid #B5B8C8;
+	padding      : 1px 3px;
+}
+
+.form-item-x.invalid .form-textfield-x, .form-item-x.invalid .form-datefield-x, .form-item-x.invalid .form-textarea-x, .form-item-x.invalid .form-combo-x {
+	background   : url(../images/invalid_line.gif) repeat-x scroll center bottom transparent;	
+	border-color : #C30;
+}
+
+.form-item-invalid-icon {
+	background : url(../images/exclamation.gif);
+	width      : 15px;
+	height     : 15px;
+	position   : absolute;
+	top        : 3px;
+	right      : -18px;
+	display    : none;
+}
+
+.form-item-x.invalid .form-item-invalid-icon {
+	display : block;
+}
+
+.form-composite-element .form-item-x .form-item-invalid-icon {
+	display : none;
+}
+
+.form-display-x {
+	font-size  : .75em;
+	padding    : 3px 3px 3px 0;
+}
+
+.form-button-x {
+	font-size : .75em;
+	padding   : 3px;
+}
+
+.form-button-element {
+	margin-top : 20px;
+}
+
+/* Composite fields */
+
+.form-composite-x .form-item-element .form-item-element {
+	padding-left : 0px !important;
+	display      : inline;
+}
+
+.form-composite-x .form-item-element .form-item-x {
+	display      : inline !important;
+	padding-left : 5px;
+}
+
+.form-composite-x .form-item-element .form-item-x.first {
+	padding-left : 0px;
+}
+
+.form-composite-x .form-item-element .form-item-clear {
+	clear   : none;
+	display : none;
+}
+
+/* Edit Mode */
+.editMode .form-item-x {
+	border-top : 1px solid transparent;
+}
+
+.editMode .form-fieldset-x {
+	border-bottom : 1px solid transparent;
+}
+
+.editMode .form-item-x.dropTarget {
+	border-top       : 1px solid red;
+	background-color : #FF6;
+}
+
+.editMode .form-fieldset-x.dropTarget {
+	border-bottom    : 1px solid red;
+	background-color : #FF6;
+}
+
+.editMode .editBtn {
+	display    : none;
+	position   : absolute;
+	top        : 0px;
+	right      : -30px;
+	width      : 30px;
+	height     : 21px;
+	z-index    : 1;
+	background : #FFF;
+}
+
+.editMode .editBtn div {
+	float : left;
+}
+
+.editMode .editBtn div:first-child {
+	background : url(../images/drag_handle.gif);
+	width      : 5px;
+	height     : 15px;
+	margin     : 3px;
+	position   : absolute;
+	left       : 0px;
+	cursor     : move;
+}
+
+.editMode .editBtn div:last-child {
+	background : url(../images/edit.gif) no-repeat;
+	margin     : 3px;
+	position   : absolute;
+	cursor     : pointer;
+	left       : 8px;
+	width      : 16px;
+	height     : 15px;
+}
+
+.editMode .form-item-x:hover .editBtn, .editMode .form-fieldset-x:hover > .editBtn {
+	display : block;
+}
+
+.editMode .form-composite-x > .editBtn {
+	right : -60px;
+}
+
+.field_editor {
+	position   : absolute;
+	border     : 1px solid #000;
+	padding    : 5px;
+	width      : 350px;
+	background : #FFF;
+}
+
+.field_editor label {
+	width   : 70px;
+	display : inline-block;
+}
+
+.field_editor select, .field_editor input, .field_editor textarea {
+	width : 270px;
+	padding : 0px;
+}
+
+.field_editor textarea {
+	height : 100px;
+}
+
+.field_editor button {
+	margin  : 5px 0 0 5px;
+	float   : right;
+	padding : 2px 6px 3px;
+}
+
+.blockquote {
+	padding   : 20px;
+	font-size : .9em;
+}
+
+.form-item-x a{
+	text-decoration : underline;
+}
+
+.form-productitem-element {
+	height   : 134px;
+	overflow : hidden;
+}
+
+.form-productitem-x {
+	white-space : nowrap;
+	position    : absolute;
+	top         : 0px;
+	left        : 0px;
+}
+
+.form-productitem-img {
+	display  : inline-block;
+	padding  : 5px;
+	opacity  : .5;
+	cursor   : pointer;
+	position : relative;
+	width    : 155px;
+	height   : 127px;
+}
+
+.form-productitem-img.hover {
+	background-color : #FF9;
+	opacity          : 1;
+}
+
+.form-productitem-img.selected {
+	background-color : #81F191;
+	opacity          : 1;
+}
+
+.form-productitem-img div {
+	position : absolute;
+	top      : 0px;
+	left     : 0px;
+	width    : 100%;
+	height   : 100%;
+	z-index  : 2;
+}
+
+.form-productitem-arrow-left, .form-productitem-arrow-right, .form-productitem-arrow-left div, .form-productitem-arrow-right div {
+	position   : absolute;
+	top        : 0px;
+	width      : 12px;
+	height     : 134px;
+	left       : 0px;
+	z-index    : 1;
+	background : #FFF;
+}
+
+.form-productitem-arrow-left div, .form-productitem-arrow-right div {
+	background : url(../images/product_leftright.png);
+}
+
+
+.form-productitem-arrow-right, .form-productitem-arrow-right div {
+	left                : auto;
+	right               : 0px;
+	background-position : 0 -134px;
+}
+
+.form-productitem-gradient-left, .form-productitem-gradient-right {
+	position   : absolute;
+	top        : 0px;
+	height     : 134px;
+	width      : 30px;
+	left       : 12px;
+	background : url(../images/product_leftright_gradients.png);
+	z-index    : 1;
+}
+
+.form-productitem-gradient-right {
+	left                : auto;
+	right               : 12px;
+	background-position : -30px 0;
+}

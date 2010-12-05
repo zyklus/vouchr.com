@@ -1,0 +1,5 @@
+[Elgato]
+database=elgato
+host=localhost
+user=root
+socket=/tmp/mysql.sock

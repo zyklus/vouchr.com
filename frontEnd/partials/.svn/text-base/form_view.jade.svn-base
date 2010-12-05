@@ -1,0 +1,13 @@
+!!! strict
+head
+  title #{form[0].title}
+  != partial('css', ['concat?css/reset.css,css/main.css'])
+  != partial('js_modules')
+  script= "$.modules.provideConfig('form', {country_code:'" + country_code + "'});"
+  != partial('api')
+  != req.query.edit && partial('js', ['modules/form/js/edit_fields.js'])
+body
+  #page
+    != partial('elgato_header')
+    != partial('form', form)
+    != partial('footer/elgato_footer-' + req.language)

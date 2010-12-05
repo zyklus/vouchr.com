@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../externals/extjs/resources/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="../externals/extjs/resources/css/elgato.css" />
+<link rel="stylesheet" type="text/css" href="../modules/ext/ux/file_upload_field/file_upload_field.css" />
+
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../externals/extjs/adapter/jquery/ext-jquery-adapter-debug.js"></script>
+<script type="text/javascript" src="../externals/extjs/ext-all-debug.js"></script>
+
+<script type="text/javascript" src="../modules/ext/ux/file_upload_field/file_upload_field.js"></script>
+
+<script type="text/javascript">
+Ext.onReady(function() {
+	var form = new Ext.form.FormPanel({
+		renderTo   : 'ticketForm',
+		title      : 'Create a Ticket',
+		autoHeight : true,
+		width      : 600,
+		labelWidth : 160,
+
+		bodyStyle: 'padding: 5px',
+		items   : [
+			{
+				xtype    : 'fieldset',
+				title    : 'Location',
+				defaults : {
+					anchor : '0'
+				},
+				items    : [
+					{
+						xtype      : 'combo',
+						fieldLabel : 'Please select your country',
+						emptyText  : 'Please select your country'
+					}
+				]
+			},{
+				xtype    : 'fieldset',
+				title    : 'Personal Information',
+				defaults : {
+					anchor : '0'
+				},
+				items    : [
+					{
+						xtype      : 'textfield',
+						fieldLabel : 'Full Name',
+						emptyText  : 'Full Name'
+					},{
+						xtype      : 'combo',
+						fieldLabel : 'Gender',
+						emptyText  : 'Gender'
+					},{
+						xtype      : 'textfield',
+						fieldLabel : 'Email',
+						emptyText  : 'Email'
+					}
+				]
+			},/*{
+				xtype    : 'fieldset',
+				title    : 'Reason for Contact',
+				defaults : {
+					anchor : '0'
+				},
+				items    : [
+					{
+						xtype      : 'combo',
+						fieldLabel : 'Do you have a question about an Elgato product?'
+					},{
+						xtype      : 'textfield',
+						fieldLabel : 'Place of Purchase',
+						emptyText  : 'Place of Purchase'
+					}
+				]
+			},*/{
+				xtype    : 'fieldset',
+				title    : 'Purchase Information',
+				defaults : {
+					anchor : '0'
+				},
+				items    : [
+					{
+						xtype      : 'datefield',
+						fieldLabel : 'Purchase Date',
+						emptyText  : 'Purchase Date'
+					},{
+						xtype      : 'textfield',
+						fieldLabel : 'Place of Purchase',
+						emptyText  : 'Place of Purchase'
+					}
+				]
+			},{
+				xtype    : 'fieldset',
+				title    : 'Message Details',
+				defaults : {
+					anchor : '0'
+				},
+				items    : [
+					{
+						xtype      : 'textfield',
+						fieldLabel : 'Subject'
+					},{
+						xtype      : 'textarea',
+						hideLabel  : true
+					}
+				]
+			},{
+				xtype    : 'fieldset',
+				title    : 'Upload File(s)',
+				defaults : {
+					anchor : '0'
+				},
+				items    : [
+					{
+						xtype      : 'fileuploadfield',
+			            emptyText  : 'Select a file ...',
+			            fieldLabel : 'Upload a file'
+					},{
+						xtype      : 'fileuploadfield',
+			            emptyText  : 'Select a file ...',
+			            fieldLabel : 'Upload a file'
+					}
+				]
+			}
+		],
+		buttons: [{
+			text    : 'Submit',
+			handler : function(){
+				if(fp.getForm().isValid()){
+					fp.getForm().submit({
+						url     : 'file-upload.php',
+						success : function(fp, o){
+							msg('Success', 'Processed file "' + o.result.file + '" on the server');
+						}
+					});
+				}
+			}
+		}]
+	});
+});
+</script>
+
+<style>
+body {
+	margin      : 10px 0;
+	font-family : verdana, tahoma, sans-serif;
+}
+
+#page {
+	width : 1000px;
+	margin : 0 auto;
+}
+
+.header {
+	background : url(../modules/elgato_header/images/support_header.jpg);
+	width      : 704px;
+	height     : 109px;
+	margin     : 0 0 20px 0;
+}
+</style>
+</head>
+<body>
+	<div id="page">
+		<div class="header"></div>
+		<div class="mainpage"></div>
+		<div id="ticketForm"></div>
+	</div>
+</body>
+</html>

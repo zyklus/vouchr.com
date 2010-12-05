@@ -1,0 +1,7 @@
+update raw_problem_strings SET fr='' WHERE fr='?????';
+update raw_problem_strings SET de='' WHERE de='?????';
+
+DELETE ls FROM localized_strings ls INNER JOIN product_problem pp ON (pp.fk_string_id=ls.pk_id);
+
+INSERT INTO localized_strings(en, fr, de) SELECT en, fr, de FROM raw_problem_strings;
+INSERT INTO product_problem(fk_string_id, product, type) SELECT ls.pk_id, rp.product, rp.type FROM raw_problem_strings rp INNER JOIN localized_strings ls ON (rp.en=ls.en AND rp.fr=ls.fr AND rp.de=ls.de) GROUP BY rp.pk_id ORDER BY rp.pk_id;

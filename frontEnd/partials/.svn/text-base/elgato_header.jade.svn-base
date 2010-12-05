@@ -1,0 +1,10 @@
+.header
+  ul(class="lang")
+    li
+      a(href="?language=en",class=req.language=="en"?'selected':'') English
+    li
+      a(href="?language=de",class=req.language=="de"?'selected':'') Deutsch
+    li.last
+      a(href="?language=fr",class=req.language=="fr"?'selected':'') Français
+
+  .banner

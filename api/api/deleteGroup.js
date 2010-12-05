@@ -1,0 +1,3 @@
+/**
+ * Deletes a user group
+ */

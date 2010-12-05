@@ -1,0 +1,207 @@
+(function(){
+	// Set domain to top-level to facilitate cross-subdomain AJAX requests
+	document.domain = document.domain.replace(/.*?([^\.]+\.[^\.]+)$/, '$1');
+
+	var src, xds, iframes = [], port;
+
+	function parseRequestURL(obj){
+		var  url = obj.url.split('?'),
+		  params = (url[1] || '').split('&'),
+		    data = obj.data || {},
+		           p;
+
+		for(var i=0, l=params.length; i<l; i++){
+			p = params[i].split('=');
+			p[0] && (data[p[0]] = p[1]);
+		}
+
+		return [url[0], data];
+	}
+
+	$('script').each(function(){
+		if((src = this.src).indexOf('xd.js') < 0){ return; }
+		xds = src.substr(src.indexOf('#') + 1).split(',');
+
+		$.each(xds, function(){
+			var    pieces = this.split('|'),
+			      apiName = pieces[0],
+			    subdomain = pieces[1] || pieces[0],
+			                fn;
+
+			// queue up any calls to the xd receiver that are called before the receiver exists
+			$[apiName] = new ($.Observable.extend({
+				init : function(){
+					this._super();
+
+					this.__queue = {};
+					this.observe('load', this.bind('onload'));
+					this._dequeue = this.__dequeue.bind(this);
+					this._dequeue = this._dequeue.defer.bind(this._dequeue);
+				},
+
+				onload : function(){
+					// add a language setting to any api calls
+					// remove this if used on a different site
+					var ajax = this.$ajax = this.ajax, self = this, fn;
+
+					this.cookies || ((this.cookies = {}) && $.each(document.cookie.split(';'), function(a, a){
+						var cv = a.trim().split('=');
+						self.cookies[cv[0]] = cv[1];
+					}));
+
+					this.ajax = function(params){
+						if(self.cookies.language){
+							params.data || (params.data = {});
+							params.data.language = self.cookies.language;
+						}
+
+						(this.__queue.__ajax || (this.__queue.__ajax = [])).push(params);
+						this._dequeue();
+					};
+
+					(this.get = (fn = function(method){
+
+						// Pulled from jQuery, tweaked
+						return function( url, data, callback, type ) {
+
+							// shift arguments if data argument was omited
+							if ( $.isFunction( data ) ) {
+								type     = type || callback;
+								callback = data;
+								data     = null;
+							}
+
+							return self.ajax({
+								type       : method,
+								url        : url,
+								data       : data,
+								success    : callback,
+								dataType   : type || 'json',
+								dataFilter : function(data, type){
+									if(type=='json'){
+										return new Function('return ' + data)();
+									}
+									return null;
+								}
+							});
+						}
+					})('GET'))
+						
+					&& (this.post = fn('POST'));
+
+					this._dequeue();
+				},
+
+				__dequeue : function(){
+					// create a batch of requests to go out
+					var queries = [];
+					for(var n in this.__queue){
+						for(var i=0, l=this.__queue[n].length; i<l; i++){
+							if(n == '__ajax'){
+								queries.push(parseRequestURL(this.__queue[n][i]))
+							}else{
+								this[n].apply(this, this.__queue[n][i]);
+							}
+						}
+						if(n !== '__ajax'){ delete this.__queue[n]; }
+					}
+
+					// send off multiple calls in a single batch
+					if(queries.length>1){
+						this.$ajax({
+							type : 'GET',
+							url  : '/util/concat',
+							data : {
+								apis : JSON.stringify(queries)
+							},
+							success    : this.batchResponse.bind(this, this.__queue.__ajax),
+							dataType   :'json',
+							dataFilter : function(data, type){
+								if(type=='json'){
+									return new Function('return ' + data)();
+								}
+								return null;
+							}
+						});
+
+						delete this.__queue.__ajax;
+					}else if(queries.length){
+						this.__queue.__ajax[0].success = this.singleResponse.bind(this, this.__queue.__ajax[0], this.__queue.__ajax[0].success);
+						this.$ajax(this.__queue.__ajax[0]);
+
+						delete this.__queue.__ajax;
+					}
+				},
+
+				get : (fn = function(method){
+					return function(){
+						console.log('in pre-get');
+						(this.__queue[method] || (this.__queue[method] = [])).push($A(arguments));
+					};
+				})('get'),
+
+				post : fn('post'),
+				ajax : fn('ajax'),
+
+				singleResponse : function(queue, success, data){
+					if(!data.code){
+						success(this.decodeApiData(data));
+					}else{
+						if(queue.error){ queue.error(data); }
+						this.fire('apiError', data);
+					}
+				},
+
+				batchResponse : function(queue, data){
+					for(var i=0, l=data.data.length, m=queue.length; (l==m) && (i<l); i++){
+						this.singleResponse(queue[i], queue[i].success, data.data[i]);
+					}
+				},
+
+				decodeApiData : function(data){
+					var root = data.root, keys = data.keys, recursive = data.recursive;
+					root && ((data[root].key = data.key) || 1) && (data = data[root]);
+
+					// convert compressed json back into an object hash
+					if(keys){
+						(function decode(data, keys, recursive){
+							for(var i=0, l=data.length; i<l; i++){
+								var obj = {};
+								for(var j=0, m=keys.length; j<m; j++){
+									if(data[i][j] == undefined){ continue; }
+
+									obj[keys[j]] = recursive && (root == keys[j]) && data[i][j] ? decode(data[i][j], keys, true) : data[i][j];
+								}
+
+								data[i] = obj;
+							}
+
+							return data;
+						})(data, keys, recursive);
+					}
+
+					return data;
+				}
+			}))();
+
+			iframes.push($('<iframe src="http://#{subdomain}.#{domain}/xd.html##{apiName}" id="xd-#{subdomain}" class="xd" />'.interpolate({
+				domain    : document.domain + ((port = document.location.port) == 80 ? '' : ':' + port),
+				subdomain : subdomain,
+				apiName   : apiName
+			}))[0]);
+		});
+	});
+
+	appendFrames = function(){
+		var body = $('BODY')[0];
+		if(!body){
+			return setTimeout(appendFrames, 0)
+		}
+
+		$.each(iframes, function(){
+			body.appendChild(this);
+		});
+	}
+
+	appendFrames();
+})();

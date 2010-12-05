@@ -1,0 +1,6 @@
+K 13
+svn:externals
+V 56
+http://ext-doc.googlecode.com/svn/branches/1.0/ ext-doc
+
+END

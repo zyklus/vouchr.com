@@ -1,0 +1,90 @@
+var api = require(__dirname + '/../../api'),
+   step = require('../../nodeServer/modules/step'),
+          data, string_ids = [];
+
+step(
+	// select all of the problem strings
+	function(){
+		api.sql
+			.select('product', 'type', 'en', 'de', 'fr')
+			.from  ('raw_problem_strings')
+			.run   (this);
+
+	// create all of the strings
+	}, function(err, _data){
+		if(err){ throw err; }
+
+		data = _data;
+
+		api.localize.addString({name: 'Product Problems', en:'Product Problems'}, this.parallel());
+
+		var last_prod = '';
+		for(var i=0, l=data.length; i<l; i++){
+			if(data[i].product != last_prod){
+				api.localize.addString({name: data[i].product, en:data[i].product}, this.parallel());
+				last_prod = data[i].product;
+			}
+
+			var obj = {en: data[i].en, fr: data[i].fr, de: data[i].de};
+			(data[i].type == 'Problem Area') && (obj.name = last_prod + ' - ' + data[i].en);
+
+			api.localize.addString(obj, this.parallel());
+		}
+
+	// we now have a whole slew of strings.  Put them in the nested strings table
+	}, function(err){
+		if(err){ throw err; }
+
+		var args = arguments,
+		     sql = 'INSERT INTO nested_strings(fk_string_id) VALUES',
+		    vals = [];
+
+		for(var i=1, l=args.length; i<l; i++){
+			string_ids.push(args[i].string_id);
+		}
+
+		api.sql.rawSQL(sql + '(' + string_ids.join('), (') + ')').run(this);
+
+		// all strings are now in the table, now let's restructure them all
+	}, function(err, inserted){
+		if(err){ throw err; }
+
+		// iid is the id of the first inserted record.  All others should be sequential.  DO NOT COUNT ON THIS ON A LIVE DATABASE
+		var iid = inserted.INSERT_ID, last_prod = '', prod_id = 0, area_id = 0, steps = [];
+		
+		// move the root node
+		steps.push(moveRecord(iid, 1));
+		for(var i=0, ix=1, l=data.length; i<l; i++, ix++){
+
+			// move product string into root
+			if(data[i].product != last_prod){
+				steps.push(moveRecord(prod_id = iid + (ix++), iid));
+				last_prod = data[i].product;
+			}
+
+			// move area string into product
+			if(data[i].type == 'Problem Area'){
+				steps.push(moveRecord(area_id = iid+ix, prod_id));
+
+			// move string into area
+			}else{
+				steps.push(moveRecord(iid+ix, area_id));
+			}
+		}
+
+		step.apply(step, steps);
+	}, function(err){
+		if(err){ throw err; }
+
+		console.log('Done');
+	}
+);
+
+function moveRecord(pk_id, parent_id){
+	return function(err, data){
+//		if(err){ console.log(err); throw err; }
+
+		console.log('moving ' + pk_id + ' into ' + parent_id);
+		api.preorderTree.move({table: 'nested_strings', pk_id: pk_id, parent_id: parent_id}, this);
+	}
+}
