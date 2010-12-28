@@ -37,4 +37,18 @@ $(function(){
 			deal.animate({left : page.width - deals.offset.left}, function(){ deal.hide(); });
 		}
 	}
+
+	$('.moreDetails').bind('click', function(ev){
+		var deal = $(ev.target).closest('.deal');
+		deal.find('.right,.companyImage').animate({height:0,opacity:0}).end()
+			.find('.details').show().css({opacity:0,top:300}).animate({top:50,opacity:1}).end()
+			.find('.lessDetails').show().css({opacity:0,height:0}).animate({opacity:1, height:20});
+	});
+
+	$('.lessDetails').bind('click', function(ev){
+		var deal = $(ev.target).closest('.deal');
+		deal.find('.right,.companyImage').animate({height:310,opacity:1}).end()
+			.find('.details').animate({top:300,opacity:0}, function(){ deal.find('.details').hide(); }).end()
+			.find('.lessDetails').animate({opacity:0, height:0});		
+	});
 });

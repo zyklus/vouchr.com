@@ -161,8 +161,27 @@
 }
 
 #deals .deal .moreDetails {
+	position        : absolute;
+	bottom          : 0px;
+	cursor          : pointer;
+	text-decoration : underline;
+}
+
+#deals .deal .details {
 	position : absolute;
-	bottom   : 0px;
+	top      : 25px;
+	left     : 110px;
+}
+
+#deals .deal .lessDetails {
+	position   : absolute;
+	top        : 25px;
+	left       : 110px;
+	right      : 5px;
+	border     : 1px solid #000;
+	text-align : center;
+	overflow   : hidden;
+	cursor     : pointer;
 }
 
 #footer {
