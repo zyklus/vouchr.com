@@ -1,0 +1,192 @@
+#body {
+	height   : 100%;
+	overflow : hidden;
+}
+
+#content {
+	position : absolute;
+	top      : 0px;
+	right    : 0px;
+	bottom   : 0px;
+	left     : 0px;
+	overflow : hidden;
+}
+
+.hidden {
+	display : none;
+}
+
+.hCenter {
+	position : absolute;
+	left     : 50%;
+}
+
+.vCenter {
+	position : absolute;
+	top      : 50%;
+}
+
+.hCenterNest {
+	left     : -50%;
+	position : relative;
+}
+
+.vCenterNest {
+	top      : -60%;
+	position : relative;
+}
+
+#header {
+	top        : 0px;
+	text-align : center;
+}
+
+#header .hCenterNest {
+	width  : 800px;
+	height : 50px;
+}
+
+#header #title {
+	display     : inline-block;
+	width       : 100px;
+	height      : 50px;
+	border      : 1px solid #000;
+	line-height : 50px;
+	position    : absolute;
+	left        : 0px;
+}
+
+#header #search {
+	display  : inline-block;
+	width    : 100px;
+	border   : 1px solid #000;
+	right    : 0px;
+	position : absolute;
+}
+
+#deals {
+	height   : 340px;
+	width    : 800px;
+}
+
+#deals .next {
+	position : absolute;
+	right    : -100px;
+	top      : 165px;
+	border   : 1px solid #000;
+	padding  : 3px;
+	cursor   : pointer;
+}
+
+#deals .prev {
+	position : absolute;
+	left     : -100px;
+	top      : 165px;
+	border   : 1px solid #000;
+	padding  : 3px;
+	cursor   : pointer;
+}
+
+#deals .deal {
+	border     : 1px solid #000;
+	position   : absolute;
+	top        : 0px;
+	width      : 798px;
+	height     : 340px;
+	background : #FFF;
+	z-index    : 1;
+}
+
+#deals .deal .title {
+	position : absolute;
+	top      : 0px;
+	right    : 0px;
+	left     : 0px;
+}
+
+#deals .deal .price:before {
+	content : 'Price: ';
+}
+
+#deals .deal .price {
+	position : absolute;
+	top      : 25px;
+	left     : 5px;
+	width    : 100px;
+	height   : 100px;
+	border   : 1px solid #000;
+}
+
+#deals .deal .timeLeft:before {
+	content : 'Time Remaining: ';
+}
+
+#deals .deal .timeLeft {
+	position : absolute;
+	top      : 130px;
+	left     : 5px;
+	width    : 100px;
+	height   : 100px;
+	border   : 1px solid #000;
+}
+
+#deals .deal .numBought:before {
+	content : '# Bought: ';
+}
+
+#deals .deal .numBought {
+	position : absolute;
+	top      : 235px;
+	left     : 5px;
+	width    : 100px;
+	height   : 100px;
+	border   : 1px solid #000;
+}
+
+#deals .deal .companyImage {
+	position : absolute;
+	top      : 25px;
+	left     : 110px;
+	width    : 450px;
+	height   : 310px;
+	border   : 1px solid #000;
+}
+
+#deals .deal .right {
+	position : absolute;
+	right    : 5px;
+	top      : 25px;
+	width    : 220px;
+	bottom   : 5px;
+}
+
+#deals .deal .moreDetails {
+	position : absolute;
+	bottom   : 0px;
+}
+
+#footer {
+	position : absolute;
+	height   : 110px;
+	bottom   : 0px;
+	left     : 0px;
+	right    : 0px;
+	overflow : hidden;
+}
+
+#footer .deals {
+	white-space : nowrap;
+	position    : absolute;
+	bottom      : 0px;
+	left        : 0px;
+}
+
+#footer .deal {
+	float       : left;
+	border      : 1px solid #999;
+	width       : 100px;
+	height      : 100px;
+	margin      : 5px;
+	line-height : 100px;
+	text-align  : center;
+}
