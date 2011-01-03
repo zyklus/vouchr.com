@@ -1,0 +1,364 @@
+#body {
+	height   : 100%;
+	overflow : hidden;
+}
+
+#content {
+	position    : absolute;
+	top         : 0px;
+	right       : 0px;
+	bottom      : 0px;
+	left        : 0px;
+	overflow    : hidden;
+	background  : #000;
+	font-family : tahoma, verdana, arial, sans-serif;
+}
+
+#background {
+	position   : absolute;
+	top        : 0px;
+	right      : 0px;
+	bottom     : 0px;
+	left       : 0px;
+	background : #25ADBD;
+	opacity    : 0;
+}
+
+.hidden {
+	display : none;
+}
+
+.hCenter {
+	position : absolute;
+	left     : 50%;
+}
+
+.vCenter {
+	position : absolute;
+	top      : 50%;
+}
+
+.hCenterNest {
+	left     : -50%;
+	position : relative;
+}
+
+.vCenterNest {
+	top      : -40%;
+	position : relative;
+}
+
+#header {
+	margin-top : 10px;
+	width      : 800px;
+}
+
+#logo {
+	position   : absolute;
+	top        : 0px;
+	left       : 0px;
+	width      : 271px;
+	height     : 85px;
+	background : url(../images/tag_logo.png);
+}
+
+#effectToggle {
+	position : absolute;
+	top      : 0px;
+	right    : 0px;
+	color    : #FFF;
+	cursor   : pointer;
+	padding  : 5px;
+}
+
+body.effectsOn #effectToggle {
+	background : -webkit-gradient(linear, left top, left bottom, from(#ffb901), to(#ff8903));
+	border-radius : 4px;
+}
+
+#deals {
+	width               : 860px;
+	height              : 580px;
+	-webkit-perspective : 4000;
+	top                 : 150px;
+}
+
+.deal {
+	position              : absolute;
+	width                 : 880px;
+	height                : 580px;
+}
+
+.deal .imgCont {
+	background            : #FFF;
+	position              : absolute;
+	top                   : 30px;
+	right                 : 30px;
+	bottom                : 30px;
+	left                  : 30px;
+}
+
+body.effectsOn .deal .imgCont {
+	-webkit-border-radius : 10px;
+}
+
+.deal .image {
+	position              : absolute;
+	top                   : 10px;
+	left                  : 10px;
+}
+
+body.effectsOn .deal .image {
+	-webkit-border-radius : 8px;
+}
+
+.infoBox {
+	position              : absolute;
+	background            : #FFF;
+	padding               : 5px;
+}
+
+body.effectsOn .infoBox {
+	-webkit-box-shadow    : rgba(255, 255, 255, .3) 0px 2px 10px 2px, rgba(0, 0, 0, .6) 0px 2px 10px 2px;
+	-webkit-border-radius : 5px;
+	background            : -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), to(#E4E4E4));
+}
+
+.deal.nextDeal .buy {
+	right : 10px;
+	left  : auto;
+}
+
+.buy {
+	position   : absolute;
+	top        : 60px;
+	left       : 0px;
+	width      : 180px;
+	height     : 155px;
+	border     : 1px solid #ff8c03;
+}
+
+body.effectsOn .buy {
+	background : -webkit-gradient(linear, left top, left bottom, from(#ffb901), to(#ff8903));
+}
+
+.buy .price {
+	width      : 100%;
+	text-align : center;
+	font-size  : 40px;
+	color      : #FFF;
+}
+
+.buy .buyBtn {
+	position      : absolute;
+	top           : 60px;
+	left          : 25px;
+	width         : 135px;
+	height        : 48px;
+	line-height   : 48px;
+}
+
+body.effectsOn .buy .buyBtn {
+	background    : -webkit-gradient(linear, left top, left bottom, from(#bbe517), to(#679c04));
+	border-radius : 4px;
+}
+
+.buy .buyBtn span {
+	color              : #FFF;
+	text-align         : center;
+	font-size          : 28px;
+	font-weight        : bold;
+	font-family        : Arial;
+	width              : 135px;
+	display            : block;
+}
+
+body.effectsOn .buy .buyBtn span {
+	-webkit-box-shadow : rgba(26, 124, 136, .25) 0px 2px 10px 2px;
+}
+
+.buy .stats {
+	position      : absolute;
+	left          : -1px;
+	bottom        : -1px;
+	right         : -1px;
+	height        : 40px;
+}
+
+body.effectsOn .buy .stats {
+	background    : -webkit-gradient(linear, left top, left bottom, from(#CDCDCD), to(#9F9F9F));
+	border-radius : 0 0 5px 5px;
+}
+
+.buy .stats .value, .buy .stats .discount, .buy .stats .save {
+	width      : 33%;
+	text-align : center;
+	position   : absolute;
+	top        : 0px;
+	color      : #000;
+	top        : 5px;
+	font-size  : 12px;
+}
+
+.buy .stats .discount {
+	left : 33%;
+}
+
+.buy .stats .save {
+	left : 67%;
+}
+
+.buy .stats .value div, .buy .stats .discount div, .buy .stats .save div {
+	color     : #FFF;
+	font-size : 14px;
+}
+
+.deal.nextDeal .timeLeft {
+	right : 20px;
+	left  : auto;
+}
+
+.timeLeft {
+	width  : 180px;
+	height : 100px;
+	top    : 250px;
+	left   : 0px;
+}
+
+.timeLeft .clock {
+	position   : absolute;
+	left       : 15px;
+	top        : 35px;
+	width      : 62px;
+	height     : 62px;
+	background : url(/images/clock.png);
+}
+
+.timeLeft .title, .details .title {
+	position      : absolute;
+	top           : 0px;
+	left          : 0px;
+	right         : 0px;
+	text-align    : center;
+	color         : #FFF;
+	line-height   : 25px;
+	font-size     : 14px;
+}
+
+body.effectsOn .timeLeft .title, body.effectsOn .details .title {
+	background    : -webkit-gradient(linear, left top, left bottom, from(#CDCDCD), to(#9F9F9F));
+	border-radius : 4px 4px 0 0;
+}
+
+.timeLeft .timeRemaining {
+	position  : absolute;
+	top       : 40px;
+	right     : 15px;
+	font-size : 14px;
+}
+
+.bought {
+	width : 180px;
+	top   : 400px;
+	left  : 0px
+}
+
+.details {
+	bottom    : 10px;
+	right     : 10px;
+	width     : 200px;
+	height    : 150px;
+}
+
+
+.deal.nextDeal .details, .deal.prevDeal .details {
+	opacity : 0;
+}
+
+.details .content {
+	font-size : 12px;
+	position  : absolute;
+	top       : 25px;
+	left      : 5px;
+	right     : 5px;
+	bottom    : 5px;
+	overflow  : hidden;
+}
+
+.details .more, .details .less {
+	position        : absolute;
+	bottom          : 5px;
+	right           : 5px;
+	left            : 5px;
+	text-align      : right;
+	background      : #E5E5E5;
+	padding         : 5px 0 0 5px;
+	font-size       : 12px;
+	color           : #000;
+	text-decoration : none;
+}
+
+.details .more:hover, .details .less:hover{
+	text-decoration : underline;
+}
+
+.deal > .title {
+	font-size : 22px;
+	top       : 0px;
+	left      : 0px;
+	z-index   : 1;
+}
+
+.deal.currentDeal {
+	z-index : 4;
+}
+
+.deal {
+	-webkit-transition-duration : 0.5s;
+	-webkit-transition-property : left, transform, opacity;
+}
+
+body.effectsOn .deal {
+	-webkit-box-reflect         : below -50px -webkit-gradient(linear, left 50%, left bottom, from(transparent), to(rgba(0,0,0,.5)));
+}
+
+.deal.nextDeal:hover .infoBox, .deal.prevDeal:hover .infoBox {
+	-webkit-box-shadow : #FF9 0px 0px 20px 20px;
+	cursor             : pointer;
+}
+
+.deal.prevDeal {
+	-webkit-transform : rotateY(90deg); -webkit-transform-origin : 0 0 0;
+}
+
+.deal.nextDeal {
+	-webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; 
+}
+
+.deal.next0 { left : 200px; -webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; }
+.deal.next1 { left : 300px; -webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; }
+.deal.next2 { left : 400px; -webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; }
+.deal.next3 { left : 500px; -webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; }
+.deal.prev0 { left : -220px; -webkit-transform : rotateY(90deg); -webkit-transform-origin : 0 0 0; }
+.deal.prev1 { left : -320px; -webkit-transform : rotateY(90deg); -webkit-transform-origin : 0 0 0; }
+.deal.prev2 { left : -420px; -webkit-transform : rotateY(90deg); -webkit-transform-origin : 0 0 0; }
+.deal.prev3 { left : -520px; -webkit-transform : rotateY(90deg); -webkit-transform-origin : 0 0 0; }
+
+.deal.next0, .deal.prev0 {
+	z-index : 3;
+}
+
+.deal.next1, .deal.prev1 {
+	z-index : 2;
+	opacity : .7;
+}
+
+.deal.next2, .deal.prev2 {
+	z-index : 1;
+	opacity : .4;
+}
+
+.deal.next3, .deal.prev3 {
+	opacity : 0;
+	z-index : 0;
+}

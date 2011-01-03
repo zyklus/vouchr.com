@@ -154,7 +154,6 @@ html,body {
 	left     : 328px;
 	top      : 17px;
 	width    : 356px;
-	height   : 40px;
 	cursor   : pointer;
 }
 
@@ -166,7 +165,7 @@ html,body {
 	top    : 0px;
 	left   : 0px;
 	right  : 0px;
-	bottom : 36px;
+	height : 4px;
 }
 
 .input .center {
@@ -192,7 +191,7 @@ html,body {
 }
 
 .input .bottom {
-	top    : 36px;
+	top    : auto;
 	bottom : 0px;
 }
 
@@ -212,3 +211,36 @@ html,body {
 .input .top    .right { right : 0px; background-position : -559px -494px; }
 .input .bottom .left  { left  : 0px; background-position : -555px -498px; }
 .input .bottom .right { right : 0px; background-position : -559px -498px; }
+
+.input .selected, .input ul {
+	font-family : Helvetica, tahoma, verdana, arial, sans-serif;
+	font-size   : 22pt;
+	line-height : 40px;
+	padding     : 0 0 0 10px;
+	position    : relative;
+}
+
+.input ul {
+	padding    : 0 1px;
+	max-height : 500px;
+	overflow   : hidden;
+}
+
+.input ul li {
+	padding : 0 0 0 9px;
+}
+
+.input ul li:hover {
+	background-color : #B2EAEF;
+}
+
+#step2 input{
+	font-family : Helvetica, tahoma, verdana, arial, sans-serif;
+	font-size   : 22pt;
+	display     : block;
+	position    : relative;
+	margin      : 3px 3px 4px;
+	border      : 0px;
+	outline     : none;
+	width       : 350px;
+}

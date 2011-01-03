@@ -1,0 +1,45 @@
+!!! strict
+head
+  title vouchr.com demo
+  != partial('css', ['concat?css/reset.css,css/home_demo.css'])
+  != partial('jquery_global')
+  != partial('js', ['js/home_demo.js'])
+  :javascript
+    | var tmp; $(function(){showDeals([{imgs:['001'], title:'A relaxing at a day spa', price:(tmp = (Math.random()*50)>>0), oprice:(tmp + Math.random() * 100)>>0, expires:Date.now()+1000*60*60*Math.random()*48, purchased: (Math.random()*200)>>0, rpurchase:(Math.random()*100)>>0},{imgs:['002'], title:'Om Nom... Cookies!', price:(tmp = (Math.random()*50)>>0), oprice:(tmp + Math.random() * 100)>>0, expires:Date.now()+1000*60*60*Math.random()*48, purchased: (Math.random()*200)>>0, rpurchase:(Math.random()*100)>>0},{imgs:['003'], title:"Pizza!  Who doesn't like pizza?", price:(tmp = (Math.random()*50)>>0), oprice:(tmp + Math.random() * 100)>>0, expires:Date.now()+1000*60*60*Math.random()*48, purchased: (Math.random()*200)>>0, rpurchase:(Math.random()*100)>>0},{imgs:['004'], title:'Sushi!', price:(tmp = (Math.random()*50)>>0), oprice:(tmp + Math.random() * 100)>>0, expires:Date.now()+1000*60*60*Math.random()*48, purchased: (Math.random()*200)>>0, rpurchase:(Math.random()*100)>>0},{imgs:['005'], title:'a Dinner & Cruise under the Golden Gate Bridge', price:(tmp = (Math.random()*50)>>0), oprice:(tmp + Math.random() * 100)>>0, expires:Date.now()+1000*60*60*Math.random()*48, purchased: (Math.random()*200)>>0, rpurchase:(Math.random()*100)>>0},{imgs:['006'], title:'1 shot of espresso', price:(tmp = (Math.random()*50)>>0), oprice:(tmp + Math.random() * 100)>>0, expires:Date.now()+1000*60*60*Math.random()*48, purchased: (Math.random()*200)>>0, rpurchase:(Math.random()*100)>>0},{imgs:['007'], title:'3 weeks of cooking classes', price:(tmp = (Math.random()*50)>>0), oprice:(tmp + Math.random() * 100)>>0, expires:Date.now()+1000*60*60*Math.random()*48, purchased: (Math.random()*200)>>0, rpurchase:(Math.random()*100)>>0},{imgs:['008'], title:'a Season pass to Kirkwood', price:(tmp = (Math.random()*50)>>0), oprice:(tmp + Math.random() * 100)>>0, expires:Date.now()+1000*60*60*Math.random()*48, purchased: (Math.random()*200)>>0, rpurchase:(Math.random()*100)>>0},{imgs:['009'], title:'Bravery & Guts', price:(tmp = (Math.random()*50)>>0), oprice:(tmp + Math.random() * 100)>>0, expires:Date.now()+1000*60*60*Math.random()*48, purchased: (Math.random()*200)>>0, rpurchase:(Math.random()*100)>>0}], 4)});
+body.effectsOn
+  #content
+    #background
+    #header.hCenter
+      .hCenterNest
+        #logo
+        #effectToggle Toggle Effects
+    #deals.hCenter
+      .hCenterNest
+        .deals
+  #deal.hidden
+    .deal
+      .imgCont.infoBox
+        img.image(src="\#{image}")
+      .title.infoBox $\#{price} for \#{title} ($\#{oprice} value)
+      .buy.infoBox
+        .price $\#{price}
+        .buyBtn
+          span Buy!
+        .stats
+          .value Value
+            div $\#{oprice}
+          .discount Discount
+            div \#{savePercent}%
+          .save Save
+            div $\#{saveDollars}
+      .timeLeft.infoBox
+        .title Time left to buy
+        .clock
+        .timeRemaining
+      .bought.infoBox.hidden
+        .main \#{purchased} bought
+        .status \#{status}
+      .details.infoBox
+        .title The Fine Print
+        .content \#{details}
+        a.more(href='#') More Details
