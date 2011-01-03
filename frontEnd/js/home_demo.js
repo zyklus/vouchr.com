@@ -1,6 +1,7 @@
 function showDeals(deals, activeIx){
 	var container = $('.deals'),
 	     template = $('#deal').html(),
+	 miniTemplate = $('#searchResult').html(),
 	                node;
 
 	for(var i=0, l=deals.length; i<l; i++){
@@ -60,6 +61,23 @@ function showDeals(deals, activeIx){
 	
 	$('#effectToggle').bind('click', function(){
 		$('body').toggleClass('effectsOn');
+	});
+
+	function showNewDeal(div){
+		div.removeClass('newDeal');
+	}
+
+	$('#fakeSearchResults').bind('click', function(){
+		$('#deals').animate({opacity:0}, function(){
+			var results = $('#deals .searchResults').empty();
+			$('#deals .deals').hide();
+			$('#deals').animate({opacity:1});
+			for(var i=0; i<12; i++){
+				var div = $(miniTemplate).addClass('newDeal deal' + i);
+				results.append(div);
+				setTimeout(showNewDeal.bind(null, div), i*75);
+			}
+		})
 	});
 
 	setInterval(updateTimers, 1000);

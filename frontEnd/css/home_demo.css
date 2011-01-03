@@ -21,7 +21,7 @@
 	bottom     : 0px;
 	left       : 0px;
 	background : #25ADBD;
-	opacity    : 0;
+	display    : none;
 }
 
 .hidden {
@@ -62,7 +62,7 @@
 	background : url(../images/tag_logo.png);
 }
 
-#effectToggle {
+#effectToggle, #fakeSearchResults {
 	position : absolute;
 	top      : 0px;
 	right    : 0px;
@@ -71,7 +71,11 @@
 	padding  : 5px;
 }
 
-body.effectsOn #effectToggle {
+#fakeSearchResults {
+	right : 120px;
+}
+
+body.effectsOn #effectToggle, body.effectsOn #fakeSearchResults {
 	background : -webkit-gradient(linear, left top, left bottom, from(#ffb901), to(#ff8903));
 	border-radius : 4px;
 }
@@ -84,9 +88,10 @@ body.effectsOn #effectToggle {
 }
 
 .deal {
-	position              : absolute;
-	width                 : 880px;
-	height                : 580px;
+	position                : absolute;
+	width                   : 880px;
+	height                  : 980px;
+	-webkit-transform-style : preserve-3d;
 }
 
 .deal .imgCont {
@@ -94,8 +99,9 @@ body.effectsOn #effectToggle {
 	position              : absolute;
 	top                   : 30px;
 	right                 : 30px;
-	bottom                : 30px;
 	left                  : 30px;
+	height                : 510px;
+	-webkit-transform     : translateZ(-30px);
 }
 
 body.effectsOn .deal .imgCont {
@@ -264,7 +270,7 @@ body.effectsOn .timeLeft .title, body.effectsOn .details .title {
 }
 
 .details {
-	bottom    : 10px;
+	bottom    : 410px;
 	right     : 10px;
 	width     : 200px;
 	height    : 150px;
@@ -318,8 +324,8 @@ body.effectsOn .timeLeft .title, body.effectsOn .details .title {
 	-webkit-transition-property : left, transform, opacity;
 }
 
-body.effectsOn .deal {
-	-webkit-box-reflect         : below -50px -webkit-gradient(linear, left 50%, left bottom, from(transparent), to(rgba(0,0,0,.5)));
+body.effectsOn .deal .imgCont {
+	-webkit-box-reflect         : below 5px -webkit-gradient(linear, left 50%, left bottom, from(transparent), to(rgba(0,0,0,.5)));
 }
 
 .deal.nextDeal:hover .infoBox, .deal.prevDeal:hover .infoBox {
@@ -335,14 +341,34 @@ body.effectsOn .deal {
 	-webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; 
 }
 
-.deal.next0 { left : 200px; -webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; }
-.deal.next1 { left : 300px; -webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; }
-.deal.next2 { left : 400px; -webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; }
-.deal.next3 { left : 500px; -webkit-transform : rotateY(-80deg); -webkit-transform-origin : 100% 100% 100%; }
-.deal.prev0 { left : -220px; -webkit-transform : rotateY(90deg); -webkit-transform-origin : 0 0 0; }
-.deal.prev1 { left : -320px; -webkit-transform : rotateY(90deg); -webkit-transform-origin : 0 0 0; }
-.deal.prev2 { left : -420px; -webkit-transform : rotateY(90deg); -webkit-transform-origin : 0 0 0; }
-.deal.prev3 { left : -520px; -webkit-transform : rotateY(90deg); -webkit-transform-origin : 0 0 0; }
+.deal.nextDeal > .title {
+	-webkit-transform : rotateY(80deg) translateX(120px) translateY(130px) translateZ(760px);
+	width             : 80px;
+	font-size         : 18px;
+}
+
+.deal.nextDeal .buy {
+	-webkit-transform : rotateY(80deg) translateX(-15px);
+	width             : 80px;
+	height            : 50px;
+}
+
+.deal.nextDeal .buy .stats, .deal.nextDeal .buy .buyBtn {
+	display : none;
+}
+
+.deal.nextDeal .timeLeft {
+	opacity : 0;
+}
+
+.deal.next0 { left : 200px; }
+.deal.next1 { left : 300px; }
+.deal.next2 { left : 400px; }
+.deal.next3 { left : 500px; }
+.deal.prev0 { left : -220px; }
+.deal.prev1 { left : -320px; }
+.deal.prev2 { left : -420px; }
+.deal.prev3 { left : -520px; }
 
 .deal.next0, .deal.prev0 {
 	z-index : 3;
@@ -361,4 +387,43 @@ body.effectsOn .deal {
 .deal.next3, .deal.prev3 {
 	opacity : 0;
 	z-index : 0;
+}
+
+.miniDeal {
+	position                    : absolute;
+	border                      : 1px solid #FFF;
+	width                       : 200px;
+	height                      : 150px;
+	background-color            : #666;
+	opacity                     : .5;
+	-webkit-transition-duration : 0.5s;
+	-webkit-transition-property : left, top, opacity, width, background-color;
+}
+
+.miniDeal.deal0 { left : 0px;   top : 0px;   z-index : 1; }
+.miniDeal.deal1 { left : 220px; top : 0px;   z-index : 2; }
+.miniDeal.deal2 { left : 440px; top : 0px;   z-index : 3; }
+.miniDeal.deal3 { left : 660px; top : 0px;   z-index : 4; }
+.miniDeal.deal4 { left : 0px;   top : 170px; z-index : 5; }
+.miniDeal.deal5 { left : 220px; top : 170px; z-index : 6; }
+.miniDeal.deal6 { left : 440px; top : 170px; z-index : 7; }
+.miniDeal.deal7 { left : 660px; top : 170px; z-index : 8; }
+.miniDeal.deal8 { left : 0px;   top : 340px; z-index : 9; }
+.miniDeal.deal9 { left : 220px; top : 340px; z-index : 10; }
+.miniDeal.deal10{ left : 440px; top : 340px; z-index : 11; }
+.miniDeal.deal11{ left : 660px; top : 340px; z-index : 12; }
+
+.miniDeal:hover {
+	z-index          : 13;
+	width            : 860px;
+	left             : 0px;
+	background-color : teal;
+	opacity          : 1;
+}
+
+
+.miniDeal.newDeal {
+	left    : 600px;
+	top     : -200px;
+	opacity : 0;
 }
