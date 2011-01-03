@@ -28,6 +28,10 @@
 	display : none;
 }
 
+.fadeOut {
+	opacity : 0 !important;
+}
+
 .hCenter {
 	position : absolute;
 	left     : 50%;
@@ -62,7 +66,7 @@
 	background : url(../images/tag_logo.png);
 }
 
-#effectToggle, #fakeSearchResults {
+#effectToggle, #fakeSearchResults, .applyFilter {
 	position : absolute;
 	top      : 0px;
 	right    : 0px;
@@ -75,7 +79,11 @@
 	right : 120px;
 }
 
-body.effectsOn #effectToggle, body.effectsOn #fakeSearchResults {
+.applyFilter {
+	top : 510px;
+}
+
+body.effectsOn #effectToggle, body.effectsOn #fakeSearchResults, body.effectsOn .applyFilter {
 	background : -webkit-gradient(linear, left top, left bottom, from(#ffb901), to(#ff8903));
 	border-radius : 4px;
 }

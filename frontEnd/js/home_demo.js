@@ -69,7 +69,7 @@ function showDeals(deals, activeIx){
 
 	$('#fakeSearchResults').bind('click', function(){
 		$('#deals').animate({opacity:0}, function(){
-			var results = $('#deals .searchResults').empty();
+			var results = $('#deals .searchResults').empty().append('<div class="applyFilter">Apply A Fake Filter</div>');
 			$('#deals .deals').hide();
 			$('#deals').animate({opacity:1});
 			for(var i=0; i<12; i++){
@@ -78,6 +78,32 @@ function showDeals(deals, activeIx){
 				setTimeout(showNewDeal.bind(null, div), i*75);
 			}
 		})
+	});
+
+	$('.applyFilter').live('click', function(){
+		var deals = $('#deals .searchResults .miniDeal');
+		for(var i=0, l=deals.length; i<l; i++){
+			if(Math.random() > .5){ deals.eq(i).addClass('fadeOut'); }
+		}
+		setTimeout(function(){
+			var deals = $('#deals .searchResults .miniDeal.fadeOut'),
+			   needed = deals.length,
+			  results = $('#deals .searchResults');
+
+			deals.remove();
+			deals = $('#deals .searchResults .miniDeal:not(.fadeOut)');
+
+			var ix = 0;
+			for(var i=0, l=deals.length; i<l; i++){
+				deals.eq(i).removeClass('deal0 deal1 deal2 deal3 deal4 deal5 deal6 deal7 deal8 deal9 deal10 deal11').addClass('deal' + (ix++));
+			}
+
+			for(var i=0; i<needed; i++){
+				var div = $(miniTemplate).addClass('newDeal deal' + (11-i));
+				results.append(div);
+				setTimeout(showNewDeal.bind(null, div), i*75);
+			}
+		}, 200);
 	});
 
 	setInterval(updateTimers, 1000);
