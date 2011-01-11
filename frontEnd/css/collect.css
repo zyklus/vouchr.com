@@ -244,3 +244,15 @@ html,body {
 	outline     : none;
 	width       : 350px;
 }
+
+#invalidEmail {
+	background          : url(images/collect/sprites.png);
+	background-position : -390px -594px;
+	width               : 419px;
+	height              : 74px;
+	position            : absolute;
+	left                : 350px;
+	top                 : -57px;
+	z-index             : 1;
+	display             : none;
+}
