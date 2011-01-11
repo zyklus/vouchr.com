@@ -33,13 +33,13 @@ var $ = require('languageHelpers'),
 			config : {
 				debug : true
 			}
-		}// ,
-		// 
-		// 		production : {
-		// 			database : {
-		// 				host : '184.106.237.238'
-		// 			}
-		// 		}
+		},
+
+		production : {
+			// database : {
+			// 	host : '184.106.237.238'
+			// }
+		}
 	},
 
 	server = servers[require('./which_server')];
