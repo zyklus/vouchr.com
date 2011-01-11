@@ -10,49 +10,13 @@ var       helpers = require('./helpers'),
    validateParams = require('./validateParams'), // TODO: something with this file
                 $ = require('languageHelpers'),
              step = require('step'),
-          nullKey = 8907012380912378;
-
-// create a cache object;
-var cache = {
-	get : function(path){
-		var path = path.replace(/\//g, '.').split('.'),
-		    root = this;
-
-		for(var i=0, l=path.length; i<l; i++){
-			root = root[path[i]] || (root[path[i]] = {});
-		}
-
-		return root;
-	},
-
-	// TODO: this, along with a way to expire without adding an expires property to the actual object -- expires hash pointing to paths?
-	set : function(path, value){
-		var path = path.replace(/\//g, '.').split('.'),
-		    root = this;
-
-			for(var i=0, l=path.length; i<(l-1); i++){
-				root = root[path[i]] || (root[path[i]] = {});
-			}
-
-			root[path[l-1]] = value;
-	},
-
-	delete : function(path){
-		var path = path.replace(/\//g, '.').split('.'),
-		    root = this;
-
-		for(var i=0, l=path.length; i<(l-1); i++){
-			root = root[path[i]] || {};
-		}
-
-		delete root[path[l-1]];
-	}
-};
+          nullKey = 8907012380912378,
+            cache = require('./cache');
 
 /**
  * Configure the MySQL client
  */
-var sql = sqlChain(dbslayer);
+var sql = module.exports.sql = sqlChain(dbslayer);
 
 
 /**
@@ -61,7 +25,7 @@ var sql = sqlChain(dbslayer);
 
 var typeChecks = {
 	int    : /^\d+$/,
-	float  : /^\d+(\.\d+)?$/
+	float  : /^\d+(\.\d+)?$/,
 };
 
 function catchStepErrors(p, err){
@@ -72,7 +36,7 @@ function errHandler(msg, shared){
 	msg.message && (msg = msg.message);
 	msg = errors[msg] || {code:0, msg:msg};
 
-	((shared || {}).cb || this.cb || console.log)(msg);
+	((shared || {}).cb || this.cb || console.log)(msg, true);
 }
 
 
@@ -90,7 +54,7 @@ var paramSteps = step.fn({
 	this.shared.next    = next;
 
 	// Check to see if we have an auth token and need to validate it
-	if((apiName != '/user/getAuthToken') && (params.restricted || data.auth_token || (params.auth_token && params.auth_token.required))){
+	if((apiName != '/user/getAuthToken') && ((data.external && params.restricted) || data.auth_token || (params.auth_token && params.auth_token.required))){
 		if(data.auth_token){
 			validateAuthToken({shared : {cb : this.shared.cb}}, data.auth_token, !!params.restricted, this);
 		}else{
@@ -99,7 +63,7 @@ var paramSteps = step.fn({
 	}else{
 		// if any restricted params are being used
 		for(var p in params){
-			if(params[p].restricted && (params[p].required || data[p])){
+			if(data.external && params[p].restricted && (params[p].required || data[p])){
 				throw new Error('auth_token_missing');
 			}
 		}
@@ -108,7 +72,7 @@ var paramSteps = step.fn({
 	}
 
 
-}, function(err, authToken, permissions){
+}, function(err, authToken, permissions, expiresAt){
 	if(err){ throw err; }
 
 	if(permissions && !permissions[this.shared.apiName]){
@@ -132,14 +96,21 @@ var paramSteps = step.fn({
 
 		if(((s.data[p] === undefined) || (s.data[p] === '')) && s.params[p].required){ throw new Error(p + '_missing'); }
 
-		outData[p] = s.data[p] && (
-			(type == 'int')   ? parseInt(s.data[p])   :
-			(type == 'float') ? parseFloat(s.data[p]) :
-			(type == 'bool')  ? !!s.data[p]           :
+		outData[p] = s.data[p] ? (
+			(type == 'int')   ? parseInt(s.data[p])                  :
+			(type == 'float') ? parseFloat(s.data[p])                :
+			(type == 'bool')  ? /^(true|1|yes|on)$/i.test(s.data[p]) :
+			(type == 'date')  ? new Date(s.data[p] + ' GMT')         :
 			(type == 'json')  ?
 				$.isObject(s.data[p]) || Array.isArray(s.data[p]) ? s.data[p] : $.isString(s.data[p]) ? JSON.parse(s.data[p]) : ''
 			: s.data[p]
-		);
+		) : (s.data[p] == '') ? (
+			((type == 'int') || (type == 'float')) ? 0               :
+			(type == 'bool')                       ? false           :
+			(type == 'date')                       ? new Date('---') :
+			(type == 'json')                       ? {}              :
+			''
+		) : s.data[p];
 
 		((type == 'int') || (type == 'float')) && isNaN(outData[p]) && (outData[p] = undefined);
 	}
@@ -149,7 +120,7 @@ var paramSteps = step.fn({
 
 	var obj = {
 		data     : outData,
-		cb       : onAPIResponse.bind(null, s.cb, !!s.data.external),
+		cb       : onAPIResponse.bind(null, s.cb, !!s.data.external, (authToken || {}).token, expiresAt),
 		cache    : cache,
 
 		getGuid  : helpers.getGuid,
@@ -176,14 +147,19 @@ var paramSteps = step.fn({
 	s.fn(obj);
 });
 
-function onAPIResponse(cb, external, apiResp){
+function onAPIResponse(cb, external, authToken, expiresAt, apiResp, isErr){
 	if(external){
 		// This is for compressing the output of API responses
 		// if a root element is specified, and the root is an array, break the objects down into nested arrays
 		setChildren(apiResp, apiResp.root, !!apiResp.recursive);
 	}
+	if(authToken && expiresAt){
+		apiResp.auth_token = authToken;
+		apiResp.expires_at = expiresAt;
+		(apiResp.__hide || (apiResp.__hide = [])).push('auth_token', 'expires_at');
+	}
 
-	cb(null, apiResp);
+	cb(isErr ? apiResp : null, isErr ? null : apiResp);
 }
 
 function setChildren(root, key, recursive, keys){
@@ -195,9 +171,9 @@ function setChildren(root, key, recursive, keys){
 			(function getKeys(root, key, recursive){
 				for(var i=0, l=root.length; i<l; i++){
 					for(var n in root[i]){
-						if(!keys[n]){ keys[n] = 1; }
+						if(!keys.hasOwnProperty(n)){ keys[n] = 1; }
+						if(recursive && root[i][key]){ getKeys(root[i][key], key, true); }
 					}
-					if(recursive && root[key]){ getKeys(root[key], key, true); }
 				}
 			})(root, key, recursive);
 			oroot.keys = keys = Object.getOwnPropertyNames(keys);
@@ -207,7 +183,7 @@ function setChildren(root, key, recursive, keys){
 			var record = [];
 			for(var j=0, m=keys.length; j<m; j++){
 				var val = root[i][keys[j]];
-				if(val === undefined){ val = nullKey; }
+				if((val === undefined) || (val===null)){ val = nullKey; }
 				record.push(val);
 			};
 			if(recursive && root[i][key]){ setChildren(root[i], key, recursive, keys); }
@@ -236,7 +212,7 @@ var validateAuthToken = step.fn({
 	var time = (Date.now() / 1000) >> 0;
 
 	if(data.length && (data[0].expires_at >= time)){
-		var expTime = time + config.authToken.lifeInMinutes * 60;
+		var expTime = this.shared.expTime = time + config.authToken.lifeInMinutes * 60;
 
 		if(data[0].expires_at < expTime){
 			sql
@@ -273,13 +249,13 @@ var validateAuthToken = step.fn({
 		}
 	}
 
-	this.shared.retcb(null, this.shared.authToken, permissions);
+	this.shared.retcb(null, this.shared.authToken, permissions, this.shared.expTime);
 });
 
 
 function populate(hash, params){
 	for(var i=0, l=params.length; i<l; i++){
-		if(this.data[params[i]]){ hash[params[i]] = this.data[params[i]]; }
+		if(this.data[params[i]]){ hash[params[i]] = this.data[params[i]]+''; }
 	}
 
 	return this;
@@ -317,5 +293,4 @@ function stepFn(steps, p){
 }
 
 
-module.exports.sql             = sql;
 module.exports.catchStepErrors = catchStepErrors;

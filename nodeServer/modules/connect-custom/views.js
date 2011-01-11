@@ -60,7 +60,7 @@ module.exports = function(path, opts){
 	.get('/partials/*', function(req, res, next){ res.send(404) })
 
 	// serve up everything else statically
-	.use(static(path));
+	.use(static({root : path, maxAge: 1000}));
 
 	return server;
 };
