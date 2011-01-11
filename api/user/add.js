@@ -38,7 +38,7 @@ module.exports.steps = step.fn(function(){
 	if(p.data.region_id){ fields.fk_region_id = p.data.region_id; }
 
 	p.sql
-		.insertInto('User')
+		.insertInto('user')
 		.fields    (fields)
 		.run       (this);
 
@@ -46,7 +46,7 @@ module.exports.steps = step.fn(function(){
 }, function(err, data){
 	if(this.shared.p.data.password){
 		this.shared.p.sql
-			.update('User')
+			.update('user')
 			.set   ({ password : hashlib.sha256(salt.sprintf(this.shared.p.data.password, data.INSERT_ID)) })
 			.where (['pk_id', data.INSERT_ID])
 			.run   (this);
