@@ -1,5 +1,6 @@
 var hashlib = require('hashlib'),
-       step = require('step');
+       step = require('step'),
+       salt = require(__dirname + '/../security/salt');
 
 
 module.exports.params = {
@@ -26,7 +27,7 @@ module.exports.steps = step.fn(function(){
 	var p = this.shared.p;
 	this.shared.user = _user[0];
 
-	if(!_user.length || (this.shared.user.password != hashlib.sha256('n781%s91%s102d'.sprintf(this.shared.p.data.password, this.shared.user.pk_id)))){ throw new Error('invalid_credentials'); }
+	if(!_user.length || (this.shared.user.password != hashlib.sha256(salt.sprintf(this.shared.p.data.password, this.shared.user.pk_id)))){ throw new Error('invalid_credentials'); }
 
 
 	// see if there is an existing token that hasn't yet expired

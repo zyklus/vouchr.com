@@ -1,13 +1,15 @@
 var hashlib = require('hashlib'),
-       step = require('step');
+       step = require('step'),
+       salt = require(__dirname + '/../security/salt');
 
 
 module.exports.params = {
 	auth_token : {type : 'string'},
-	first_name : {type : 'string', required   : true},
-	last_name  : {type : 'string', required   : true},
+	first_name : {type : 'string'},
+	last_name  : {type : 'string'},
 	email      : {type : 'string', required   : true},
-	password   : {type : 'string', required   : true},
+	region_id  : {type : 'int'   },
+	password   : {type : 'string'},
 	activated  : {type : 'string', restricted : true}
 };
 
@@ -32,7 +34,8 @@ module.exports.steps = step.fn(function(){
 
 	var fields = {};
 
-	p.populate(fields, ['first_name', 'last_name', 'email', 'region']);
+	p.populate(fields, ['first_name', 'last_name', 'email']);
+	if(p.data.region_id){ fields.fk_region_id = p.data.region_id; }
 
 	p.sql
 		.insertInto('User')
@@ -41,11 +44,15 @@ module.exports.steps = step.fn(function(){
 
 
 }, function(err, data){
-	this.shared.p.sql
-		.update('User')
-		.set   ({ password : hashlib.sha256('n781%s91%s102d'.sprintf(this.shared.p.data.password, data.INSERT_ID)) })
-		.where (['pk_id', data.INSERT_ID])
-		.run   (this);
+	if(this.shared.p.data.password){
+		this.shared.p.sql
+			.update('User')
+			.set   ({ password : hashlib.sha256(salt.sprintf(this.shared.p.data.password, data.INSERT_ID)) })
+			.where (['pk_id', data.INSERT_ID])
+			.run   (this);
+	}else{
+		this();
+	}
 
 
 }, function(){
